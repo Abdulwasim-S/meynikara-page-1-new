@@ -3,6 +3,8 @@ import "./ImagePage.css";
 import ci from "./image/ci.png";
 import cd from "./image/cd.png";
 import cu from "./image/cu.png";
+import tl from "./image/tl.png";
+import tli from "./image/tli.png";
 
 const ImagePage = () => {
   return (
@@ -14,6 +16,12 @@ const ImagePage = () => {
           <img className="cd" src={cd} alt="img" />
           <i className="cp fa-sharp fa-solid fa-play" />
         </div>
+        {/* <div className="top">
+          <div className="top-left">
+            <img className="tli" src={tli} alt="img" />
+            <img className="tl" src={tl} alt="img" />
+          </div>
+        </div> */}
       </div>
     </div>
   );

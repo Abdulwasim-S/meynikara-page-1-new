@@ -15,7 +15,7 @@ const NavPage = () => {
           aria-controls="basic-navbar-nav"
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto navlist">
+          <Nav className="me-auto navlist list-container">
             <Nav.Link className="navlink" href="/">
               Home
             </Nav.Link>

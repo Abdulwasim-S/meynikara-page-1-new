@@ -1,0 +1,149 @@
+.second-page{
+    background-color: white;
+    min-height: 50vh;
+}
+.main-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
+.card-box{
+    width: fit-content;
+}
+.page-border{
+    transition: all ease-in-out 0.5s;
+    border-radius: 15%;
+    width: 20vw;
+    height: 40vh;
+    border-top: 0.25vh solid #00ddb5;
+    border-bottom: 0.25vh solid #00ddb5;
+    border-right: 0.75vw solid #00ddb5;
+    position: absolute;
+}
+.page-card{
+    height: 40vh;
+    width: 20vw;
+    text-align: center;
+    padding: 3vw;
+    
+}
+.card-image{
+    height: 5vh;
+    transition: all ease-in-out 0.4s;
+}
+.para-heading{
+    margin-top: 2vh;
+    font-size: 5vh;
+    font-weight: bolder;
+    color: #0000d7;
+    transition: all ease-in-out 0.4s;
+}
+.para-text{
+    font-weight: 500;
+    transition: all ease-in-out 0.4s;
+}
+.border-rotate{
+    width: fit-content;
+}
+
+.border-rotate{
+    &:hover{
+        .page-border{
+            transform: rotateY(180deg);
+            border-top-color:  #0000d7;
+                border-bottom-color: #0000d7;
+                border-right-color: #0000d7;
+        }
+        .para-heading {
+            font-size: 5vh;
+            font-weight: bolder;
+            color:#00ddb5;
+            scale: 0.8;
+        }
+        .para-text {
+            scale: 1.1;
+        }
+        .card-image{
+            scale: 1.5;
+        }
+    }
+}
+
+@media only screen and (max-width: 479.99px) {
+    .page-border {
+            transition: all ease-in-out 0.5s;
+            border-radius: 15%;
+            width: 80vw;
+            height: 30vh;
+            border-top: 0.25vh solid #00ddb5;
+            border-bottom: 0.25vh solid #00ddb5;
+            border-right: 2vw solid #00ddb5;
+            position: absolute;
+        }
+    
+        .page-card {
+            height: 30vh;
+            width: 80vw;
+            text-align: center;
+            padding: 3vw;
+            scale: 0.75;
+            margin-bottom: 5vh;
+    
+        }
+    
+        .main-box {
+            align-items: center;
+            flex-direction: column;
+        }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .page-border {
+            transition: all ease-in-out 0.5s;
+            border-radius: 15%;
+            width: 40vw;
+            height: 30vh;
+            border-top: 0.25vh solid #00ddb5;
+            border-bottom: 0.25vh solid #00ddb5;
+            border-right: 0.75vw solid #00ddb5;
+            position: absolute;
+        }
+    
+        .page-card {
+            height: 40vh;
+            width: 40vw;
+            text-align: center;
+            padding: 3vw;
+    
+        }
+    
+        .main-box {
+            align-items: center;
+            flex-direction: column;
+        }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .page-border {
+            transition: all ease-in-out 0.5s;
+            border-radius: 15%;
+            width: 40vw;
+            height: 30vh;
+            border-top: 0.25vh solid #00ddb5;
+            border-bottom: 0.25vh solid #00ddb5;
+            border-right: 0.75vw solid #00ddb5;
+            position: absolute;
+        }
+    
+        .page-card {
+            height: 40vh;
+            width: 40vw;
+            text-align: center;
+            padding: 3vw;
+    
+        }
+        .main-box{
+            align-items: center;
+            flex-direction: column;
+        }
+}

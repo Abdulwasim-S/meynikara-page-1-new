@@ -24,7 +24,7 @@
 
 .navlist {
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .navlink {
@@ -40,6 +40,10 @@
     border-bottom: 0.5vh solid #00DDB5;
 }
 
+.list-container{
+    padding-left: 0vw;
+}
+
 @media only screen and (max-width: 479.99px) {
     .navlink {
         font-size: 3vw;
@@ -48,6 +52,9 @@
     .logo-image {
         height: 8vw;
     }
+    .list-container{
+    padding-left: 0vw;
+}
 }
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
     .navlink {
@@ -57,6 +64,9 @@
     .logo-image {
         height: 6vw;
     }
+    .list-container{
+    padding-left: 0vw;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -66,4 +76,7 @@
     .logo-image {
         height: 5vw;
     }
+    .list-container{
+    padding-left: 0vw;
+}
 }
