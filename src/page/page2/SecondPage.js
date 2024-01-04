@@ -26,10 +26,10 @@ const SecondPage = () => {
             <div className="page-border"></div>
             <div className="page-card">
               <img className="card-image" src={vr} alt="img" />
-              <p className="para-heading"> XR</p>
+              <p className="para-heading"> AI + XR</p>
               <p className="para-text">
-                Building end-to-end turnkey, immersive applications using AR,VR
-                & MR
+                Building intelligence into your XR applications to achieve
+                business objectives
               </p>
             </div>
           </div>
@@ -39,10 +39,9 @@ const SecondPage = () => {
             <div className="page-border"></div>
             <div className="page-card">
               <img className="card-image" src={compute} alt="img" />
-              <p className="para-heading"> XR</p>
+              <p className="para-heading"> Spatial computing</p>
               <p className="para-text">
-                Building end-to-end turnkey, immersive applications using AR,VR
-                & MR
+                Leveraging spatial computing to build XR applications
               </p>
             </div>
           </div>

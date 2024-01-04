@@ -33,7 +33,7 @@
 }
 .para-heading{
     margin-top: 2vh;
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: bolder;
     color: #0000d7;
     transition: all ease-in-out 0.4s;
@@ -55,9 +55,6 @@
                 border-right-color: #0000d7;
         }
         .para-heading {
-            font-size: 5vh;
-            font-weight: bolder;
-            color:#00ddb5;
             scale: 0.8;
         }
         .para-text {
