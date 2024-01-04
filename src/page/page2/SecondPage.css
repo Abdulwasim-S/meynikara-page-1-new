@@ -1,6 +1,5 @@
 .second-page{
     background-color: white;
-    min-height: 50vh;
 }
 .main-box{
     display: flex;
@@ -25,6 +24,7 @@
     width: 20vw;
     text-align: center;
     padding: 3vw;
+    margin: 5vh 0;
     
 }
 .card-image{
@@ -81,7 +81,6 @@
             text-align: center;
             padding: 3vw;
             scale: 0.75;
-            margin-bottom: 5vh;
     
         }
     
