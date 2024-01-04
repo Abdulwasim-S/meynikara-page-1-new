@@ -6,7 +6,7 @@ import ImagePage from "./ImagePage";
 const FirstPage = () => {
   return (
     <div className="first-page row">
-      <div className="col-md-7">
+      <div className="col-lg-7">
         <p className="text-container">
           We build{" "}
           <span className="text-cyan">
@@ -27,7 +27,7 @@ const FirstPage = () => {
           </button>
         </div>
       </div>
-      <div className="col-md-5 image-container">
+      <div className="col-lg-5 image-container">
         <ImagePage />
       </div>
     </div>
