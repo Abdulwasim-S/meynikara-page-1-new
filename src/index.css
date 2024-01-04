@@ -1,9 +1,10 @@
 .App{
     background: #1B1A1A;
 }
-body{
+html,body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     overflow-x: hidden;
+    background: #1B1A1A;
+    width: 100%;
 }
