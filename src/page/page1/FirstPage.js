@@ -1,0 +1,37 @@
+import React from "react";
+import "./FirstPage.css";
+import lm from "./image/lm.png";
+import ImagePage from "./ImagePage";
+
+const FirstPage = () => {
+  return (
+    <div className="first-page row">
+      <div className="col-md-7">
+        <p className="text-container">
+          We build{" "}
+          <span className="text-cyan">
+            Data-Driven, Customer Centric XR Applications
+          </span>{" "}
+          to achieve your business objectives
+        </p>
+        <p className="text-container-normal">
+          We take a consultative approach to all our clients requirement and
+          carefully curate our products and solutions to fit the their business
+          objectives.
+        </p>
+        <div className="butn-box">
+          <button className="learn-more-butn">
+            <img className="butn-arrow1" src={lm} alt="arrow" />
+            <span className="butn-text">Learn More</span>
+            <img className="butn-arrow" src={lm} alt="arrow" />
+          </button>
+        </div>
+      </div>
+      <div className="col-md-5 image-container">
+        <ImagePage />
+      </div>
+    </div>
+  );
+};
+
+export default FirstPage;

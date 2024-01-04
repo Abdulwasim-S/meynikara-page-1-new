@@ -1,0 +1,80 @@
+.image-page{
+    color: white;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-container{
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ci{
+    position: relative;
+}
+.cu,.cd,.cp{
+    position: absolute;
+}
+.ci{
+    width: 15vw;
+}
+.cd{
+    width: 20vw;
+}
+.cu{
+    width: 25vw;
+}
+.cp{
+    background-color:#00DDB5;
+    font-size: 3vw;
+    padding: 2.5vw;
+    border-radius: 50%;
+    animation-name: zoom-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes zoom-in-out {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ci {
+            width: 25vw;
+        }
+    
+        .cd {
+            width: 35vw;
+        }
+    
+        .cu {
+            width: 45vw;
+        }
+    
+        .cp {
+            background-color: #00DDB5;
+            font-size: 4vw;
+            padding: 3.5vw;
+            border-radius: 50%;
+            animation-name: zoom-in-out;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .butn-text {
+        font-size: 2.5vw;
+    }
+}
