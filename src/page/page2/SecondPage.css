@@ -57,9 +57,10 @@
         }
         .para-heading {
             scale: 0.8;
+            color: #00ddb5;
         }
         .para-text {
-            scale: 1.1;
+            scale: 1.05;
         }
         .card-image{
             scale: 1.5;
@@ -84,10 +85,14 @@
             scale: 0.75;
     
         }
+        
     
         .main-box {
             align-items: center;
             flex-direction: column;
+        }
+        .para-text {
+            font-size: 5vw;
         }
 }
 
@@ -133,5 +138,8 @@
         .main-box{
             align-items: center;
             flex-direction: column;
+        }
+        .para-text {
+            font-size: 2vw;
         }
 }

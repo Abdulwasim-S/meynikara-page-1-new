@@ -28,8 +28,8 @@ const SecondPage = () => {
               <img className="card-image" src={vr} alt="img" />
               <p className="para-heading"> AI + XR</p>
               <p className="para-text">
-                Building intelligence into your XR applications to achieve
-                business objectives
+                Building intelligence
+                <br /> into your XR applications to achieve business objectives
               </p>
             </div>
           </div>
