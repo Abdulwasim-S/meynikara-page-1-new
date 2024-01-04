@@ -71,14 +71,11 @@
 
 @media only screen and (max-width: 479.99px) {
     .page-border {
-            transition: all ease-in-out 0.5s;
-            border-radius: 15%;
             width: 80vw;
             height: 30vh;
             border-top: 0.25vh solid #00ddb5;
             border-bottom: 0.25vh solid #00ddb5;
             border-right: 2vw solid #00ddb5;
-            position: absolute;
         }
     
         .page-card {
@@ -99,14 +96,11 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
     .page-border {
-            transition: all ease-in-out 0.5s;
-            border-radius: 15%;
             width: 40vw;
             height: 30vh;
             border-top: 0.25vh solid #00ddb5;
             border-bottom: 0.25vh solid #00ddb5;
             border-right: 0.75vw solid #00ddb5;
-            position: absolute;
         }
     
         .page-card {
@@ -125,14 +119,11 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .page-border {
-            transition: all ease-in-out 0.5s;
-            border-radius: 15%;
             width: 40vw;
             height: 30vh;
             border-top: 0.25vh solid #00ddb5;
             border-bottom: 0.25vh solid #00ddb5;
             border-right: 0.75vw solid #00ddb5;
-            position: absolute;
         }
     
         .page-card {
