@@ -9,7 +9,7 @@ const SecondPage = () => {
     <div className="second-page">
       <div className="main-box">
         <div className="card-box ">
-          <div className="border-rotate">
+          <div className="border-hover-rotate">
             <div className="page-border"></div>
             <div className="page-card">
               <img className="card-image" src={unity} alt="img" />
@@ -22,7 +22,7 @@ const SecondPage = () => {
           </div>
         </div>
         <div className="card-box">
-          <div className="border-rotate">
+          <div className="border-hover-rotate">
             <div className="page-border"></div>
             <div className="page-card">
               <img className="card-image" src={vr} alt="img" />
@@ -35,13 +35,14 @@ const SecondPage = () => {
           </div>
         </div>
         <div className="card-box">
-          <div className="border-rotate">
+          <div className="border-hover-rotate">
             <div className="page-border"></div>
             <div className="page-card">
               <img className="card-image" src={compute} alt="img" />
               <p className="para-heading"> Spatial computing</p>
               <p className="para-text">
-                Leveraging spatial computing to build XR applications
+                Leveraging spatial
+                <br /> computing to build XR applications
               </p>
             </div>
           </div>

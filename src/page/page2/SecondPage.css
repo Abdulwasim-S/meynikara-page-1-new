@@ -23,7 +23,7 @@
     height: 40vh;
     width: 20vw;
     text-align: center;
-    padding: 3vw;
+    padding: 3vw 1vw;
     margin: 5vh 0;
     
 }
@@ -40,13 +40,14 @@
 }
 .para-text{
     font-weight: 500;
+    font-size: 1.25vw;
     transition: all ease-in-out 0.4s;
 }
 .border-rotate{
     width: fit-content;
 }
 
-/* .border-rotate{
+.border-hover-rotate{
     &:hover{
         .page-border{
             transform: rotateY(180deg);
@@ -64,7 +65,7 @@
             scale: 1.5;
         }
     }
-} */
+}
 
 @media only screen and (max-width: 479.99px) {
     .page-border {
