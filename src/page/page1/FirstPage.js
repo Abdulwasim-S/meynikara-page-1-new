@@ -1,7 +1,7 @@
 import React from "react";
 import "./FirstPage.css";
 import lm from "./image/lm.png";
-import ImagePage from "./ImagePage";
+import Img from "./image/Img.png";
 
 const FirstPage = () => {
   return (
@@ -28,7 +28,7 @@ const FirstPage = () => {
         </div>
       </div>
       <div className="col-lg-5 image-container">
-        <ImagePage />
+        <img className="play-image" src={Img} alt="img" />
       </div>
     </div>
   );

@@ -68,6 +68,10 @@
     visibility: hidden;
 }
 
+.play-image {
+    height: 70vh;
+}
+
 .learn-more-butn {
     &:hover {
         padding: 0vh;
@@ -78,11 +82,11 @@
             filter: invert(1);
             transition: all ease-in-out 0.5s;
         }
-        
+
         .butn-arrow {
             transition: all ease-in-out 0.5s;
             filter: invert(0);
-            margin-right:0.5vh ;
+            margin-right: 0.5vh;
         }
     }
 }
@@ -98,7 +102,8 @@
         font-size: 3vw;
         margin-bottom: 2vh;
     }
-    .learn-more-butn{
+
+    .learn-more-butn {
         height: 5vh;
     }
 
@@ -114,39 +119,71 @@
     .butn-arrow1 {
         height: 7vw;
     }
-    .butn-text{
+
+    .butn-text {
         font-size: 4vw;
         font-weight: 400;
     }
-    .butn-arrow1{
+
+    .butn-arrow1 {
         display: none;
+    }
+
+    .image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .play-image {
+        height: 45vh;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .play-image {
+        height: 40vh;
+    }
 
+    .image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .text-container {
-            font-size: 5vw;
-            margin-bottom: 2vh;
-        }
-    
-        .text-container-normal {
-            font-weight: 300;
-            font-size: 3vw;
-            margin-bottom: 2vh;
-        }
-        .butn-box {
-            margin-top: 5vh;
-            height: 6vh;
-            width: 40%;
-            border-radius: 3vh;
-            transition: all ease-in-out 0.5s;
-        }
-        .butn-arrow,
-        .butn-arrow1 {
-            height: 5vw;
-        }
+        font-size: 5vw;
+        margin-bottom: 2vh;
+    }
+
+    .text-container-normal {
+        font-weight: 300;
+        font-size: 3vw;
+        margin-bottom: 2vh;
+    }
+
+    .butn-box {
+        margin-top: 5vh;
+        height: 6vh;
+        width: 40%;
+        border-radius: 3vh;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .butn-arrow,
+    .butn-arrow1 {
+        height: 5vw;
+    }
+
+    .image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .play-image {
+        height: 40vh;
+    }
 }
