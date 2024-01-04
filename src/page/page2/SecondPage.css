@@ -46,7 +46,7 @@
     width: fit-content;
 }
 
-.border-rotate{
+/* .border-rotate{
     &:hover{
         .page-border{
             transform: rotateY(180deg);
@@ -64,7 +64,7 @@
             scale: 1.5;
         }
     }
-}
+} */
 
 @media only screen and (max-width: 479.99px) {
     .page-border {
