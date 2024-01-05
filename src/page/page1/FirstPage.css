@@ -90,6 +90,38 @@
         }
     }
 }
+.image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.play-icon{
+    position: absolute;
+    height: 20vh;
+    top: 37%;
+    animation-name: zoom-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    &:hover{
+        cursor: pointer;
+        animation: none;
+    }
+    &:active{
+        cursor: none;
+        scale: 0.8;
+    }
+}
+@keyframes zoom-in-out {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 0.8;
+    }
+    100%{
+        scale: 1;
+    }
+}
 
 @media only screen and (max-width: 479.99px) {
     .text-container {
@@ -138,6 +170,12 @@
     .play-image {
         height: 45vh;
     }
+        .play-icon {
+            position: absolute;
+            height: 20vh;
+            top: 30%;
+        }
+    
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
@@ -150,6 +188,12 @@
         display: flex;
         justify-content: center;
     }
+        .play-icon {
+            position: absolute;
+            height: 20vh;
+            top: 25%;
+        }
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -186,4 +230,9 @@
     .play-image {
         height: 40vh;
     }
+        .play-icon {
+            position: absolute;
+            height: 20vh;
+            top: 25%;
+        }
 }

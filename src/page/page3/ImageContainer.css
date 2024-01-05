@@ -1,0 +1,11 @@
+.service-image-container{
+    background-color: red;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    height: 30vh;
+}

@@ -1,0 +1,125 @@
+.fourth-page{
+    min-height: 50vh;
+    background-color: white;
+    padding: 5vh 5vw;
+}
+.fourth-page-text-heading {
+    color: black;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.fourth-page-text-normal {
+    font-weight: 500;
+    color: black;
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.text-arrow{
+    filter: grayscale(1) contrast(0.5);
+    color: black;
+    background-color: aquamarine;
+    padding: 1.5vw;
+    border-radius: 50%;
+        rotate: -45deg;
+    transition: all ease-in-out 0.3s;
+}
+.arrow-text{
+    font-size: 1.25vw;
+    opacity: 0.5;
+    transition: all ease-in-out 0.3s;
+}
+.hidden-text{
+    transform: translateY(-2vh);
+    font-size: 1vw;
+    font-weight: 400;
+    /* opacity: 0; */
+    transition: all ease-in-out 0.3s;
+}
+.arrow-container{
+    justify-content: space-evenly;
+}
+.arrow-box{
+    &:hover{
+        transition: all ease-in-out 0.3s;
+        scale: 1.05;
+        .arrow-text {
+                opacity:1;
+            }
+        
+            .hidden-text {
+                opacity: 0.6;
+            }
+            .text-arrow{
+                color: white;
+                    rotate: 0deg;
+                    filter: grayscale(0) contrast(1);
+            }
+    }
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .fourth-page-text-heading {
+        font-size: 5vh;
+    }
+
+    .fourth-page-text-normal {
+        font-size: 1.75vh;
+        font-weight: 300;
+    }
+    .arrow-box{
+        padding-left: 15%;
+    }
+        .arrow-text {
+            font-size: 5vw;
+        }
+    
+        .hidden-text {
+            transform: translateY(-2vh);
+            font-size: 3vw;
+        }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .fourth-page-text-heading {
+        font-size: 5vh;
+    }
+
+    .fourth-page-text-normal {
+        font-size: 1.75vh;
+        font-weight: 400;
+    }
+        .arrow-text {
+            font-size: 2.25vw;
+        }
+    
+        .hidden-text {
+            transform: translateY(-2vh);
+            font-size: 2vw;
+        }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .fourth-page-text-heading {
+        font-size: 5vh;
+    }
+
+    .fourth-page-text-normal {
+        font-size: 2vh;
+        font-weight: 400;
+    }
+    
+        .arrow-text {
+            font-size: 2.25vw;
+        }
+    
+        .hidden-text {
+            transform: translateY(-2vh);
+            font-size: 2vw;
+        }
+}

@@ -1,0 +1,56 @@
+.third-page{
+    padding: 5vh 5vw;
+}
+.text-heading{
+    color: white;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.text-normal {
+    font-weight: 400;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.text-cyan {
+    color: #00DDB5;
+    line-height: 5vw;
+    word-wrap: break-word;
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .text-heading {
+            font-size: 5vh;
+        }
+        .text-normal{
+            font-size: 1.75vh;
+            font-weight: 300;
+        }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .text-heading {
+            font-size: 5vh;
+        }
+                .text-normal {
+                    font-size: 1.75vh;
+                    font-weight: 300;
+                }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .text-heading{
+        font-size: 5vh;
+    }
+        .text-normal {
+            font-size: 2vh;
+            font-weight: 300;
+        }
+}
