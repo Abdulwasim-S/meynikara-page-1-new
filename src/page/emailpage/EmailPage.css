@@ -1,0 +1,117 @@
+.email-page {
+    background: white;
+    min-height: 50vh;
+    width: 100%;
+    padding: 5vh 5vw;
+}
+
+.email-heading {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.inp-group {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0;
+}
+
+.page-inputs {
+    outline: none;
+    border: 0;
+    border-bottom: 0.3vh solid black;
+    height: 5vh;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 500;
+
+    &::placeholder {
+        color: black;
+        opacity: 0.5;
+        font-size: 1.5vw;
+        font-weight: 500;
+    }
+
+}
+.submit-arrow{
+    filter: invert(0);
+}
+.email-btn{
+    margin-left: 25%;
+    &:hover{
+        .submit-arrow {
+                filter: invert(1);
+            }
+    }
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .email-heading {
+        font-size: 7vw;
+        font-weight: 800;
+    }
+        .email-butn-text {
+            font-size: 5vw;
+            font-weight: 500;
+        }
+        .page-inputs {
+            font-size: 4vw;
+            border-bottom: 0.2vh solid black;
+            font-weight: 500;
+    
+            &::placeholder {
+                color: black;
+                font-size: 4vw;
+                font-weight: 500;
+            }
+    
+        }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .email-heading {
+        font-size: 5vw;
+        font-weight: 800;
+    }
+.email-butn-text {
+    font-size: 4vw;
+    font-weight: 500;
+}
+    .page-inputs {
+        font-size: 2vw;
+        border-bottom: 0.2vh solid black;
+        font-weight: 500;
+
+        &::placeholder {
+            color: black;
+            font-size: 2vw;
+            font-weight: 500;
+        }
+    }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .email-heading {
+            font-size: 6vw;
+            font-weight: 800;
+        }
+        .email-butn-text{
+            font-size: 4vw;
+            font-weight: 500;
+        }
+
+        .page-inputs {
+            font-size: 2vw;
+            border-bottom: 0.2vh solid black;
+            font-weight: 500;
+
+            &::placeholder {
+                color: black;
+                font-size: 2vw;
+                font-weight: 500;
+            }
+
+        }
+}

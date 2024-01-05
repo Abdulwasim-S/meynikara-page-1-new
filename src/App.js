@@ -4,6 +4,9 @@ import FirstPage from "./page/page1/FirstPage";
 import SecondPage from "./page/page2/SecondPage";
 import ThirdPage from "./page/page3/ThirdPage";
 import FourthPage from "./page/page4/FourthPage";
+import FooterPage from "./page/Footer/FooterPage";
+import EmailPage from "./page/emailpage/EmailPage";
+import ContactPageComp from "./page/contactpage/ContactPage";
 
 function App() {
   return (
@@ -18,6 +21,13 @@ function App() {
       </div>
       <div id="products">
         <FourthPage />
+      </div>
+      <div id="contactus">
+        <EmailPage />
+        <ContactPageComp />
+      </div>
+      <div>
+        <FooterPage />
       </div>
     </div>
   );
