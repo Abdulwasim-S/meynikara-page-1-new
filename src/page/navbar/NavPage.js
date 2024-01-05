@@ -16,19 +16,22 @@ const NavPage = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navlist list-container">
-            <Nav.Link className="navlink" href="/">
+            <Nav.Link className="navlink" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className="navlink" href="#link1">
+            <Nav.Link className="navlink" href="#aboutus">
               About Us
             </Nav.Link>
-            <Nav.Link className="navlink" href="#link2">
+            <Nav.Link className="navlink" href="#services">
               Our Services
             </Nav.Link>
-            <Nav.Link className="navlink" href="#link3">
+            <Nav.Link className="navlink" href="#products">
+              Our Products
+            </Nav.Link>
+            <Nav.Link className="navlink" href="#downloads">
               Downloads
             </Nav.Link>
-            <Nav.Link className="navlink" href="#link4">
+            <Nav.Link className="navlink" href="#contactus">
               Contact Us
             </Nav.Link>
           </Nav>

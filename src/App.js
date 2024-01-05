@@ -7,12 +7,18 @@ import FourthPage from "./page/page4/FourthPage";
 
 function App() {
   return (
-    <div>
-      <NavPage />
-      <FirstPage />
-      <SecondPage />
-      <ThirdPage />
-      <FourthPage />
+    <div className="App">
+      <div id="home">
+        <NavPage />
+        <FirstPage />
+        <SecondPage />
+      </div>
+      <div id="services">
+        <ThirdPage />
+      </div>
+      <div id="products">
+        <FourthPage />
+      </div>
     </div>
   );
 }
