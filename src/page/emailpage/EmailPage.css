@@ -23,13 +23,13 @@
     border-bottom: 0.3vh solid black;
     height: 5vh;
     color: black;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 500;
 
     &::placeholder {
         color: black;
         opacity: 0.5;
-        font-size: 1.5vw;
+        font-size: 1.25vw;
         font-weight: 500;
     }
 
