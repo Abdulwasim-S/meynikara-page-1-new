@@ -1,1 +1,12 @@
-.contact-page{}
+.client-page{
+    min-height: 50vh;
+    padding: 5vh 5vw;
+    color: white;
+}
+.client-page-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 40vh;
+}
