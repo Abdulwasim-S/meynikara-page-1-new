@@ -14,7 +14,7 @@ const FourthPage = () => {
         XR technologies.
       </p>
 
-      <div className="arrow-container row p-5">
+      <div className="arrow-container row">
         <div className="arrow-box col-lg-3 col-md-4 col-sm-6">
           <p className="arrow-text  fw-bold">
             ARRA
