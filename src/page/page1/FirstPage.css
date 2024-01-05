@@ -235,4 +235,8 @@
             height: 20vh;
             top: 25%;
         }
+        .butn-text{
+            font-size: 3vw;
+            font-weight: 400;
+        }
 }
