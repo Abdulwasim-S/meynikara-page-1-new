@@ -10,7 +10,7 @@ const ContactPageComp = () => {
         business objectives
       </h1>
       <div className="con-1 row">
-        <div className="col-lg-8">
+        <div className="col-8">
           <h3 className="helpful-heading">Helpful Links</h3>
           <Nav className="helpful-links">
             <Nav.Link className="helpful-navlink" href="#aboutus">
@@ -30,7 +30,14 @@ const ContactPageComp = () => {
             </Nav.Link>
           </Nav>
         </div>
-        <div className="col-lg-4 bg-primary"></div>
+        <div className="col-4 social">
+          <h1 className="helpful-heading">Social</h1>
+          <div className="social-icon-container ">
+            <i className=" social-icon fa-brands fa-facebook-f"></i>
+            <i className=" social-icon fa-brands fa-linkedin-in"></i>
+            <i className=" social-icon fa-brands fa-instagram"></i>
+          </div>
+        </div>
       </div>
     </div>
   );
