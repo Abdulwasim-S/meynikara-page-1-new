@@ -9,27 +9,27 @@ const EmailPage = () => {
         <h1 className="email-heading">
           Let's Work <span className="text-cyan">Together</span>
         </h1>
-        <div class="inp-group col-md-4">
+        <div className="inp-group col-md-4">
           <input
             type="email"
-            class="page-inputs"
+            className="page-inputs"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Email"
           />
         </div>
-        <div class="inp-group col-md-4">
+        <div className="inp-group col-md-4">
           <input
             type="name"
-            class="page-inputs"
+            className="page-inputs"
             placeholder="Name"
             id="exampleInputName1"
           />
         </div>
-        <div class="inp-group col-md-4">
+        <div className="inp-group col-md-4">
           <input
             type="text"
-            class="page-inputs"
+            className="page-inputs"
             placeholder="Mobile Number"
             id="exampleInputNumber1"
           />

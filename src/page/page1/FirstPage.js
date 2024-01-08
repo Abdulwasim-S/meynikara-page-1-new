@@ -29,7 +29,7 @@ const FirstPage = () => {
         </div>
       </div>
       <div className="col-lg-5 image-container">
-        <img class="play-icon" src={play_btn} alt="play"></img>
+        <img className="play-icon" src={play_btn} alt="play"></img>
         <img className="play-image" src={Img} alt="img"></img>
       </div>
     </div>
