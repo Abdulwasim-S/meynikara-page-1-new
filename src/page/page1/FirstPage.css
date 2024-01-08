@@ -90,35 +90,42 @@
         }
     }
 }
-.image-container{
+
+.image-container {
     position: relative;
     display: flex;
     justify-content: center;
 }
-.play-icon{
+
+.play-icon {
     position: absolute;
     height: 20vh;
     top: 37%;
     animation-name: zoom-in-out;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    &:hover{
+
+    &:hover {
         cursor: pointer;
         animation: none;
     }
-    &:active{
+
+    &:active {
         cursor: none;
         scale: 0.8;
     }
 }
+
 @keyframes zoom-in-out {
-    0%{
+    0% {
         scale: 1;
     }
-    50%{
+
+    50% {
         scale: 0.8;
     }
-    100%{
+
+    100% {
         scale: 1;
     }
 }
@@ -170,12 +177,13 @@
     .play-image {
         height: 45vh;
     }
-        .play-icon {
-            position: absolute;
-            height: 20vh;
-            top: 30%;
-        }
-    
+
+    .play-icon {
+        position: absolute;
+        height: 20vh;
+        top: 30%;
+    }
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
@@ -188,12 +196,13 @@
         display: flex;
         justify-content: center;
     }
-        .play-icon {
-            position: absolute;
-            height: 20vh;
-            top: 25%;
-        }
-    
+
+    .play-icon {
+        position: absolute;
+        height: 20vh;
+        top: 25%;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -230,13 +239,15 @@
     .play-image {
         height: 40vh;
     }
-        .play-icon {
-            position: absolute;
-            height: 20vh;
-            top: 25%;
-        }
-        .butn-text{
-            font-size: 3vw;
-            font-weight: 400;
-        }
+
+    .play-icon {
+        position: absolute;
+        height: 20vh;
+        top: 25%;
+    }
+
+    .butn-text {
+        font-size: 3vw;
+        font-weight: 400;
+    }
 }

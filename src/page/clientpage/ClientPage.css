@@ -1,12 +1,118 @@
-.client-page{
+.client-page {
     min-height: 50vh;
     padding: 5vh 5vw;
     color: white;
 }
-.client-page-main{
+
+.client-page-heading {
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.client-page-para {
+    font-size: 1.5vw;
+    font-weight: 300;
+    text-align: center;
+    padding: 5vh 5vw;
+}
+
+.client-page-image-container-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+}
+
+.client-page-image-container1,
+.client-page-image-container2,
+.client-page-image-container3,
+.client-page-image-container4,
+.client-page-image-container5 {
+    border-radius: 50%;
     height: 40vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-page-image-container2,
+.client-page-image-container5 {
+    scale: 0.60;
+}
+
+.client-page-image-container3,
+.client-page-image-container4 {
+    scale: 0.80;
+}
+
+.client-page-image {
+    scale: 0.9;
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .client-page-image-container1,
+        .client-page-image-container2,
+        .client-page-image-container3,
+        .client-page-image-container4,
+        .client-page-image-container5 {
+            margin: 3vh 0;
+            height: 20vh;
+        }
+    
+        .client-page-image {
+            scale: 0.3;
+        }
+                .client-page-heading {
+                    font-size: 7vw;
+                    font-weight: 900;
+                }
+        
+                .client-page-para {
+                    font-size: 3vw;
+                    font-weight: 300;
+                }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .client-page-image-container1,
+        .client-page-image-container2,
+        .client-page-image-container3,
+        .client-page-image-container4,
+        .client-page-image-container5 {
+            height: 20vh;
+            margin: 3vh 0;
+        }
+    
+        .client-page-image {
+            scale: 0.5;
+        }
+        
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    
+    .client-page-image-container1,
+    .client-page-image-container2,
+    .client-page-image-container3,
+    .client-page-image-container4,
+    .client-page-image-container5 {
+        height: 20vh;
+        margin: 3vh 0;
+    }
+
+    .client-page-image {
+        scale: 0.5;
+    }
+        .client-page-heading {
+            font-size: 6vw;
+            font-weight: 800;
+        }
+    
+        .client-page-para {
+            font-size: 3vw;
+            font-weight: 300;
+        }
 }
