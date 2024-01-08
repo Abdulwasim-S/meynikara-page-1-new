@@ -7,7 +7,7 @@
     height: 40vh;
     width: 20vw;
     border-top: 1.5vh solid #0000d7;
-    border-bottom: 1.5vh solid black;
+    border-bottom: 1vh solid black;
     border-radius: 25%;
     transition: all ease-in-out 0.4s;
 }
