@@ -96,7 +96,7 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .helpful-navlink {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     .contact-page-main {
@@ -112,7 +112,7 @@
     }
 
     .helpful-heading {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .social-icon-container {
@@ -132,13 +132,13 @@
         font-size: 4vw;
     }
         .contact-us-address-heading {
-            font-size: 3vw;
+            font-size: 4vw;
             font-weight: 500;
             margin-bottom: 3vh;
         }
     
         .contact-us-address-para {
-            font-size: 2.5vw;
+            font-size: 3vw;
             font-weight: 100;
             margin-bottom: 3vh;
         }

@@ -8,6 +8,7 @@ import FooterPage from "./page/Footer/FooterPage";
 import EmailPage from "./page/emailpage/EmailPage";
 import ContactPageComp from "./page/contactpage/ContactPage";
 import ClientPage from "./page/clientpage/ClientPage";
+import "./App.css";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <EmailPage />
         <ContactPageComp />
       </div>
-      <div>
+      <div id="footer">
         <FooterPage />
       </div>
     </div>
