@@ -28,12 +28,12 @@
 }
 
 .vf-icon {
-    width: 4vw;
+    width: 3vw;
     transition: all ease-in-out 0.4s;
 }
 
 .vf-heading {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 700;
     transition: all ease-in-out 0.4s;
     background: linear-gradient(#00ddb5, #333);
@@ -42,7 +42,8 @@
 }
 
 .vf-para {
-    font-size: 1.5vw;
+    text-align: center;
+    font-size: 1.25vw;
     font-weight: 300;
     transition: all ease-in-out 0.4s;
 }
