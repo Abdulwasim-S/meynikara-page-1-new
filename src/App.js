@@ -9,6 +9,7 @@ import EmailPage from "./page/emailpage/EmailPage";
 import ContactPageComp from "./page/contactpage/ContactPage";
 import ClientPage from "./page/clientpage/ClientPage";
 import "./App.css";
+import VerticalFlip from "./page/verticalflippage/VerticalFlip";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <div id="products">
         <FourthPage />
       </div>
+      <VerticalFlip />
       <ClientPage />
       <div id="contactus">
         <EmailPage />
