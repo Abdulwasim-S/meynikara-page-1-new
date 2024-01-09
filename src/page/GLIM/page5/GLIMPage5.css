@@ -1,0 +1,84 @@
+.GLIMPage5{
+    min-height: 50vh;
+    padding: 5vh 5vw;
+}
+.g5-h{
+    font-size: 2vw;
+    font-weight: 500;
+    width: fit-content;
+    padding: 1vh 5vw;
+    color: white;
+    border-top-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+
+}
+.gmc-1,.gmc-2{
+    border-radius: 5vh;
+    background-color: #f1f1f1;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.g5-p{
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: 2vh 3vw;
+}
+.g5-c{
+    height: 3vh;
+}
+.video-frame{
+    margin: 5vh 5vw;
+    border-radius: 10vh;
+    height: 40vh;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .g5-p {
+            font-size: 2vw;
+        }
+    .g5-h {
+            font-size: 3vw;
+            border-top-left-radius: 3vh;
+                border-bottom-right-radius: 3vh;
+        }
+                .gmc-1,
+                .gmc-2 {
+                    border-radius: 3vh; 
+                }
+                
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .g5-p {
+            font-size: 2vw;
+        }
+    
+        .g5-h {
+            font-size: 3vw;
+            border-top-left-radius: 3vh;
+            border-bottom-right-radius: 3vh;
+        }
+    
+        .gmc-1,
+        .gmc-2 {
+            border-radius: 3vh;
+        }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .g5-p {
+            font-size: 2vw;
+        }
+    
+        .g5-h {
+            font-size: 3vw;
+            border-top-left-radius: 3vh;
+            border-bottom-right-radius: 3vh;
+        }
+    
+        .gmc-1,
+        .gmc-2 {
+            border-radius: 3vh;
+        }
+}

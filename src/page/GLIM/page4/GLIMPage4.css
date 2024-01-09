@@ -1,0 +1,159 @@
+.bg-meynikara {
+    min-height: 50vh;
+}
+
+.gp-4 {
+    min-height: 50vh;
+    border-radius: 5vh;
+}
+
+.gl-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 5vw;
+}
+
+.glh-4 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.glp-4 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.gll-4 {
+    display: flex;
+    width: 50%;
+}
+
+.gl1,
+.gl2 {
+    height: 0.5vh;
+    width: 25vw;
+}
+
+.gl-col-2 {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gl-col-2-card {
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.75vw;
+    padding: 0.5vh 1vw;
+}
+
+.col-2-bold {
+    font-weight: 700;
+}
+
+.col-2-icon {
+    height: 5vh;
+    width: 5vh;
+}
+.col-2-para {
+    font-size: 1.5vw;
+}
+
+.col-lg-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gp-4 {
+    padding: 2vh 2vw;
+}
+
+.dp4-h {
+    font-size: 4vw;
+    text-align: end;
+    font-weight: 700;
+}
+
+.gpl4-p2 {
+    text-align: start;
+    font-size: 2vw;
+}
+.gp4-white{
+    padding: 5vh 0;
+}
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .glh-4 {
+        font-size: 5vw;
+    }
+
+    .glp-4 {
+        font-size: 3vw;
+    }
+
+    .gp-4 {
+        padding: 5vh 5vw;
+    }
+
+    .gl-col-2-card {
+        font-size: 2.5vw;
+        height: 30vh;
+        padding: 1vh 2vw;
+        width: 50%;
+        margin: 1%;
+    }
+
+    .dp4-h {
+        text-align: start;
+    }
+        .gp4-white {
+            padding: 0vh 0;
+        }
+        .col-2-para{
+            font-size: 2vh;
+        }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .glh-4 {
+        font-size: 3vw;
+    }
+
+    .gp-4 {
+        padding: 5vh 5vw;
+    }
+
+    .gl-col-2-card {
+        height: 20vh;
+    }
+
+    .dp4-h {
+        text-align: start;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .glh-4 {
+        font-size: 3vw;
+    }
+
+    .gp-4 {
+        padding: 5vh 5vw;
+    }
+
+    .gl-col-2-card {
+        height: 20vh;
+    }
+
+    .dp4-h {
+        text-align: start;
+    }
+
+}

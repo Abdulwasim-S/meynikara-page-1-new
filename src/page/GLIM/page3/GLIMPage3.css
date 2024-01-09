@@ -1,0 +1,58 @@
+.GLIMPage-3{
+    padding: 5vh 5vw;
+}
+.slider{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    border-radius: 5vh;
+    font-size: 1.5vw;
+    padding: 3vh 3vw;
+    font-size: 2vw;
+    text-align: center;
+}
+.round-box{
+    display: flex;
+    justify-content: center;
+}
+.m-r{
+    height: 5vh;
+    width: 5vh;
+    padding: 1vh;
+    border-radius: 50%;
+}
+.m-i{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.hidden{
+    visibility: hidden;
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .slider {
+            font-size: 3vw;
+        }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .slider {
+            font-size: 3vw;
+        }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .slider{
+        font-size: 3vw;
+    }
+    
+
+}

@@ -1,0 +1,65 @@
+.GlimPage1{
+    color: white;
+    text-align: center;
+    padding: 5vh 5vw;
+    min-height: 40vh;
+    background-color: #1B1A1A;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.gp1-heading{
+    margin-top:  5vh;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+.gp1-para{
+    margin-bottom:  5vh;
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding: 0 20vw;
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+.gp1-heading {
+        font-size: 4.5vw;
+    }
+
+    .gp1-para {
+        font-size: 3.5vw;
+        padding: 0 0vw;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+.gp1-heading {
+        font-weight: 700;
+        font-size: 4vw;
+    }
+
+    .gp1-para {
+        font-weight: 400;
+        font-size: 3vw;
+        padding: 0 10vw;
+    }
+   
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .gp1-heading {
+        font-weight: 700;
+        font-size: 4vw;
+    }
+
+    .gp1-para {
+        font-weight: 400;
+        font-size: 3vw;
+        padding: 0 10vw;
+    }
+
+    
+}
