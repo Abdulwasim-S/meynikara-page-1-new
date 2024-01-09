@@ -1,0 +1,21 @@
+.gp6-h-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gp6-h{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    font-size: 3vw;
+    font-weight: 700;
+}
+.gp6-underline-box{
+    display: flex;
+}
+.gp6-underline{
+    height: 0.5vh;
+    width: 50%;
+    display: flex;
+}

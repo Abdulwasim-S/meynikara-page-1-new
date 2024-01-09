@@ -15,26 +15,44 @@ import GLIMPage2 from "./page/GLIM/page2/GLIMPage2";
 import GLIMPage3 from "./page/GLIM/page3/GLIMPage3";
 import GLIMPage4 from "./page/GLIM/page4/GLIMPage4";
 import GLIMPage5 from "./page/GLIM/page5/GLIMPage5";
+import GLIMPage6 from "./page/GLIM/page6/GLIMPage6";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <NavPage />
-      <div className="bg-meynikara">
-        <FirstPage />
-        <SecondPage />
-        <ThirdPage />
-        <FourthPage />
-        <VerticalFlip />
-        <ClientPage />
-        <EmailPage />
-        <ContactPageComp />
-      </div>
-      <GLIMPage1 />
-      <GLIMPage2 />
-      <GLIMPage3 />
-      <GLIMPage4 />
-      <GLIMPage5 />
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <div className="bg-meynikara">
+              <FirstPage />
+              <SecondPage />
+              <ThirdPage />
+              <FourthPage />
+              <VerticalFlip />
+              <ClientPage />
+              <EmailPage />
+              <ContactPageComp />
+            </div>
+          }
+        />
+        <Route
+          path="/product"
+          element={
+            <>
+              <GLIMPage1 />
+              <GLIMPage2 />
+              <GLIMPage3 />
+              <GLIMPage4 />
+              <GLIMPage5 />
+              <GLIMPage6 />
+            </>
+          }
+        />
+      </Routes>
       <FooterPage />
     </div>
   );
