@@ -40,7 +40,7 @@ function App() {
           }
         />
         <Route
-          path="/product"
+          path="/glim"
           element={
             <>
               <GLIMPage1 />

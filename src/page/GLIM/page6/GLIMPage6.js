@@ -13,6 +13,13 @@ const GLIMPage6 = () => {
           </span>
         </h1>
       </div>
+      <div className="gp6-card-box row">
+        <div className="col-5">
+          <img src="" height={"30vh"} alt="img" />
+        </div>
+        <div className="col-2"></div>
+        <div className="col-5"></div>
+      </div>
     </div>
   );
 };
