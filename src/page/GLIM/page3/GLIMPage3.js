@@ -8,21 +8,21 @@ const GLIMPage3 = () => {
       <Box className="GLIMPage-3 bg-white">
         <Carousel interval={1500}>
           <Carousel.Item>
-            <Box className="slider bg-g-senju m-5">
+            <Box className="slider bg-g-senju ">
               Workers can practice tasks in a safe, controlled environment
               through digital twins of their industry. The simulations are
               accessible on various device like web browsers, mobile and VR.
             </Box>
           </Carousel.Item>
           <Carousel.Item>
-            <Box className="slider bg-g-senju m-5">
+            <Box className="slider bg-g-senju ">
               Studies have shown that companies save money by reducing accidents
               and injuries, according to the National Safety Council workplace
               incidents and accidents costs companies $171 billion in 2019
             </Box>
           </Carousel.Item>
           <Carousel.Item>
-            <Box className="slider bg-g-senju m-5">
+            <Box className="slider bg-g-senju ">
               XR technologies such as VR and AR have the potential to
               revolutionise workplace training and reduce the number of
               accidents. With XR, workers can be trained in realistic, immersive

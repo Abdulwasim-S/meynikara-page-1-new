@@ -10,6 +10,7 @@
     font-size: 1.5vw;
     font-weight: 400;
     text-align: center;
+    margin: 5vh 5vw;
 }
 .round-box{
     display: flex;
@@ -37,7 +38,7 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .slider {
-            font-size: 2.5vw;
+            font-size: 3vw;
             min-height: 15vh;
             border-radius: 2.5vh;
         }
