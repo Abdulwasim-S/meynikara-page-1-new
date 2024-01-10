@@ -17,6 +17,9 @@
 .logo-image {
     height: 3vw;
     margin-right: 20vw;
+    position: relative;
+    left: 7.5vw;
+    scale: 2;
 }
 
 .nav-toggle {
