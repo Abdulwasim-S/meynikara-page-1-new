@@ -51,7 +51,7 @@ const GLIMPage4 = () => {
       </div>
       <div className="GLIMPage-4 py-4 px-3 text-black">
         <div className="row gp4-white">
-          <div className="col-lg-3">
+          <div className="col-lg-3 ">
             <h3 className="dp4-h">
               Case <span className="text-senju">Studies</span>
             </h3>
