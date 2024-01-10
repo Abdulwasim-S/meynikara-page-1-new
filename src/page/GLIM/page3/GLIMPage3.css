@@ -13,15 +13,16 @@
     margin: 5vh 5vw;
     background-image: url("./bg03.png");
     background-size: 100% 100% ;
+    position: relative;
 }
 .round-box{
     display: flex;
     justify-content: center;
 }
 .m-r{
-    height: 5vh;
-    width: 5vh;
-    padding: 1vh;
+    height: 4vh;
+    width: 4vh;
+    padding: 0.75vh;
     border-radius: 50%;
     scale: 0.75;
 }
@@ -40,7 +41,7 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .slider {
-            font-size: 3vw;
+            font-size: 2.75vw;
             min-height: 15vh;
             border-radius: 2.5vh;
         }

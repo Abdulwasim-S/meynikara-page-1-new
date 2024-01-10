@@ -29,13 +29,13 @@ const GLIMPage6 = () => {
                 <img src={c1} alt="c1" />
               </p>
             </div>
-            <div className=" col-8">
+            <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
                 ENGAGING
                 <br />
                 TRAINING
               </h3>
-              <div className="round-box justify-content-start">
+              <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
                   <p className="m-i"></p>
                 </div>
