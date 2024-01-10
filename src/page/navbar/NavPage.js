@@ -25,7 +25,7 @@ const NavPage = () => {
             <Nav.Link className="navlink" href="#services">
               Our Services
             </Nav.Link>
-            <Nav.Link className="navlink" href="/product">
+            <Nav.Link className="navlink" href="/glim">
               Our Products
             </Nav.Link>
             <Nav.Link className="navlink" href="#downloads">

@@ -29,7 +29,9 @@
     background-color: white;
 }
 .hidden{
-    visibility: hidden;
+    /* visibility: hidden; */
+    width: 0vw;
+    display: none;
 }
 
 /* Media Query */

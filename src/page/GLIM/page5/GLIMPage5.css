@@ -33,10 +33,15 @@
 }
 
 .video-frame {
-    background-color: red;
-    margin: 5vh 5vw;
-    border-radius: 10vh;
     height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gp5-video{
+    height: 40vh;
+    width: 50%;
+    border-radius: 5vh;
 }
 
 
@@ -60,6 +65,16 @@
     .gmc-2 {
         border-radius: 3vh;
     }
+        .video-frame {
+            margin: 2.5vh 0;
+            height: 25vh;
+        }
+    
+        .gp5-video {
+            height: 20vh;
+            width: 100%;
+            border-radius: 3vh;
+        }
 
 }
 
@@ -78,6 +93,16 @@
     .gmc-2 {
         border-radius: 3vh;
     }
+        .video-frame {
+            margin: 2.5vh 0;
+            height: 30vh;
+        }
+    
+        .gp5-video {
+            height: 30vh;
+            width: 100%;
+            border-radius: 3vh;
+        }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -96,5 +121,15 @@
     .gmc-2 {
         border-radius: 3vh;
     }
+        .video-frame {
+            margin: 2.5vh 0;
+            height: 30vh;
+        }
+    
+        .gp5-video {
+            height: 30vh;
+            width: 100%;
+            border-radius: 3vh;
+        }
     
 }

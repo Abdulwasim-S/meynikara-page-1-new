@@ -34,7 +34,7 @@ const GLIMPage3 = () => {
             <p className="m-i"></p>
           </div>
           <div className="m-r bg-senju hidden">
-            <p className="m-i"></p>
+            <p className="m-i hidden-p"></p>
           </div>
           <div className="m-r bg-senju">
             <p className="m-i"></p>

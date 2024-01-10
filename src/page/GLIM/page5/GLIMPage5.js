@@ -33,7 +33,9 @@ const GLIMPage5 = () => {
             browsers, mobile, and VR.
           </p>
         </div>
-        <div className="video-frame bg-meynikara"></div>
+        <div className="video-frame ">
+          <div className="gp5-video bg-meynikara"></div>
+        </div>
         <div className="round-box">
           <div className="m-r bg-namikaze">
             <p className="m-i"></p>

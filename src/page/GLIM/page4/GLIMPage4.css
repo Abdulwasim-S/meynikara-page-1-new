@@ -6,10 +6,6 @@
 
 }
 
-.bg-meynikara {
-    min-height: 50vh;
-}
-
 
 .gp-4 {
     width: 100%;
@@ -199,7 +195,7 @@
 
     .gl-col-2-card {
         height: 15vh;
-        justify-content: space-evenly;
+        justify-content: space-around;
         padding: 1vh 1.5vw;
     }
 
@@ -220,6 +216,16 @@
         }
         .gl-col-1{
             padding-top: 1vh;
+        }
+        .glp-4{
+            font-size: 2vw;
+        }
+        .glh-4{
+            font-size: 4dvi;
+        }
+        .col-2-icon{
+            height: 4vh;
+            width: 4vh;
         }
 
 }
