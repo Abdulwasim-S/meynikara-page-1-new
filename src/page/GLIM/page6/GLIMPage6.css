@@ -23,7 +23,7 @@
     padding: 5vh 5vw;
 }
 .gp6-img{
-    background-color: black;
+    width: 60%;
 }
 .gp6-card-box-inner-card-number{
     font-size: 6vw;
@@ -31,9 +31,18 @@
     color: gray;
 }
 .gp6-card-box-inner-card-heading{
-    font-size: 3vw;
-    font-weight: 300;
+    font-size: 4vw;
+    font-weight: 500;
 }
 .gp6-card-box-inner-card-para{
     font-size: 1.5vw;
+    margin-left: 10%;
+}
+.gp6-card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gp6-card-content{
+    display: flex;
 }

@@ -1,5 +1,13 @@
 import React from "react";
 import "./GLIMPage6.css";
+import a from "./image1.png";
+import b from "./image2.png";
+import c from "./image3.png";
+import d from "./image4.png";
+import c1 from "./c1.png";
+import c2 from "./c2.png";
+import c3 from "./c3.png";
+import c4 from "./c4.png";
 
 const GLIMPage6 = () => {
   return (
@@ -14,19 +22,12 @@ const GLIMPage6 = () => {
         </h1>
       </div>
       <div className="gp6-card-box row">
-        <div className="col-6">
-          <img
-            className="gp6-img"
-            src=""
-            height={"30vh"}
-            width={"100%"}
-            alt="img"
-          />
-        </div>
-        <div className="col-6">
+        <div className="col-7 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
-              <p className="gp6-card-box-inner-card-number text-end">01</p>
+              <p className="gp6-card-box-inner-card-number text-end">
+                <img src={c1} alt="c1" />
+              </p>
             </div>
             <div className=" col-8">
               <h3 className="gp6-card-box-inner-card-heading">
@@ -53,6 +54,15 @@ const GLIMPage6 = () => {
               protocols
             </div>
           </div>
+        </div>
+        <div className="col-5 gp6-card-image">
+          <img
+            className="gp6-img"
+            src={a}
+            height={"30vh"}
+            width={"100%"}
+            alt="img"
+          />
         </div>
       </div>
     </div>
