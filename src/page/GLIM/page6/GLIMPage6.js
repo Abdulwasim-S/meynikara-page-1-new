@@ -22,11 +22,11 @@ const GLIMPage6 = () => {
         </h1>
       </div>
       <div className="gp6-card-box row">
-        <div className="col-7 gp6-card-content">
+        <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
               <p className="gp6-card-box-inner-card-number text-end">
-                <img src={c1} alt="c1" />
+                <img className="count-image" src={c1} alt="c1" />
               </p>
             </div>
             <div className="gp6-main col-8">
@@ -47,7 +47,7 @@ const GLIMPage6 = () => {
                 </div>
               </div>
             </div>
-            <div className="gp6-card-box-inner-card-para col-12 p-5">
+            <div className="gp6-card-box-inner-card-para col-12">
               GLIM's gamified approach made safety training more engaging and
               interactive. Employees could practise tasks in a virtual
               environment, enhancing their understanding of SOPs and safety
@@ -55,7 +55,7 @@ const GLIMPage6 = () => {
             </div>
           </div>
         </div>
-        <div className="col-5 gp6-card-image">
+        <div className="col-50 gp6-card-image">
           <img
             className="gp6-img"
             src={a}
