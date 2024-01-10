@@ -1,13 +1,19 @@
 import React from "react";
 import "../GLIM.css";
 import "./GlimPage1.css";
+import vr_logo from "./vr-headset.png";
 
 const GLIMPage1 = () => {
   return (
     <div className="GlimPage1">
       <h1 className="gp1-heading">
-        LET'S <span className=" text-danger ">ST🚫P</span> INDUSTRY ACCIDENTS...
-        <span className="h1">🚘</span>
+        <span>
+          LET'S <span className=" text-danger stop-text">ST🚫P</span> INDUSTRY
+          ACCIDENTS...
+        </span>
+        <span className="h1">
+          <img className="vr-logo" src={vr_logo} alt="vr_logo" />
+        </span>
       </h1>
       <p className="gp1-para">
         Join us in eliminating industrial accidents with <br />

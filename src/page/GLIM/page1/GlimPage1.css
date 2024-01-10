@@ -1,4 +1,4 @@
-.GlimPage1{
+.GlimPage1 {
     color: white;
     text-align: center;
     padding: 5vh 5vw;
@@ -7,37 +7,62 @@
     border-bottom-right-radius: 2vw;
 }
 
-.gp1-heading{
-    margin-top:  5vh;
+.gp1-heading {
+    margin-top: 5vh;
     font-weight: 700;
     font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.gp1-para{
-    margin-bottom:  5vh;
+
+.gp1-para {
+    margin-bottom: 5vh;
     font-weight: 400;
     font-size: 1.5vw;
     padding: 0 20vw;
 }
 
+.stop-text {
+    font-size: 3.5vw;
+}
+
+.vr-logo {
+    display: flex;
+    margin-top: 2.5vh;
+    height: 3vw;
+    filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
+}
+
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
-.gp1-heading {
+    .gp1-heading {
         font-size: 4.5vw;
         margin-top: 2.5vh;
+        flex-direction: column;
     }
 
     .gp1-para {
         font-size: 3.5vw;
         padding: 0 0vw;
     }
-        .GlimPage1 {
-            padding: 2.5vh 5vw;
+
+    .GlimPage1 {
+        padding: 2.5vh 5vw;
+    }
+
+    .stop-text {
+        font-size: 7vw;
+    }
+        .vr-logo {
+            margin-top: 1.5vh;
+            height: 6vw;
+            filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
         }
-    
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
-.gp1-heading {
+    .gp1-heading {
         font-weight: 700;
         font-size: 4vw;
         margin-top: 2.5vh;
@@ -48,10 +73,20 @@
         font-size: 3vw;
         padding: 0 10vw;
     }
-   .GlimPage1 {
-       padding: 2.5vh 5vw;
-       min-height: 30vh;
-   }
+
+    .GlimPage1 {
+        padding: 2.5vh 5vw;
+        min-height: 30vh;
+    }
+
+    .stop-text {
+        font-size: 6vw;
+    }
+        .vr-logo {
+            margin-top: 1.5vh;
+            height: 6vw;
+            filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
+        }
 
 }
 
@@ -68,11 +103,21 @@
         font-size: 3vw;
         padding: 0 10vw;
     }
-        .GlimPage1 {
-            padding: 2.5vh 5vw;
-            min-height: 30vh;
-        }
-        
 
-    
+    .GlimPage1 {
+        padding: 2.5vh 5vw;
+        min-height: 30vh;
+    }
+
+    .stop-text {
+        font-size: 6vw;
+    }
+
+    .vr-logo {
+        margin-top: 1.5vh;
+        height: 6vw;
+        filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
+    }
+
+
 }

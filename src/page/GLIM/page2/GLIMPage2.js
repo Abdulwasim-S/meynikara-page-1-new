@@ -13,18 +13,21 @@ const GLIMPage2 = () => {
           <span className="gp2-empty-span"></span>
         </div>
         <div className="col-lg-8">
+          <br className="show-small" />
           <p className="gp2-ans ">
-            GLIM{" "}
-            <span className="text-senju bold-500">
-              {"(GAMIFIED LEARNING & IMMERSIVE METHODOLOGY)"}
-            </span>{" "}
-            enhances Safety & Operational training bu using realistic
-            simulations.
-            <br />
-            <br />
-            Workers can practice tasks in a safe, controlled environment through
-            digital twins of their industry. The simulations are accessible on
-            various device like web browsers, mobile and VR.
+            <span>
+              GLIM{" "}
+              <span className="change-namikaze  bold-500">
+                {"(GAMIFIED LEARNING & IMMERSIVE METHODOLOGY)"}
+              </span>{" "}
+              enhances Safety & Operational training bu using realistic
+              simulations.
+              <br />
+              <br />
+              Workers can practice tasks in a safe, controlled environment
+              through digital twins of their industry. The simulations are
+              accessible on various device like web browsers, mobile and VR.
+            </span>
           </p>
         </div>
       </div>

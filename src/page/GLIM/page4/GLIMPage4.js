@@ -50,16 +50,19 @@ const GLIMPage4 = () => {
         </div>
       </div>
       <div className="GLIMPage-4 py-4 px-3 text-black">
-        <div className="row gp4-white">
-          <div className="col-lg-3 ">
+        <div className="case-study row gp4-white">
+          <div className="col-lg-4 ">
             <h3 className="dp4-h">
-              Case <span className="text-senju">Studies</span>
+              Case{" "}
+              <span className="text-senju">
+                <span className="opacity-0 h6">.</span> Studies
+              </span>
             </h3>
           </div>
           <div className="col-lg-1">
             <span className="gp2-empty-span"></span>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-7">
             <p className="gpl4-p2">
               Transforming Safety Training with GLIM at one of the biggest Oil &
               Gas company
