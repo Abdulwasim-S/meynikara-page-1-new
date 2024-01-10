@@ -1,5 +1,4 @@
-.GLIMPage-3{
-}
+
 .slider{
     color: white;
     display: flex;
@@ -8,8 +7,8 @@
     border-radius: 5vh;
     min-height: 25vh;
     padding: 3vh 3vw;
-    font-size: 1.75vw;
-    font-weight: 500;
+    font-size: 1.5vw;
+    font-weight: 400;
     text-align: center;
 }
 .round-box{
@@ -27,7 +26,7 @@
     border-radius: 50%;
     height: 100%;
     width: 100%;
-    background-color: aliceblue;
+    background-color: white;
 }
 .hidden{
     visibility: hidden;
