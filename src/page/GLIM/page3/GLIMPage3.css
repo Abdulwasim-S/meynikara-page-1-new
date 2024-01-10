@@ -11,9 +11,18 @@
     font-size: 1.5vw;
     font-weight: 400;
     margin: 5vh 5vw;
+}
+.s1{
+    background-image: url("./bg01.png");
+        background-size: 100% 100%;
+}
+.s2{
+    background-image: url("./bg02.png");
+        background-size: 100% 100%;
+}
+.s3{
     background-image: url("./bg03.png");
-    background-size: 100% 100% ;
-    position: relative;
+        background-size: 100% 100%;
 }
 .round-box{
     display: flex;

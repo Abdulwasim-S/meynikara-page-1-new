@@ -37,6 +37,7 @@
 .gp6-card-box-inner-card-para{
     font-size: 1.5vw;
     margin-left: 10%;
+    text-align: justify;
 }
 .gp6-card-image{
     display: flex;

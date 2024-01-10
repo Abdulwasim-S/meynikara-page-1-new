@@ -1,7 +1,7 @@
 .GlimPage1 {
     color: white;
     text-align: center;
-    padding: 5vh 5vw;
+    padding: 1vh 5vw;
     background-color: #1B1A1A;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
@@ -9,6 +9,7 @@
 
 .stop-img {
     scale: 0.85;
+    margin-bottom: 2vh;
 }
 
 .gp1-heading {

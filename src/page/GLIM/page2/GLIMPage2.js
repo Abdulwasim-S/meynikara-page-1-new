@@ -23,7 +23,6 @@ const GLIMPage2 = () => {
               enhances Safety & Operational training by using realistic
               simulations.
               <br />
-              <br />
               Workers can practice tasks in a safe, controlled environment
               through digital twins of their industry. The simulations are
               accessible on various device like web browsers, mobile and VR.

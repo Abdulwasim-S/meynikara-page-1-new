@@ -63,9 +63,13 @@
         }
         .change-namikaze{
             color: #ffba00;
+            font-weight: 500;
         }
                 .show-small {
                     display: block;
+                }
+                .gp2{
+                    padding: 2vh 5vw;
                 }
 
 }
