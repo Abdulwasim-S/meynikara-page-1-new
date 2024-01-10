@@ -17,6 +17,7 @@ import GLIMPage4 from "./page/GLIM/page4/GLIMPage4";
 import GLIMPage5 from "./page/GLIM/page5/GLIMPage5";
 import GLIMPage6 from "./page/GLIM/page6/GLIMPage6";
 import { Route, Routes } from "react-router-dom";
+import GLIMPage7 from "./page/GLIM/page7/GLIMPage7";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
               <GLIMPage4 />
               <GLIMPage5 />
               <GLIMPage6 />
+              <GLIMPage7 />
             </>
           }
         />

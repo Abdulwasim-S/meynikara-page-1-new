@@ -1,9 +1,9 @@
 .footer-page{
     height: 10vh;
     width: 100%;
-    background-color: black;
     text-align: center;
     color: white;
+    border-top: 0.05vh solid gray;
     
 }
 .footer-text{display: flex;

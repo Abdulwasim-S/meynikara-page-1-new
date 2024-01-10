@@ -21,7 +21,7 @@ const GLIMPage6 = () => {
           </span>
         </h1>
       </div>
-      <div className="gp6-card-box row">
+      <div className="gp6-card-box change-position row">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
@@ -59,6 +59,141 @@ const GLIMPage6 = () => {
           <img
             className="gp6-img"
             src={a}
+            height={"30vh"}
+            width={"100%"}
+            alt="img"
+          />
+        </div>
+      </div>
+      <div className="gp6-card-box row">
+        <div className="col-70 gp6-card-content">
+          <div className="gp6-card-box-inner-card row">
+            <div className="col-4">
+              <p className="gp6-card-box-inner-card-number text-end">
+                <img className="count-image" src={c2} alt="c2" />
+              </p>
+            </div>
+            <div className="gp6-main col-8">
+              <h3 className="gp6-card-box-inner-card-heading">
+                REALISTIC
+                <br />
+                SIMULATIONS
+              </h3>
+              <div className="gp6-round round-box justify-content-start">
+                <div className="m-r bg-namikaze">
+                  <p className="m-i"></p>
+                </div>
+                <div className="m-r bg-senju hidden">
+                  <p className="m-i"></p>
+                </div>
+                <div className="m-r bg-senju">
+                  <p className="m-i"></p>
+                </div>
+              </div>
+            </div>
+            <div className="gp6-card-box-inner-card-para col-12">
+              Digital twins of the industry allowed for realistic simulations,
+              providing workers with hands-on experience without the associated
+              risks. This contributed to better retention of information and
+              improved application of safety measures on the job. This improved
+              the productivity of upto 10%
+            </div>
+          </div>
+        </div>
+        <div className="col-50 gp6-card-image">
+          <img
+            className="gp6-img"
+            src={b}
+            height={"30vh"}
+            width={"100%"}
+            alt="img"
+          />
+        </div>
+      </div>
+      <div className="gp6-card-box change-position row">
+        <div className="col-70 gp6-card-content">
+          <div className="gp6-card-box-inner-card row">
+            <div className="col-4">
+              <p className="gp6-card-box-inner-card-number text-end">
+                <img className="count-image" src={c3} alt="c3" />
+              </p>
+            </div>
+            <div className="gp6-main col-8">
+              <h3 className="gp6-card-box-inner-card-heading">
+                FLEXIBLE
+                <br />
+                ACCESSIBILITY
+              </h3>
+              <div className="gp6-round round-box justify-content-start">
+                <div className="m-r bg-namikaze">
+                  <p className="m-i"></p>
+                </div>
+                <div className="m-r bg-senju hidden">
+                  <p className="m-i"></p>
+                </div>
+                <div className="m-r bg-senju">
+                  <p className="m-i"></p>
+                </div>
+              </div>
+            </div>
+            <div className="gp6-card-box-inner-card-para col-12">
+              GLIM's compatibility with various devices, including web browsers,
+              mobile, and VR, provided flexibility in accessing training
+              materials. This ensured that employees could undergo training at
+              their convenience, leading to increased participation.We were able
+              to achieve 100% course participation rate
+            </div>
+          </div>
+        </div>
+        <div className="col-50 gp6-card-image">
+          <img
+            className="gp6-img"
+            src={c}
+            height={"30vh"}
+            width={"100%"}
+            alt="img"
+          />
+        </div>
+      </div>
+      <div className="gp6-card-box row">
+        <div className="col-70 gp6-card-content">
+          <div className="gp6-card-box-inner-card row">
+            <div className="col-4">
+              <p className="gp6-card-box-inner-card-number text-end">
+                <img className="count-image" src={c4} alt="c4" />
+              </p>
+            </div>
+            <div className="gp6-main col-8">
+              <h3 className="gp6-card-box-inner-card-heading">
+                IMPROVED SAFETY
+                <br />
+                COMPLIANCE
+              </h3>
+              <div className="gp6-round round-box justify-content-start">
+                <div className="m-r bg-namikaze">
+                  <p className="m-i"></p>
+                </div>
+                <div className="m-r bg-senju hidden">
+                  <p className="m-i"></p>
+                </div>
+                <div className="m-r bg-senju">
+                  <p className="m-i"></p>
+                </div>
+              </div>
+            </div>
+            <div className="gp6-card-box-inner-card-para col-12">
+              Digital twins of the industry allowed for realistic simulations,
+              providing workers with hands-on experience without the associated
+              risks. This contributed to better retention of information and
+              improved application of safety measures on the job. This improved
+              the productivity of upto 10%
+            </div>
+          </div>
+        </div>
+        <div className="col-50 gp6-card-image">
+          <img
+            className="gp6-img"
+            src={d}
             height={"30vh"}
             width={"100%"}
             alt="img"
