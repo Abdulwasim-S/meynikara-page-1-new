@@ -42,7 +42,7 @@
 @media only screen and (max-width: 479.99px) {
     .slider {
             font-size: 2.75vw;
-            min-height: 15vh;
+            min-height: 20vh;
             border-radius: 2.5vh;
         }
 
