@@ -2,7 +2,6 @@
     color: white;
     text-align: center;
     padding: 5vh 5vw;
-    min-height: 40vh;
     background-color: #1B1A1A;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
@@ -24,12 +23,16 @@
 @media only screen and (max-width: 479.99px) {
 .gp1-heading {
         font-size: 4.5vw;
+        margin-top: 2.5vh;
     }
 
     .gp1-para {
         font-size: 3.5vw;
         padding: 0 0vw;
     }
+        .GlimPage1 {
+            padding: 2.5vh 5vw;
+        }
     
 }
 
@@ -37,6 +40,7 @@
 .gp1-heading {
         font-weight: 700;
         font-size: 4vw;
+        margin-top: 2.5vh;
     }
 
     .gp1-para {
@@ -44,7 +48,10 @@
         font-size: 3vw;
         padding: 0 10vw;
     }
-   
+   .GlimPage1 {
+       padding: 2.5vh 5vw;
+       min-height: 30vh;
+   }
 
 }
 
@@ -53,6 +60,7 @@
     .gp1-heading {
         font-weight: 700;
         font-size: 4vw;
+        margin-top: 2.5vh;
     }
 
     .gp1-para {
@@ -60,6 +68,11 @@
         font-size: 3vw;
         padding: 0 10vw;
     }
+        .GlimPage1 {
+            padding: 2.5vh 5vw;
+            min-height: 30vh;
+        }
+        
 
     
 }

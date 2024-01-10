@@ -4,7 +4,7 @@ import "./GLIMPage3.css";
 
 const GLIMPage3 = () => {
   return (
-    <>
+    <div>
       <Box className="GLIMPage-3 bg-white">
         <Carousel interval={1500}>
           <Carousel.Item>
@@ -41,7 +41,7 @@ const GLIMPage3 = () => {
           </div>
         </div>
       </Box>
-    </>
+    </div>
   );
 };
 

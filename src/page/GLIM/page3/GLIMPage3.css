@@ -1,16 +1,15 @@
 .GLIMPage-3{
-    padding: 5vh 5vw;
 }
 .slider{
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 30vh;
     border-radius: 5vh;
-    font-size: 1.5vw;
+    min-height: 25vh;
     padding: 3vh 3vw;
-    font-size: 2vw;
+    font-size: 1.75vw;
+    font-weight: 500;
     text-align: center;
 }
 .round-box{
@@ -36,14 +35,18 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .slider {
-            font-size: 3vw;
+            font-size: 2.5vw;
+            min-height: 15vh;
+            border-radius: 2.5vh;
         }
 
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
     .slider {
-            font-size: 3vw;
+            font-size: 2.5vw;
+            min-height: 20vh;
+            border-radius: 2.5vh;
         }
 
 
@@ -51,7 +54,8 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .slider{
-        font-size: 3vw;
+        font-size: 2.5vw;
+        min-height: 20vh;
     }
     
 
