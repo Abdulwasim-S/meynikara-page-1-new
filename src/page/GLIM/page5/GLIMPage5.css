@@ -42,6 +42,9 @@
     height: 40vh;
     width: 50%;
     border-radius: 5vh;
+    background-image: url("./video.png");
+    background-size:cover ;
+    background-position: center;
 }
 
 

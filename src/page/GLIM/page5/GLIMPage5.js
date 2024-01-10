@@ -36,7 +36,7 @@ const GLIMPage5 = () => {
         <div className="video-frame ">
           <div className="gp5-video bg-meynikara"></div>
         </div>
-        <div className="round-box">
+        <div className="round-box py-3">
           <div className="m-r bg-namikaze">
             <p className="m-i"></p>
           </div>
