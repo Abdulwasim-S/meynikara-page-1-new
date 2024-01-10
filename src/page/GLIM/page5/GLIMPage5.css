@@ -52,12 +52,12 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .g5-p {
-        font-size: 3vw;
+        font-size: 3.5vw;
         padding-bottom: 3vh;
     }
 
     .g5-h {
-        font-size: 4vw;
+        font-size: 5vw;
         padding-left: 10vw;
         padding-right: 10vw;
         border-top-left-radius: 3vh;
@@ -75,7 +75,7 @@
         }
     
         .gp5-video {
-            height: 20vh;
+            height: 23vh;
             width: 100%;
             border-radius: 3vh;
         }

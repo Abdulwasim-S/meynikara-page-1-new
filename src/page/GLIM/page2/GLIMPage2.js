@@ -20,7 +20,7 @@ const GLIMPage2 = () => {
               <span className="change-namikaze  bold-500">
                 {"(GAMIFIED LEARNING & IMMERSIVE METHODOLOGY)"}
               </span>{" "}
-              enhances Safety & Operational training bu using realistic
+              enhances Safety & Operational training by using realistic
               simulations.
               <br />
               <br />

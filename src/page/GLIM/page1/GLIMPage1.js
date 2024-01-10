@@ -18,11 +18,12 @@ const GLIMPage1 = () => {
         <img className="stop-img" src={stop} alt="stop" />
       </h1>
       <p className="gp1-para">
-        Join us in eliminating industrial accidents with <br />
+        Join us in eliminating industrial accidents with{" "}
+        <br className="hide-for-lg" />
         <span className="text-senju">GLIM</span> and our A-based monitoring
         system, <span className="text-namikaze">SHIELD</span>.
-        <br />
-        Empower your workforce, strengthen safty <br />
+        <br className="hide-for-lg" />
+        Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
       </p>
     </div>

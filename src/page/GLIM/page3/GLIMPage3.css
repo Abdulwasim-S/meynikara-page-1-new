@@ -1,5 +1,6 @@
 
 .slider{
+    text-align: justify;
     color: white;
     display: flex;
     align-items: center;
@@ -9,7 +10,6 @@
     padding: 3vh 3vw;
     font-size: 1.5vw;
     font-weight: 400;
-    text-align: center;
     margin: 5vh 5vw;
     background-image: url("./bg03.png");
     background-size: 100% 100% ;
@@ -41,7 +41,9 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .slider {
-            font-size: 2.75vw;
+        text-align: justify;
+            font-size: 3.5vw;
+            font-weight: 400;
             min-height: 20vh;
             border-radius: 2.5vh;
         }

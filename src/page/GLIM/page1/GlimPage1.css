@@ -6,7 +6,8 @@
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
 }
-.stop-img{
+
+.stop-img {
     scale: 0.85;
 }
 
@@ -37,6 +38,10 @@
     filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
 }
 
+.hide-for-lg {
+    display: none;
+}
+
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .gp1-heading {
@@ -57,15 +62,21 @@
     .stop-text {
         font-size: 7vw;
     }
-        .vr-logo {
-            margin-top: 1.5vh;
-            height: 6vw;
-            filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
-        }
-                .stop-img {
-                    scale: 1;
-                    margin-bottom: 1vh;
-                }
+
+    .vr-logo {
+        margin-top: 1.5vh;
+        height: 6vw;
+        filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
+    }
+
+    .stop-img {
+        scale: 1;
+        margin-bottom: 1vh;
+    }
+
+    .hide-for-lg {
+        display: inline;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
@@ -89,14 +100,20 @@
     .stop-text {
         font-size: 6vw;
     }
-        .vr-logo {
-            margin-top: 1.5vh;
-            height: 6vw;
-            filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
-        }
-                .stop-img {
-                    scale: 0.9;
-                }
+
+    .vr-logo {
+        margin-top: 1.5vh;
+        height: 6vw;
+        filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
+    }
+
+    .stop-img {
+        scale: 0.9;
+    }
+
+    .hide-for-lg {
+        display: inline;
+    }
 
 }
 
@@ -128,9 +145,14 @@
         height: 6vw;
         filter: invert(59%) sepia(100%) saturate(683%) hue-rotate(2deg) brightness(107%) contrast(103%);
     }
-        .stop-img {
-            scale: 0.9;
-        }
+
+    .stop-img {
+        scale: 0.9;
+    }
+
+    .hide-for-lg {
+        display: inline;
+    }
 
 
 }
