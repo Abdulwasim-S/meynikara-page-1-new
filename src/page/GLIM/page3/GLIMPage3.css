@@ -21,6 +21,7 @@
     width: 5vh;
     padding: 1vh;
     border-radius: 50%;
+    scale: 0.75;
 }
 .m-i{
     border-radius: 50%;

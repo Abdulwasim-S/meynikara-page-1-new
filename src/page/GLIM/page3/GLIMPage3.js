@@ -40,6 +40,7 @@ const GLIMPage3 = () => {
             <p className="m-i"></p>
           </div>
         </div>
+        <br />
       </Box>
     </div>
   );
