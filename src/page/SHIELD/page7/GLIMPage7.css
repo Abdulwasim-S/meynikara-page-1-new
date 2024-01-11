@@ -1,0 +1,55 @@
+.GLIMPage7 {
+    background: white;
+}
+
+.gp7-content {
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    padding: 5vh 5vw;
+}
+
+.gp7-p {
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.gp7-pb {
+    font-weight: 500;
+}
+
+.gp7-h {
+    font-size: 3vw;
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .gp7-p {
+        font-size: 4vw;
+    }
+        .gp7-h {
+            margin-bottom: 2vh;
+        }
+
+    .gp7-content {
+        border-top-left-radius: 3vh;
+        border-top-right-radius: 3vh;
+        padding: 3vh 5vw;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .gp7-p {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .gp7-p {
+        font-size: 2.5vw;
+    }.gp7-h {
+        font-size: 5vw;
+        margin-bottom: 2vh;
+    }
+
+}

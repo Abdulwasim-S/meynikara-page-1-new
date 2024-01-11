@@ -1,11 +1,66 @@
-.service-image-container{
+.service-image-container {
     background-color: red;
-    width: 100%;
-    min-height: 50vh;
+    width: 90%;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.img1,.img2,.img3,.img4,.img5,.img6{
-    height: 30vh;
+
+.img-card-h1 {
+    height: 15vh;
+    width: 15vh;
+    background-color: black;
+    position: relative;
+}
+
+.r1,
+.r3,
+.r2,
+.r4,
+.r5 {
+    position: absolute;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6
+ {
+    position: relative;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img6,
+.img5 {
+    left: 15vw;
+}
+
+.r1 {
+    rotate: 60deg;
+}
+
+.r2 {
+    rotate: 120deg;
+}
+
+.r3 {
+    rotate: 180deg;
+}
+
+.r4 {
+    rotate:240deg;
+}
+
+.r5 {
+    rotate: 300deg;
+}
+
+.r6 {
+    rotate: 360deg;
 }

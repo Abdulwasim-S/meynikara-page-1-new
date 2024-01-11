@@ -1,0 +1,80 @@
+.shield-p2-ans{
+    display: flex;
+    justify-content: center;
+}
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .lg-remove {
+            display: none;
+        }
+    
+        .gp2-ques {
+            text-align: start;
+            font-size: 6vw;
+            display: inline;
+        }
+    
+        .gp2-ans {
+            font-size: 4vw
+        }
+    
+        .text-glim-2 {
+            font-size: 6vw;
+        }
+        .change-namikaze{
+            color: #ffba00;
+            font-weight: 500;
+        }
+                .show-small {
+                    display: block;
+                }
+                .gp2{
+                    padding: 2vh 5vw;
+                }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .lg-remove {
+            display: none;
+        }
+    
+        .gp2-ques {
+            text-align: start;
+            font-size: 4vw;
+            display: inline;
+        }
+    
+        .gp2-ans {
+            font-size: 2vw
+        }
+    
+        .text-glim-2 {
+            font-size: 5vw;
+        }.show-small {
+            display: block;
+        }
+    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .lg-remove{
+        display: none;
+    }
+    .gp2-ques{
+        text-align: start;
+        font-size: 4vw;
+        display: inline;
+    }
+    .gp2-ans{
+        font-size: 3vw
+    }
+    .text-glim-2 {
+        font-size: 5vw;
+    }.show-small {
+        display: block;
+    }
+
+}

@@ -1,0 +1,26 @@
+.text-senju {
+    color: #20c997;
+}
+
+.text-namikaze {
+    color: #ffba00;
+}
+
+.bg-g-senju{
+    background-image: linear-gradient(to right,#20c997,#1aa078);
+}
+.bg-g-namikaze{
+    background-image: linear-gradient(to right,#ffba00,#c18d00);
+}
+.bg-g-senju-namikaze{
+    background-image: linear-gradient(to right,#20c997,#ffba00);
+}
+.bg-senju {
+    background-color: #20c997;
+}
+.bg-namikaze {
+    background-color: #ffba00;
+}
+.bg-meynikara{
+    background-color: #1b1a1a;
+}

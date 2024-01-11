@@ -50,9 +50,9 @@ const NavPage = () => {
                   </NavLink>
                   <NavLink
                     className="bg-transparent nav-options dropdown-item"
-                    to={"/service"}
+                    to={"/shield"}
                   >
-                    Option 1
+                    SHIELD
                   </NavLink>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const NavPage = () => {
                     className="bg-transparent nav-options dropdown-item"
                     to={"/product"}
                   >
-                    option
+                    Option
                   </NavLink>
                   <NavLink
                     className="bg-transparent nav-options dropdown-item"

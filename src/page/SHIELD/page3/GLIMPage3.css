@@ -1,0 +1,80 @@
+
+.slider{
+    text-align: justify;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vh;
+    min-height: 30vh;
+    padding: 3vh 5vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 5vh 5vw;
+}
+.s1{
+    background-image: url("./bg01.png");
+        background-size: 100% 100%;
+}
+.s2{
+    background-image: url("./bg02.png");
+        background-size: 100% 100%;
+}
+.s3{
+    background-image: url("./bg03.png");
+        background-size: 100% 100%;
+}
+.round-box{
+    display: flex;
+    justify-content: center;
+}
+.m-r{
+    height: 4vh;
+    width: 4vh;
+    padding: 0.75vh;
+    border-radius: 50%;
+    scale: 0.75;
+}
+.m-i{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.hidden{
+    /* visibility: hidden; */
+    width: 0vw;
+    display: none;
+}
+
+/* Media Query */
+@media only screen and (max-width: 479.99px) {
+    .slider {
+        text-align: justify;
+            font-size: 3.5vw;
+            font-weight: 400;
+            min-height: 20vh;
+            border-radius: 3vh;
+            padding: 1vh 5vw;
+        }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+    .slider {
+            font-size: 2.5vw;
+            min-height: 20vh;
+            border-radius: 2.5vh;
+        }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .slider{
+        font-size: 2.5vw;
+        min-height: 20vh;
+    }
+    
+
+}

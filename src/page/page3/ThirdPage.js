@@ -16,7 +16,7 @@ const ThirdPage = () => {
         experts to assist on-site technicians in real-time, improving
         efficiency, and reducing downtime.
       </p>
-      <div className="image-container">
+      <div className="image-container d-none">
         <ImageContainer />
       </div>
     </div>
