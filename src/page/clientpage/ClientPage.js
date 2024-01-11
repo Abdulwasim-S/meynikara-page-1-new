@@ -17,44 +17,19 @@ const ClientPage = () => {
 
       <div className="client-page-image-container-main">
         <div className="client-page-image-container2">
-          <LazyLoadImage
-            effect="blur"
-            className="client-page-image"
-            src={c2}
-            alt="c1-img"
-          />
+          <img className="client-page-image" src={c2} alt="c1-img" />
         </div>
         <div className="client-page-image-container3">
-          <LazyLoadImage
-            effect="blur"
-            className="client-page-image"
-            src={c3}
-            alt="c1-img"
-          />
+          <img className="client-page-image" src={c3} alt="c1-img" />
         </div>
         <div className="client-page-image-container1">
-          <LazyLoadImage
-            effect="blur"
-            className="client-page-image"
-            src={c1}
-            alt="c1-img"
-          />
+          <img className="client-page-image" src={c1} alt="c1-img" />
         </div>
         <div className="client-page-image-container4">
-          <LazyLoadImage
-            effect="blur"
-            className="client-page-image"
-            src={c4}
-            alt="c1-img"
-          />
+          <img className="client-page-image" src={c4} alt="c1-img" />
         </div>
         <div className="client-page-image-container5">
-          <LazyLoadImage
-            effect="blur"
-            className="client-page-image"
-            src={c5}
-            alt="c1-img"
-          />
+          <img className="client-page-image" src={c5} alt="c1-img" />
         </div>
       </div>
       <p className="client-page-para">

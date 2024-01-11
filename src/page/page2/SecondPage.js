@@ -3,7 +3,6 @@ import "./SecondPage.css";
 import unity from "./images/unity.png";
 import compute from "./images/compute.png";
 import vr from "./images/vr.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const SecondPage = () => {
   return (
@@ -13,12 +12,7 @@ const SecondPage = () => {
           <div className="border-hover-rotate">
             <div className="page-border"></div>
             <div className="page-card">
-              <LazyLoadImage
-                effect="blur"
-                className="card-image"
-                src={unity}
-                alt="img"
-              />
+              <img className="card-image" src={unity} alt="img" />
               <p className="para-heading"> XR</p>
               <p className="para-text">
                 Building end-to-end turnkey, immersive applications using AR,VR
@@ -31,12 +25,7 @@ const SecondPage = () => {
           <div className="border-hover-rotate">
             <div className="page-border"></div>
             <div className="page-card">
-              <LazyLoadImage
-                effect="blur"
-                className="card-image"
-                src={vr}
-                alt="img"
-              />
+              <img className="card-image" src={vr} alt="img" />
               <p className="para-heading"> AI + XR</p>
               <p className="para-text">
                 Building intelligence
@@ -49,12 +38,7 @@ const SecondPage = () => {
           <div className="border-hover-rotate">
             <div className="page-border"></div>
             <div className="page-card">
-              <LazyLoadImage
-                effect="blur"
-                className="card-image"
-                src={compute}
-                alt="img"
-              />
+              <img className="card-image" src={compute} alt="img" />
               <p className="para-heading"> Spatial computing</p>
               <p className="para-text">
                 Leveraging spatial

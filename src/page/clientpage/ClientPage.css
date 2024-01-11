@@ -62,7 +62,7 @@
         }
     
         .client-page-image {
-            scale: 0.35;
+            scale: 1.75;
         }
                 .client-page-heading {
                     font-size: 7vw;
@@ -86,7 +86,7 @@
         }
     
         .client-page-image {
-            scale: 0.5;
+            scale: 1.25;
         }
         
 }
@@ -104,7 +104,7 @@
     }
 
     .client-page-image {
-        scale: 0.5;
+        scale: 1.25;
     }
         .client-page-heading {
             font-size: 6vw;

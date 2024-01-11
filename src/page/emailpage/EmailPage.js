@@ -1,7 +1,6 @@
 import React from "react";
 import "./EmailPage.css";
 import lm from "./image/lm.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const EmailPage = () => {
   return (
@@ -37,19 +36,9 @@ const EmailPage = () => {
         </div>
         <div className="email-btn w-50">
           <button disabled className="learn-more-butn bg-white">
-            <LazyLoadImage
-              effect="blur"
-              className="butn-arrow1"
-              src={lm}
-              alt="arrow"
-            />
+            <img className="butn-arrow1" src={lm} alt="arrow" />
             <span className="butn-text email-butn-text text-black">Submit</span>
-            <LazyLoadImage
-              effect="blur"
-              className="butn-arrow submit-arrow"
-              src={lm}
-              alt="arrow"
-            />
+            <img className="butn-arrow submit-arrow" src={lm} alt="arrow" />
           </button>
         </div>
       </form>
