@@ -31,7 +31,7 @@
 }
 
 .gp6-img {
-    width: 60%;
+    width: 70%;
 }
 
 .gp6-card-box-inner-card-number {
@@ -52,11 +52,6 @@
     padding: 3vh 5vw;
 }
 
-.gp6-card-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .gp6-card-content {
     display: flex;
@@ -78,6 +73,7 @@
 
 .col-50 {
     width: 40%;
+    padding-left: 5vw;
 }
 
 .change-position {
@@ -94,7 +90,7 @@
     }
 
     .gp6-card-box-inner-card-para {
-        font-size: 3.5vw;
+        font-size: 4vw;
         margin-left: 0;
         padding: 1vh 3vw;
 
@@ -116,6 +112,7 @@
 
     .gp6-h {
         font-size: 7vw;
+        font-weight: 500;
     }
 
     .GLIMPage6 {
@@ -131,7 +128,7 @@
     }
     .gp6-card-box-inner-card-heading{
         margin: 0;
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
 
@@ -178,7 +175,7 @@
         }
     
         .col-50 {
-            width: 40%;
+            width: 40%;padding-left: 0vw;
         }
 
 
