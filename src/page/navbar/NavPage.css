@@ -27,6 +27,7 @@
 }
 
 .navlist {
+    text-align: center;
     width: 100%;
     justify-content: space-around;
 }
