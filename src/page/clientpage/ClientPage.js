@@ -6,6 +6,8 @@ import c3 from "./image/c3.png";
 import c4 from "./image/c4.png";
 import c5 from "./image/c5.png";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const ClientPage = () => {
   return (
     <div className="client-page">
@@ -15,19 +17,44 @@ const ClientPage = () => {
 
       <div className="client-page-image-container-main">
         <div className="client-page-image-container2">
-          <img className="client-page-image" src={c2} alt="c1-img" />
+          <LazyLoadImage
+            effect="blur"
+            className="client-page-image"
+            src={c2}
+            alt="c1-img"
+          />
         </div>
         <div className="client-page-image-container3">
-          <img className="client-page-image" src={c3} alt="c1-img" />
+          <LazyLoadImage
+            effect="blur"
+            className="client-page-image"
+            src={c3}
+            alt="c1-img"
+          />
         </div>
         <div className="client-page-image-container1">
-          <img className="client-page-image" src={c1} alt="c1-img" />
+          <LazyLoadImage
+            effect="blur"
+            className="client-page-image"
+            src={c1}
+            alt="c1-img"
+          />
         </div>
         <div className="client-page-image-container4">
-          <img className="client-page-image" src={c4} alt="c1-img" />
+          <LazyLoadImage
+            effect="blur"
+            className="client-page-image"
+            src={c4}
+            alt="c1-img"
+          />
         </div>
         <div className="client-page-image-container5">
-          <img className="client-page-image" src={c5} alt="c1-img" />
+          <LazyLoadImage
+            effect="blur"
+            className="client-page-image"
+            src={c5}
+            alt="c1-img"
+          />
         </div>
       </div>
       <p className="client-page-para">

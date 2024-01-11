@@ -1,8 +1,8 @@
 import React from "react";
 import "../GLIM.css";
 import "./GlimPage1.css";
-import vr_logo from "./vr-headset.png";
 import stop from "./stop.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GLIMPage1 = () => {
   return (
@@ -15,7 +15,12 @@ const GLIMPage1 = () => {
         <span className="h1">
           <img className="vr-logo" src={vr_logo} alt="vr_logo" />
         </span> */}
-        <img className="stop-img" src={stop} alt="stop" />
+        <LazyLoadImage
+          effect="blur"
+          className="stop-img"
+          src={stop}
+          alt="stop"
+        />
       </h1>
       <p className="gp1-para">
         Join us in eliminating industrial accidents with{" "}

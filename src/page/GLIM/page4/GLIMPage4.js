@@ -4,6 +4,7 @@ import a from "./icons/1.png";
 import b from "./icons/2.png";
 import c from "./icons/3.png";
 import d from "./icons/4.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GLIMPage4 = () => {
   return (
@@ -22,27 +23,47 @@ const GLIMPage4 = () => {
         </div>
         <div className="gl-col-2 col-lg-6 row">
           <div className="col-6 gl-col-2-card text-black">
-            <img className="col-2-icon" src={a} alt="icon" />
+            <LazyLoadImage
+              effect="blur"
+              className="col-2-icon"
+              src={a}
+              alt="icon"
+            />
             <p className="col-2-para">
               <span className="col-2-bold">50%</span> reduction in worker's
               error rate
             </p>
           </div>
           <div className="col-6 gl-col-2-card text-black">
-            <img className="col-2-icon" src={b} alt="icon" />
+            <LazyLoadImage
+              effect="blur"
+              className="col-2-icon"
+              src={b}
+              alt="icon"
+            />
             <p className="col-2-para">
               The ease of skill transition increased by{" "}
               <span className="col-2-bold">65%</span>
             </p>
           </div>
           <div className="col-6 gl-col-2-card text-black">
-            <img className="col-2-icon" src={c} alt="icon" />
+            <LazyLoadImage
+              effect="blur"
+              className="col-2-icon"
+              src={c}
+              alt="icon"
+            />
             <p className="col-2-para">
               Training capex reduced by <span className="col-2-bold">75%</span>
             </p>
           </div>
           <div className="col-6 gl-col-2-card text-black">
-            <img className="col-2-icon" src={d} alt="icon" />
+            <LazyLoadImage
+              effect="blur"
+              className="col-2-icon"
+              src={d}
+              alt="icon"
+            />
             <p className="col-2-para">
               Productivity increased by <span className="col-2-bold">20%</span>
             </p>

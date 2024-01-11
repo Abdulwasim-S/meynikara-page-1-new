@@ -8,6 +8,7 @@ import c1 from "./c1.png";
 import c2 from "./c2.png";
 import c3 from "./c3.png";
 import c4 from "./c4.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GLIMPage6 = () => {
   return (
@@ -26,7 +27,12 @@ const GLIMPage6 = () => {
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
               <p className="gp6-card-box-inner-card-number text-end">
-                <img className="count-image" src={c1} alt="c1" />
+                <LazyLoadImage
+                  effect="blur"
+                  className="count-image"
+                  src={c1}
+                  alt="c1"
+                />
               </p>
             </div>
             <div className="gp6-main col-8">
@@ -56,7 +62,8 @@ const GLIMPage6 = () => {
           </div>
         </div>
         <div className="col-50 gp6-card-image ">
-          <img
+          <LazyLoadImage
+            effect="blur"
             className="gp6-img"
             src={a}
             height={"30vh"}
@@ -70,7 +77,12 @@ const GLIMPage6 = () => {
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
               <p className="gp6-card-box-inner-card-number text-end">
-                <img className="count-image" src={c2} alt="c2" />
+                <LazyLoadImage
+                  effect="blur"
+                  className="count-image"
+                  src={c2}
+                  alt="c2"
+                />
               </p>
             </div>
             <div className="gp6-main col-8">
@@ -101,7 +113,8 @@ const GLIMPage6 = () => {
           </div>
         </div>
         <div className="col-50 gp6-card-image">
-          <img
+          <LazyLoadImage
+            effect="blur"
             className="gp6-img"
             src={b}
             height={"30vh"}
@@ -115,7 +128,12 @@ const GLIMPage6 = () => {
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
               <p className="gp6-card-box-inner-card-number text-end">
-                <img className="count-image" src={c3} alt="c3" />
+                <LazyLoadImage
+                  effect="blur"
+                  className="count-image"
+                  src={c3}
+                  alt="c3"
+                />
               </p>
             </div>
             <div className="gp6-main col-8">
@@ -146,7 +164,8 @@ const GLIMPage6 = () => {
           </div>
         </div>
         <div className="col-50 gp6-card-image change-position">
-          <img
+          <LazyLoadImage
+            effect="blur"
             className="gp6-img"
             src={c}
             height={"30vh"}
@@ -160,7 +179,12 @@ const GLIMPage6 = () => {
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
               <p className="gp6-card-box-inner-card-number text-end">
-                <img className="count-image" src={c4} alt="c4" />
+                <LazyLoadImage
+                  effect="blur"
+                  className="count-image"
+                  src={c4}
+                  alt="c4"
+                />
               </p>
             </div>
             <div className="gp6-main col-8">
@@ -191,7 +215,8 @@ const GLIMPage6 = () => {
           </div>
         </div>
         <div className="col-50 gp6-card-image">
-          <img
+          <LazyLoadImage
+            effect="blur"
             className="gp6-img"
             src={d}
             height={"30vh"}
