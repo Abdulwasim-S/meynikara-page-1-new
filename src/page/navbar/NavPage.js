@@ -37,6 +37,7 @@ const NavPage = () => {
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
+                <Dropdown.Item href="/glim">GLIM</Dropdown.Item>
                 <Dropdown.Item href="#/action-2" disabled>
                   Option 1
                 </Dropdown.Item>
@@ -54,7 +55,6 @@ const NavPage = () => {
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
-                <Dropdown.Item href="/glim">GLIM</Dropdown.Item>
                 <Dropdown.Item href="#/action-2" disabled>
                   Option 1
                 </Dropdown.Item>
