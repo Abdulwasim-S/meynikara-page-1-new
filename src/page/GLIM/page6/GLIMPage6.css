@@ -88,23 +88,26 @@
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
     .gp6-img {
-        width: 100%;
+        width: 60%;
+        position: absolute;
+        right: 20%;
     }
 
     .gp6-card-box-inner-card-para {
-        font-size: 2.75vw;
+        font-size: 3.5vw;
         margin-left: 0;
         padding: 1vh 3vw;
 
     }
 
     .col-70 {
-        width: 50%;
+        width: 100%;
     }
 
     .col-50 {
-        width: 50%;
+        width: 100%;
         padding: 0;
+        position: relative;
     }
 
     .gp6-round {
@@ -123,11 +126,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        scale: 1.5;
+        scale: 1.25;
         margin-left: 10%;
     }
     .gp6-card-box-inner-card-heading{
         margin: 0;
+        font-size: 5vw;
     }
 }
 
