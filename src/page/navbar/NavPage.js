@@ -39,7 +39,7 @@ const NavPage = () => {
                   Our Services
                 </NavLink>
                 <div
-                  className="bg-transparent dropdown-menu"
+                  className=" dropdown-menu"
                   aria-labelledby="dropdownMenuButton"
                 >
                   <NavLink
@@ -70,7 +70,7 @@ const NavPage = () => {
                   Our Products
                 </NavLink>
                 <div
-                  className="bg-transparent dropdown-menu"
+                  className=" dropdown-menu"
                   aria-labelledby="dropdownMenuButton"
                 >
                   <NavLink
