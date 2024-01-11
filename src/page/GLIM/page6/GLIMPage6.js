@@ -21,7 +21,7 @@ const GLIMPage6 = () => {
           </span>
         </h1>
       </div>
-      <div className="gp6-card-box change-position row">
+      <div className="gp6-card-box row">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
@@ -55,7 +55,7 @@ const GLIMPage6 = () => {
             </div>
           </div>
         </div>
-        <div className="col-50 gp6-card-image">
+        <div className="col-50 gp6-card-image ">
           <img
             className="gp6-img"
             src={a}
@@ -65,7 +65,7 @@ const GLIMPage6 = () => {
           />
         </div>
       </div>
-      <div className="gp6-card-box row">
+      <div className="gp6-card-box row change-position">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
@@ -110,7 +110,7 @@ const GLIMPage6 = () => {
           />
         </div>
       </div>
-      <div className="gp6-card-box change-position row">
+      <div className="gp6-card-box row">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
@@ -145,7 +145,7 @@ const GLIMPage6 = () => {
             </div>
           </div>
         </div>
-        <div className="col-50 gp6-card-image">
+        <div className="col-50 gp6-card-image change-position">
           <img
             className="gp6-img"
             src={c}

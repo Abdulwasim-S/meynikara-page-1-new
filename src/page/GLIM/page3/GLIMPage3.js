@@ -6,7 +6,7 @@ const GLIMPage3 = () => {
   return (
     <div>
       <Box className="GLIMPage-3 bg-white">
-        <Carousel interval={1500}>
+        <Carousel interval={5000}>
           <Carousel.Item>
             <Box className="slider bg-g-senju s1">
               Workers can practice tasks in a safe, controlled environment
