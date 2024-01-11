@@ -8,7 +8,7 @@ const NavPage = () => {
   return (
     <Navbar expand="lg" className="Navbar">
       <div className="container-fluid">
-        <Navbar.Brand className="heading" href="#home">
+        <Navbar.Brand className="heading" href="/">
           <LazyLoadImage
             effect="blur"
             className="logo-image"

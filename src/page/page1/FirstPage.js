@@ -3,7 +3,6 @@ import "./FirstPage.css";
 import lm from "./image/lm.png";
 import Img from "./image/Img2.png";
 import play_btn from "./image/play.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const FirstPage = () => {
   return (
@@ -23,35 +22,15 @@ const FirstPage = () => {
         </p>
         <div className="butn-box">
           <button className="learn-more-butn">
-            <LazyLoadImage
-              effect="blur"
-              className="butn-arrow1"
-              src={lm}
-              alt="arrow"
-            />
+            <img className="butn-arrow1" src={lm} alt="arrow" />
             <span className="butn-text">Learn More</span>
-            <LazyLoadImage
-              effect="blur"
-              className="butn-arrow"
-              src={lm}
-              alt="arrow"
-            />
+            <img className="butn-arrow" src={lm} alt="arrow" />
           </button>
         </div>
       </div>
       <div className="col-lg-5 image-container">
-        <LazyLoadImage
-          effect="blur"
-          className="play-icon"
-          src={play_btn}
-          alt="play"
-        ></LazyLoadImage>
-        <LazyLoadImage
-          effect="blur"
-          className="play-image"
-          src={Img}
-          alt="img"
-        ></LazyLoadImage>
+        <img className="play-icon" src={play_btn} alt="play"></img>
+        <img className="play-image" src={Img} alt="img"></img>
       </div>
     </div>
   );
