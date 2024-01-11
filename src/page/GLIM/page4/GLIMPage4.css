@@ -272,11 +272,12 @@
     }
 
     .glp-4 {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .glh-4 {
-        font-size: 4dvi;
+        font-size: 4vh;
+        font-weight: 500;
     }
 
     .col-2-icon {
