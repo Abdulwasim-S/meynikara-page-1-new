@@ -23,9 +23,6 @@ const NavPage = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navlist list-container">
             <Nav.Link className="navlink" href="/">
-              Home
-            </Nav.Link>
-            <Nav.Link className="navlink" href="/">
               About Us
             </Nav.Link>
             <Dropdown>
@@ -36,12 +33,22 @@ const NavPage = () => {
                 Our Services
               </Dropdown.Toggle>
 
-              <Dropdown.Menu>
-                <Dropdown.Item href="/glim">GLIM</Dropdown.Item>
-                <Dropdown.Item href="#/action-2" disabled>
+              <Dropdown.Menu className="bg-meynikara text-center border-secondary">
+                <Dropdown.Item className="text-white" href="/glim">
+                  GLIM
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="text-white"
+                  href="#/action-2"
+                  disabled
+                >
                   Option 1
                 </Dropdown.Item>
-                <Dropdown.Item href="#/action-3" disabled>
+                <Dropdown.Item
+                  className="text-white"
+                  href="#/action-3"
+                  disabled
+                >
                   Option 2
                 </Dropdown.Item>
               </Dropdown.Menu>
@@ -54,11 +61,19 @@ const NavPage = () => {
                 Our Products
               </Dropdown.Toggle>
 
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-2" disabled>
+              <Dropdown.Menu className="bg-meynikara text-center border-secondary">
+                <Dropdown.Item
+                  className="text-white"
+                  href="#/action-2"
+                  disabled
+                >
                   Option 1
                 </Dropdown.Item>
-                <Dropdown.Item href="#/action-3" disabled>
+                <Dropdown.Item
+                  className="text-white"
+                  href="#/action-3"
+                  disabled
+                >
                   Option 2
                 </Dropdown.Item>
               </Dropdown.Menu>
