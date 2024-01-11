@@ -3,6 +3,7 @@ import "./NavPage.css";
 import { Dropdown, Nav, Navbar } from "react-bootstrap";
 import logo from "./image/logo.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { NavLink } from "react-router-dom";
 
 const NavPage = () => {
   return (
@@ -22,68 +23,78 @@ const NavPage = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navlist list-container">
-            <Nav.Link className="navlink" href="/">
-              About Us
-            </Nav.Link>
-            <Dropdown>
-              <Dropdown.Toggle
-                className="bg-transparent navlink"
-                id="dropdown-basic"
-              >
-                Our Services
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu className="bg-meynikara text-center border-secondary">
-                <Dropdown.Item className="text-white" href="/glim">
-                  GLIM
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="text-white"
-                  href="#/action-2"
-                  disabled
+            <NavLink className="navlink" to="/">
+              About
+            </NavLink>
+            <Dropdown className="dropmenu">
+              <div className="dropdown">
+                <NavLink
+                  className="nav-button dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
-                  Option 1
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="text-white"
-                  href="#/action-3"
-                  disabled
+                  Our Services
+                </NavLink>
+                <div
+                  className="bg-transparent dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
                 >
-                  Option 2
-                </Dropdown.Item>
-              </Dropdown.Menu>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/glim"}
+                  >
+                    GLIM
+                  </NavLink>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/service"}
+                  >
+                    Option 1
+                  </NavLink>
+                </div>
+              </div>
             </Dropdown>
-            <Dropdown>
-              <Dropdown.Toggle
-                className="bg-transparent navlink"
-                id="dropdown-basic"
-              >
-                Our Products
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu className="bg-meynikara text-center border-secondary">
-                <Dropdown.Item
-                  className="text-white"
-                  href="#/action-2"
-                  disabled
+            <Dropdown className="dropmenu">
+              <div className="dropdown">
+                <NavLink
+                  className="nav-button dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
-                  Option 1
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="text-white"
-                  href="#/action-3"
-                  disabled
+                  Our Products
+                </NavLink>
+                <div
+                  className="bg-transparent dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
                 >
-                  Option 2
-                </Dropdown.Item>
-              </Dropdown.Menu>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/product"}
+                  >
+                    option
+                  </NavLink>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/product"}
+                  >
+                    Option 1
+                  </NavLink>
+                </div>
+              </div>
             </Dropdown>
-            <Nav.Link className="navlink" href="#downloads">
+
+            <NavLink className="navlink" to="/downloads">
               Downloads
-            </Nav.Link>
-            <Nav.Link className="navlink" href="#contactus">
+            </NavLink>
+            <NavLink className="navlink" to="/contact-us">
               Contact Us
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </div>

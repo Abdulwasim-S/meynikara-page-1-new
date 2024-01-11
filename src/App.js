@@ -18,6 +18,7 @@ import GLIMPage5 from "./page/GLIM/page5/GLIMPage5";
 import GLIMPage6 from "./page/GLIM/page6/GLIMPage6";
 import { Route, Routes } from "react-router-dom";
 import GLIMPage7 from "./page/GLIM/page7/GLIMPage7";
+import DummyPage from "./page/DummyPage";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
             </>
           }
         />
+        <Route path="/:id" element={<DummyPage />} />
       </Routes>
       <FooterPage />
     </div>
