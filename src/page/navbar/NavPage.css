@@ -58,7 +58,7 @@
     color: #BEBEBE;
     text-decoration: none;
     background-color: black;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: center;
 
     &:hover {
@@ -80,13 +80,15 @@
 }
 
 .dropdown-menu {
-    background-color: #424242;
-    border: 0;
+    background-color: #232222;
+    border: 1px solid gray;
     border-radius: 0;
+    margin-top: 2vh;
 }
 
 .nav-button {
     color: #BEBEBE;
+    font-size: 1vw;
 }
 
 .nav-button:hover {
@@ -124,6 +126,8 @@
 
     .dropdown-menu {
         background-color: transparent;
+        border: 0px;
+        margin-top: 0;
     }
 
     .dropmenu:hover {
@@ -164,6 +168,8 @@
 
     .dropdown-menu {
         background-color: transparent;
+        border: 0px;
+        margin-top: 0;
     }
 
     .nav-options {
@@ -210,6 +216,8 @@
 
     .dropdown-menu {
         background-color: transparent;
+        margin-top: 0;
+        border: 0px;
     }
 
     .nav-options {

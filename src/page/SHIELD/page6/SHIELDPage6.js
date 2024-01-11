@@ -174,7 +174,7 @@ const SHIELDPage6 = () => {
           />
         </div>
       </div>
-      <div className="gp6-card-box row">
+      <div className="gp6-card-box change-position row">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">

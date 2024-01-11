@@ -187,7 +187,7 @@ const GLIMPage6 = () => {
                 />
               </p>
             </div>
-            <div className="gp6-main col-8">
+            <div className="gp6-main col-8 change-position">
               <h3 className="gp6-card-box-inner-card-heading">
                 IMPROVED SAFETY
                 <br />
