@@ -42,7 +42,6 @@
     color: #BEBEBE;
     border: 0;
     border-bottom: 0.5vh solid transparent;
-    transition: all ease 0.3s;
     transition: all ease-in-out 0.3s;
 }
 
@@ -58,7 +57,8 @@
 .nav-options {
     color: #BEBEBE;
     text-decoration: none;
-    background-color: black;font-size: 1vw;
+    background-color: black;
+    font-size: 1vw;
     text-align: center;
 
     &:hover {
@@ -72,23 +72,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom:0.5vh solid transparent;
-    &:hover{
+    border-bottom: 0.5vh solid transparent;
+
+    &:hover {
         border-bottom: 0.5vh solid #00DDB5;
     }
 }
-.dropdown-menu{
-    background-color:#424242 ;
+
+.dropdown-menu {
+    background-color: #424242;
     border: 0;
     border-radius: 0;
 }
+
 .nav-button {
     color: #BEBEBE;
+}
+
+.nav-button:hover {
+    color: #00DDB5;
 }
 
 @media only screen and (max-width: 479.99px) {
     .navlink {
         font-size: 4vw;
+        transition: all ease-in-out 0s;
+        margin-bottom: 1vh;
     }
 
     .logo-image {
@@ -98,52 +107,45 @@
     .list-container {
         padding-left: 0vw;
     }
-        .nav-button {
-            font-size: 4vw;
-        }
-        .nav-options{
-            font-size: 4vw;
-        }
-                .nav-button {
-                    font-size: 4vw;
-        
-                }
-        
-                .dropdown-menu {
-                    background-color: transparent;
-                }
+
+    .nav-button {
+        font-size: 4vw;
+    }
+
+    .nav-options {
+        font-size: 3.5vw;
+        margin-bottom: 1vh;
+    }
+
+    .nav-button {
+        font-size: 4vw;
+        margin-bottom: 1vh;
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+    }
+
+    .dropmenu:hover {
+        border: 0;
+    }
+
+    .nav-button:hover {
+        color: #00DDB5;
+        border-bottom: 0vh solid #00DDB5;
+    }
+
+    .navlink:hover {
+        color: #00DDB5;
+        border-bottom: 0vh solid #00DDB5;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
     .navlink {
         font-size: 2vw;
-    }
-
-    .logo-image {
-        height: 6vw;
-    }
-
-    .list-container {
-        padding-left: 0vw;
-    }
-        .nav-button {
-            font-size: 2vw;
-    
-        }
-    
-        .dropdown-menu {
-            background-color: transparent;
-        }
-    
-        .nav-options {
-            font-size: 2vw;
-        }
-    
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .navlink {
-        font-size: 2vw;
+        margin-bottom: 1vh;
+        transition: all ease-in-out 0s;
     }
 
     .logo-image {
@@ -153,15 +155,79 @@
     .list-container {
         padding-left: 0vw;
     }
-        .nav-button {
-            font-size: 2vw;
-            
-        }
-        .dropdown-menu{
-            background-color: transparent;
-        }
-    
-        .nav-options {
-            font-size: 2vw;
-        }
+
+    .nav-button {
+        font-size: 2vw;
+        margin-bottom: 1vh;
+
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+    }
+
+    .nav-options {
+        font-size: 1.75vw;
+        margin-bottom: 1vh;
+    }
+
+    .nav-button:hover {
+        color: #00DDB5;
+        border: 0;
+    }
+
+    .navlink:hover {
+        color: #00DDB5;
+        border-bottom: 0vh solid #00DDB5;
+    }
+
+    .dropmenu:hover {
+        border: 0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .navlink {
+        font-size: 2vw;
+        margin-bottom: 1vh;
+        transition: all ease-in-out 0s;
+    }
+
+    .logo-image {
+        height: 5vw;
+    }
+
+    .list-container {
+        padding-left: 0vw;
+    }
+
+    .nav-button {
+        font-size: 2vw;
+        margin-bottom: 1vh;
+
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+    }
+
+    .nav-options {
+        font-size: 1.75vw;
+        margin-bottom: 1vh;
+    }
+
+    .nav-button:hover {
+        color: #00DDB5;
+        border: 0;
+    }
+
+    .navlink:hover {
+        color: #00DDB5;
+        border-bottom: 0vh solid #00DDB5;
+    }
+
+    .dropmenu:hover {
+        border: 0;
+    }
 }
