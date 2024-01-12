@@ -174,7 +174,7 @@ const GLIMPage6 = () => {
           />
         </div>
       </div>
-      <div className="gp6-card-box row">
+      <div className="gp6-card-box row  change-position">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
             <div className="col-4">
@@ -187,7 +187,7 @@ const GLIMPage6 = () => {
                 />
               </p>
             </div>
-            <div className="gp6-main col-8 change-position">
+            <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
                 IMPROVED SAFETY
                 <br />
@@ -206,11 +206,10 @@ const GLIMPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              Digital twins of the industry allowed for realistic simulations,
-              providing workers with hands-on experience without the associated
-              risks. This contributed to better retention of information and
-              improved application of safety measures on the job. This improved
-              the productivity of upto 10%
+              The immersive nature of GLIM resulted in better adherence to
+              safety procedures. Employees were better equipped to handle
+              real-world scenarios, reducing the likelihood of accidents and
+              errors on the production floor.
             </div>
           </div>
         </div>

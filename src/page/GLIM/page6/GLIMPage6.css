@@ -28,6 +28,7 @@
 
 .gp6-card-box {
     padding: 5vh 5vw;
+    margin-bottom: 5vh;
 }
 
 .gp6-img {
@@ -79,6 +80,10 @@
 .change-position {
     display: flex;
     flex-direction: row-reverse;
+}
+.count-image{
+    background-color: red;
+    width: 100%;
 }
 
 /* Media Query */
