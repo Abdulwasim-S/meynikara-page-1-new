@@ -91,9 +91,9 @@ const SHIELDPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                Enhanced HA
+                Enhanced Hazardous
                 <br />
-                Security
+                Area Security
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
