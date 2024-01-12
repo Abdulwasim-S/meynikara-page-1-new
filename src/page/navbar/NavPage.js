@@ -24,7 +24,7 @@ const NavPage = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navlist list-container">
             <NavLink className="navlink" to="/">
-              About
+              About Us
             </NavLink>
             <Dropdown className="dropmenu">
               <div className="dropdown">
