@@ -42,6 +42,9 @@
 .arrow-container{
     justify-content: space-evenly;
 }
+.bpd{
+    line-height: 0.1vh;
+}
 .arrow-box{
     display: flex;
     flex-direction: column;

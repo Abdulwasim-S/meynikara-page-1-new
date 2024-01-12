@@ -26,7 +26,7 @@ const GLIMPage1 = () => {
         Join us in eliminating industrial accidents with{" "}
         <br className="hide-for-lg" />
         <span className="text-senju">GLIM</span> and our AI-based monitoring
-        system, <span className="text-namikaze">SHIELD</span>.
+        system, <span className="text-namikaze">SHIELD</span>.{" "}
         <br className="hide-for-lg" />
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.

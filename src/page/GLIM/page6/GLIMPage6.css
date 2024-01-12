@@ -39,6 +39,10 @@
     font-size: 6vw;
     font-weight: 900;
     color: gray;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .gp6-card-box-inner-card-heading {
@@ -82,8 +86,9 @@
     flex-direction: row-reverse;
 }
 .count-image{
-    width: 100%;
+    height: 20vh;
 }
+
 
 /* Media Query */
 @media only screen and (max-width: 479.99px) {
@@ -135,6 +140,9 @@
         margin: 0;
         font-size: 6vw;
     }
+        .count-image {
+            height: 100%;
+        }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
@@ -154,7 +162,9 @@
     .GLIMPage6 {
         padding: 0vh 0vw;
     }
-
+.count-image {
+    height: 10vh;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -185,6 +195,8 @@
         .gp6-card-box{
             margin-bottom: 0;
         }
-
+                .count-image {
+                    height: 10vh;
+                }
 
 }
