@@ -41,7 +41,7 @@ const VerticalFlip = () => {
             <h5 className="vf-heading">10</h5>
             <p className="vf-para">
               {" "}
-              P Years in VR ,<br /> AR Metaverse &<br /> S/W Development
+              Years in VR ,<br /> AR Metaverse &<br /> S/W Development
             </p>
           </div>
           <div className="vf-border"></div>

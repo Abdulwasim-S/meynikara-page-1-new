@@ -14,11 +14,14 @@
     background: linear-gradient(white, #333);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 5vh 0 10vh 0;
+    margin: 5vh 0 2vh 0;
 }
 
 .con-1 {
     margin: 5vh 0;
+}
+.col-8{
+    padding-left: 5vw;
 }
 
 .helpful-heading {
