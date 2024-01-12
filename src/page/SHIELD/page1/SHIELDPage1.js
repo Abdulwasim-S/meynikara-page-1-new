@@ -25,7 +25,7 @@ const SHIELDPage1 = () => {
       <p className="gp1-para">
         Join us in eliminating industrial accidents with{" "}
         <br className="hide-for-lg" />
-        <span className="text-senju">GLIM</span> and our A-based monitoring
+        <span className="text-senju">GLIM</span> and our AI-based monitoring
         system, <span className="text-namikaze">SHIELD</span>.
         <br className="hide-for-lg" />
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
