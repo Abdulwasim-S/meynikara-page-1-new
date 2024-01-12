@@ -43,8 +43,6 @@ function App() {
               <FourthPage />
               <VerticalFlip />
               <ClientPage />
-              <EmailPage />
-              <ContactPageComp />
             </div>
           }
         />
@@ -78,6 +76,9 @@ function App() {
         />
         <Route path="/:id" element={<DummyPage />} />
       </Routes>
+
+      <EmailPage />
+      <ContactPageComp />
       <FooterPage />
     </div>
   );

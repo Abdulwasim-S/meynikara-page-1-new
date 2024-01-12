@@ -64,7 +64,7 @@ const SHIELDPage4 = () => {
       </div>
       <div className="GLIMPage-4 py-4 px-3 text-black">
         <div className="case-study row gp4-white">
-          <div className="col-lg-4 ">
+          <div className="col-lg-5 ">
             <h3 className="dp4-h">
               Case{" "}
               <span className="text-senju">
@@ -75,10 +75,8 @@ const SHIELDPage4 = () => {
           <div className="col-lg-1">
             <span className="gp2-empty-span"></span>
           </div>
-          <div className="col-lg-7">
-            <p className="gpl4-p2">
-              Enhancing Workplace Safety through SHIELD : A Case Study
-            </p>
+          <div className="col-lg-6">
+            <p className="gpl4-p2">Enhancing Workplace Safety through SHIELD</p>
           </div>
         </div>
       </div>

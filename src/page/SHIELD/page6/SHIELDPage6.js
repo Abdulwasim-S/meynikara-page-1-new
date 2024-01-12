@@ -22,6 +22,12 @@ const SHIELDPage6 = () => {
           </span>
         </h1>
       </div>
+      <div className="">
+        <p className=" m-0 gp6-card-box-inner-card-para text-center">
+          The implementation of SHIELD ( AI-based monitoring ) yielded
+          significant improvements in workplace safety.
+        </p>
+      </div>
       <div className="gp6-card-box row">
         <div className="col-70 gp6-card-content">
           <div className="gp6-card-box-inner-card row">
@@ -37,9 +43,9 @@ const SHIELDPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                ENGAGING
+                Reduction in PPE
                 <br />
-                TRAINING
+                Violations
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
@@ -54,10 +60,8 @@ const SHIELDPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              GLIM's gamified approach made safety training more engaging and
-              interactive. Employees could practise tasks in a virtual
-              environment, enhancing their understanding of SOPs and safety
-              protocols
+              Instances of improper PPE usage decreased by 30%, promoting a
+              safer work environment and minimising the risk of accidents.
             </div>
           </div>
         </div>
@@ -87,9 +91,9 @@ const SHIELDPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                REALISTIC
+                Enhanced HA
                 <br />
-                SIMULATIONS
+                Security
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
@@ -104,11 +108,9 @@ const SHIELDPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              Digital twins of the industry allowed for realistic simulations,
-              providing workers with hands-on experience without the associated
-              risks. This contributed to better retention of information and
-              improved application of safety measures on the job. This improved
-              the productivity of upto 10%
+              Unauthorised entries into restricted zones were virtually
+              eliminated, preventing potential accidents and ensuring compliance
+              with safety regulations.
             </div>
           </div>
         </div>
@@ -138,9 +140,9 @@ const SHIELDPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                FLEXIBLE
+                Employee
                 <br />
-                ACCESSIBILITY
+                Feedback
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
@@ -155,11 +157,10 @@ const SHIELDPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              GLIM's compatibility with various devices, including web browsers,
-              mobile, and VR, provided flexibility in accessing training
-              materials. This ensured that employees could undergo training at
-              their convenience, leading to increased participation.We were able
-              to achieve 100% course participation rate
+              Employees responded positively to the new safety measures,
+              acknowledging the importance of a secure and healthy working
+              environment. The integration of VR and AI monitoring was seen as a
+              proactive step towards prioritising their well-being.
             </div>
           </div>
         </div>
@@ -168,57 +169,6 @@ const SHIELDPage6 = () => {
             effect="blur"
             className="gp6-img"
             src={c}
-            height={"30vh"}
-            width={"100%"}
-            alt="img"
-          />
-        </div>
-      </div>
-      <div className="gp6-card-box change-position row">
-        <div className="col-70 gp6-card-content">
-          <div className="gp6-card-box-inner-card row">
-            <div className="col-4">
-              <p className="gp6-card-box-inner-card-number text-end">
-                <LazyLoadImage
-                  effect="blur"
-                  className="count-image"
-                  src={c4}
-                  alt="c4"
-                />
-              </p>
-            </div>
-            <div className="gp6-main col-8">
-              <h3 className="gp6-card-box-inner-card-heading">
-                IMPROVED SAFETY
-                <br />
-                COMPLIANCE
-              </h3>
-              <div className="gp6-round round-box justify-content-start">
-                <div className="m-r bg-namikaze">
-                  <p className="m-i"></p>
-                </div>
-                <div className="m-r bg-senju hidden">
-                  <p className="m-i"></p>
-                </div>
-                <div className="m-r bg-senju">
-                  <p className="m-i"></p>
-                </div>
-              </div>
-            </div>
-            <div className="gp6-card-box-inner-card-para col-12">
-              Digital twins of the industry allowed for realistic simulations,
-              providing workers with hands-on experience without the associated
-              risks. This contributed to better retention of information and
-              improved application of safety measures on the job. This improved
-              the productivity of upto 10%
-            </div>
-          </div>
-        </div>
-        <div className="col-50 gp6-card-image">
-          <LazyLoadImage
-            effect="blur"
-            className="gp6-img"
-            src={d}
             height={"30vh"}
             width={"100%"}
             alt="img"

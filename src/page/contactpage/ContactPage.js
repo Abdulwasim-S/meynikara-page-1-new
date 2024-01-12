@@ -4,7 +4,7 @@ import { Nav } from "react-bootstrap";
 
 const ContactPageComp = () => {
   return (
-    <div className="contact-page">
+    <div className="contact-page bg-meynikara">
       <h1 className="contact-page-main">
         We build Data-Driven, Customer Centric XR applications to achieve your
         business objectives
