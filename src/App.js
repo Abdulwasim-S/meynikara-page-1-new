@@ -26,6 +26,7 @@ import SHIELDPage4 from "./page/SHIELD/page4/SHIELDPage4";
 import SHIELDPage5 from "./page/SHIELD/page5/SHIELDPage5";
 import SHIELDPage6 from "./page/SHIELD/page6/SHIELDPage6";
 import SHIELDPage7 from "./page/SHIELD/page7/SHIELDPage7";
+import AgilePage from "./page/agilepage/AgilePage";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
               <ThirdPage />
               <FourthPage />
               <VerticalFlip />
+              <AgilePage />
               <ClientPage />
             </div>
           }
