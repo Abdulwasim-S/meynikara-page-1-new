@@ -27,6 +27,7 @@ import SHIELDPage5 from "./page/SHIELD/page5/SHIELDPage5";
 import SHIELDPage6 from "./page/SHIELD/page6/SHIELDPage6";
 import SHIELDPage7 from "./page/SHIELD/page7/SHIELDPage7";
 import AgilePage from "./page/agilepage/AgilePage";
+import MEPage1 from "./page/MARKETING/page1/MEPage1";
 
 function App() {
   return (
@@ -73,6 +74,14 @@ function App() {
               <SHIELDPage5 />
               <SHIELDPage6 />
               <SHIELDPage7 />
+            </div>
+          }
+        />
+        <Route
+          path="/marketing&event"
+          element={
+            <div>
+              <MEPage1 />
             </div>
           }
         />

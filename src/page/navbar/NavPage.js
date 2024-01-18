@@ -54,6 +54,12 @@ const NavPage = () => {
                   >
                     SHIELD
                   </NavLink>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/marketing&event"}
+                  >
+                    Marketing & Event
+                  </NavLink>
                 </div>
               </div>
             </Dropdown>
