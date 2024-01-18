@@ -12,11 +12,15 @@ const MEPage1 = () => {
     >
       <Heading
         color={"#20c997"}
-        fontSize={{ base: "30px", md: "50px", lg: "60px" }}
+        fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
       >
         Marketing & Events
       </Heading>
-      <Text color={"white"} fontSize={{ base: "15px", md: "25px", lg: "30px" }}>
+      <Text
+        color={"white"}
+        fontSize={{ base: "md", md: "2xl", lg: "3xl" }}
+        paddingX={{ base: "0", lg: "5vw" }}
+      >
         We develop and deliver data-driven immersive experiences to increase
         your organisation's marketing and event objectives.
       </Text>

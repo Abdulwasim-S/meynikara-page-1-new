@@ -28,6 +28,8 @@ import SHIELDPage6 from "./page/SHIELD/page6/SHIELDPage6";
 import SHIELDPage7 from "./page/SHIELD/page7/SHIELDPage7";
 import AgilePage from "./page/agilepage/AgilePage";
 import MEPage1 from "./page/MARKETING/page1/MEPage1";
+import MEPage2 from "./page/MARKETING/page2/MEPage2";
+import MEPage3 from "./page/MARKETING/page3/MEPage3";
 
 function App() {
   return (
@@ -82,6 +84,8 @@ function App() {
           element={
             <div>
               <MEPage1 />
+              <MEPage2 />
+              <MEPage3 />
             </div>
           }
         />
