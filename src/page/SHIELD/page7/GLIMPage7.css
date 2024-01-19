@@ -3,8 +3,6 @@
 }
 
 .gp7-content {
-    border-top-left-radius: 5vh;
-    border-top-right-radius: 5vh;
     padding: 5vh 5vw;
 }
 
@@ -32,8 +30,6 @@
         }
 
     .gp7-content {
-        border-top-left-radius: 3vh;
-        border-top-right-radius: 3vh;
         padding: 3vh 5vw;
     }
 

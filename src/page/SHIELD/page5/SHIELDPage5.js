@@ -6,7 +6,7 @@ const SHIELDPage5 = () => {
     <div className="GLIMPage5">
       <div className="gmc">
         <div className="gmc-1">
-          <p className="g5-h px-5 bg-dark">INTRODUCTION</p>
+          <p className="g5-h px-5 bg-namikaze">INTRODUCTION</p>
           <p className="g5-p">
             In response to the pressing need for heightened workplace safety,
             one of the leading Oil & Gas Corporation implemented a comprehensive
@@ -48,7 +48,7 @@ const SHIELDPage5 = () => {
         </div>
         <p className="g5-c"></p>
         <div className="gmc-2">
-          <p className="g5-h px-5 bg-dark">IMPLEMENTATION</p>
+          <p className="g5-h px-5 bg-senju">IMPLEMENTATION</p>
           <p className="g5-p">
             PPE Compliance Monitoring: The AI algorithms were configured to
             detect and alert supervisors when employees failed to comply with
