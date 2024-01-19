@@ -9,13 +9,14 @@
         }
     
         .gp2-ques {
+            padding-top: 3vh;
             text-align: start;
             font-size: 6vw;
             display: inline;
         }
     
         .gp2-ans {
-            font-size: 4vw
+            font-size: 4vw;
         }
     
         .text-glim-2 {

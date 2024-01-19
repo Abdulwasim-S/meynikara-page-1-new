@@ -13,7 +13,6 @@ const SHIELDPage2 = () => {
           <span className="gp2-empty-span"></span>
         </div>
         <div className="col-lg-8">
-          <br className="show-small" />
           <p className="gp2-ans shield-p2-ans">
             <span className="change-namikaze  bold-500">
               S.H.I.E.L.D.-Safety and Health Integrated Ecosystem for
