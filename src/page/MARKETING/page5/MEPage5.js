@@ -29,7 +29,7 @@ const MEPage5 = () => {
           bg={"#20c997"}
         ></Box>
       </Flex>
-      <Box height={"25vh"} width={"100%"} bg={"red"}>
+      <Box color={"white"} height={"25vh"} width={"100%"} bg={"red"}>
         gallery image container
       </Box>
     </Box>

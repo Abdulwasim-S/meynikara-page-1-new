@@ -5,6 +5,36 @@ import "slick-carousel/slick/slick-theme.css";
 import { Box, Flex } from "@chakra-ui/react";
 
 const MEPage4 = () => {
+  const NextArrow = ({ onClick }) => {
+    return (
+      <Box
+        w={"30vw"}
+        h={"100%"}
+        opacity={0}
+        bg={"blue"}
+        className="arrow next"
+        onClick={onClick}
+      >
+        {">"}
+      </Box>
+    );
+  };
+
+  const PrevArrow = ({ onClick }) => {
+    return (
+      <Box
+        w={"30vw"}
+        h={"100%"}
+        opacity={0}
+        bg={"blue"}
+        className="arrow prev"
+        onClick={onClick}
+      >
+        {"<"}
+      </Box>
+    );
+  };
+
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
@@ -14,11 +44,18 @@ const MEPage4 = () => {
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
     beforeChange: (current, next) => setImageIndex(next),
   };
   const images = ["astronaut", "celebrating", "education", "taken"];
   return (
-    <Box p={{ base: "20px" }}>
+    <Box
+      marginTop={{ base: "25px" }}
+      bg={"black"}
+      position={"relative"}
+      p={{ base: "40px 20px" }}
+    >
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>

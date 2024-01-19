@@ -37,9 +37,9 @@ const GLIMPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                ENGAGING
+                Engaging
                 <br />
-                TRAINING
+                Training
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
@@ -87,9 +87,9 @@ const GLIMPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                REALISTIC
+                Realistic
                 <br />
-                SIMULATIONS
+                Simulations
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
@@ -138,9 +138,9 @@ const GLIMPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                FLEXIBLE
+                Flexible
                 <br />
-                ACCESSIBILITY
+                Accessibility
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">
@@ -189,9 +189,9 @@ const GLIMPage6 = () => {
             </div>
             <div className="gp6-main col-8">
               <h3 className="gp6-card-box-inner-card-heading">
-                IMPROVED SAFETY
+                Improved Safety
                 <br />
-                COMPLIANCE
+                Compliance
               </h3>
               <div className="gp6-round round-box justify-content-start">
                 <div className="m-r bg-namikaze">

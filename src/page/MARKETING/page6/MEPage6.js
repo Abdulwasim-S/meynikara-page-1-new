@@ -18,28 +18,42 @@ const MEPage6 = () => {
       p={{ base: "20px", lg: "50px" }}
       bg={"#1b1a1a"}
     >
-      <Heading
-        textAlign={"center"}
-        fontSize={{ base: "30px", lg: "50px" }}
-        color={"#ffba00"}
-        fontWeight={{ lg: "700" }}
+      <Grid
+        display={{ base: "flex" }}
+        flexDirection={{ base: "row-reverse" }}
+        paddingX={{ base: "2vw" }}
+        templateColumns={{
+          base: "repeat(0,1fr)",
+          lg: "repeat(3,1fr)",
+        }}
       >
-        Case Study
-      </Heading>
-      <Box
-        bg={"#20c997"}
-        height={{ base: "0.25vh", lg: "0.5vh" }}
-        marginX={"1vw"}
-        marginBottom={"25px"}
-        width={{ base: "25vw", lg: "10vw" }}
-      ></Box>
-      <Text
-        color={"white"}
-        fontWeight={{ base: "500", lg: "500" }}
-        fontSize={{ base: "25px", lg: "25px" }}
-      >
-        Gamified experience of cucling for Dopenerds: A Case Study
-      </Text>
+        <GridItem
+          p={{ base: "10px" }}
+          borderLeft={{ lg: "5px solid #ffba00" }}
+          display={"flex"}
+          alignItems={"center"}
+          justifyContent={{ base: "start", lg: "end" }}
+          color={"#20c997"}
+          fontWeight={{ base: "500" }}
+          fontSize={{ base: "30px", lg: "40px" }}
+          w={"100%"}
+        >
+          Case Study
+        </GridItem>
+        <GridItem
+          color={"white"}
+          p={{ base: "10px" }}
+          display={"flex"}
+          alignItems={"center"}
+          justifyContent={"start"}
+          w={{ base: "100%", lg: "200%" }}
+          fontSize={{ base: "20px", lg: "25px" }}
+          fontWeight={{ base: "400", lg: 500 }}
+          textAlign={{ lg: "end" }}
+        >
+          Gamified experience of cucling for Dopenerds: A Case Study
+        </GridItem>
+      </Grid>
       <Grid templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}>
         <GridItem>
           <Flex p={"10px"}>
