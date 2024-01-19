@@ -8,13 +8,6 @@ const GLIMPage1 = () => {
   return (
     <div className="GlimPage1">
       <h1 className="gp1-heading">
-        {/* <span>
-          LET'S <span className=" text-danger stop-text">ST🚫P</span> INDUSTRY
-          ACCIDENTS...
-        </span>
-        <span className="h1">
-          <img className="vr-logo" src={vr_logo} alt="vr_logo" />
-        </span> */}
         <LazyLoadImage
           effect="blur"
           className="stop-img"
@@ -31,6 +24,9 @@ const GLIMPage1 = () => {
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
       </p>
+      <a className="btn" href="#contact-us">
+        For more
+      </a>
     </div>
   );
 };

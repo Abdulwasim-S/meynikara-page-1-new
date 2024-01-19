@@ -100,7 +100,9 @@ function App() {
         <Route path="/:id" element={<DummyPage />} />
       </Routes>
 
-      <EmailPage />
+      <div id="contact-us">
+        <EmailPage />
+      </div>
       <ContactPageComp />
       <FooterPage />
     </div>

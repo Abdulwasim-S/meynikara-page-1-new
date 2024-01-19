@@ -98,9 +98,9 @@ const NavPage = () => {
             <NavLink className="navlink" to="/downloads">
               Downloads
             </NavLink>
-            <NavLink className="navlink" to="/contact-us">
+            <a className="navlink" href="#contact-us">
               Contact Us
-            </NavLink>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </div>
