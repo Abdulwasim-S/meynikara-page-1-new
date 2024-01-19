@@ -44,7 +44,9 @@ const MEPage2 = () => {
           >
             Virtual Events and Conferences
           </Heading>
-          <br />
+          <Box display={{ base: "none", lg: "block" }}>
+            <br />
+          </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
             Create virtual meetings and confrences, allowing participants to
             upload meeting assets and attend from anywhere in the world using
@@ -66,7 +68,9 @@ const MEPage2 = () => {
           >
             Immersive Brand Experiences
           </Heading>
-          <br />
+          <Box display={{ base: "none", lg: "block" }}>
+            <br />
+          </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
             Create bespoke immersive barnd experiences through VR and build
             stronger connections with the audience and fostering brand loyalty
@@ -87,7 +91,9 @@ const MEPage2 = () => {
           >
             Virtual Product Demonstrations
           </Heading>
-          <br />
+          <Box display={{ base: "none", lg: "block" }}>
+            <br />
+          </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
             Create virtual showrooms or products demonstrations, allowing
             potential customers to experience products
@@ -108,7 +114,9 @@ const MEPage2 = () => {
           >
             Virtual Tours
           </Heading>
-          <br />
+          <Box display={{ base: "none", md: "block" }}>
+            <br />
+          </Box>
           <Box display={{ base: "none", lg: "block" }}>
             <br />
             <br />
