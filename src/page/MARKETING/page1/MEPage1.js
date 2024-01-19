@@ -13,7 +13,7 @@ const MEPage1 = () => {
       <Heading
         color={"#20c997"}
         fontSize={{ base: "2xl", md: "5xl", lg: "5xl" }}
-        fontWeight={{ base: "500", lg: "700" }}
+        fontWeight={{ base: "700", lg: "700" }}
       >
         MARKETING & EVENTS
       </Heading>
