@@ -33,18 +33,6 @@ const GLIMPage5 = () => {
             browsers, mobile, and VR.
           </p>
         </div>
-
-        <div className="round-box py-3">
-          <div className="m-r bg-namikaze">
-            <p className="m-i"></p>
-          </div>
-          <div className="m-r bg-senju hidden">
-            <p className="m-i"></p>
-          </div>
-          <div className="m-r bg-senju">
-            <p className="m-i"></p>
-          </div>
-        </div>
       </div>
     </div>
   );

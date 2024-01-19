@@ -38,13 +38,13 @@ import MEPage7 from "./page/MARKETING/page7/MEPage7";
 function App() {
   return (
     <div className="App">
-      <NavPage />
       <Routes>
         <Route
           exact
           path="/"
           element={
             <div className="bg-meynikara">
+              <NavPage />
               <FirstPage />
               <SecondPage />
               <ThirdPage />
@@ -59,6 +59,7 @@ function App() {
           path="/glim"
           element={
             <>
+              <NavPage />
               <GLIMPage1 />
               <GLIMPage2 />
               <GLIMPage3 />
@@ -73,6 +74,7 @@ function App() {
           path="/shield"
           element={
             <div>
+              <NavPage />
               <SHIELDPage1 />
               <SHIELDPage2 />
               <SHIELDPage3 />
@@ -87,6 +89,7 @@ function App() {
           path="/marketing&event"
           element={
             <div>
+              <NavPage />
               <MEPage1 />
               <MEPage2 />
               <MEPage3 />

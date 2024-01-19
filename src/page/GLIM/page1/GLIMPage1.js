@@ -3,6 +3,7 @@ import "../GLIM.css";
 import "./GlimPage1.css";
 import stop from "./stop.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Box } from "@chakra-ui/react";
 
 const GLIMPage1 = () => {
   return (
@@ -24,8 +25,10 @@ const GLIMPage1 = () => {
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
       </p>
-      <a className="btn" href="#contact-us">
-        For more
+      <a className="" href="#contact-us">
+        <Box fontStyle={"italic"} margin={{ lg: "0 0 2vh 0" }} fontSize={"sm"}>
+          Request Access
+        </Box>
       </a>
     </div>
   );

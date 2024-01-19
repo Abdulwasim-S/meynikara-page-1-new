@@ -25,6 +25,9 @@ const MEPage1 = () => {
         We develop and deliver data-driven immersive experiences to increase
         your organisation's marketing and event objectives.
       </Text>
+      <Box fontStyle={"italic"} margin={{ lg: "0 0 2vh 0" }} fontSize={"sm"}>
+        Request Access
+      </Box>
     </Box>
   );
 };
