@@ -30,6 +30,9 @@ import AgilePage from "./page/agilepage/AgilePage";
 import MEPage1 from "./page/MARKETING/page1/MEPage1";
 import MEPage2 from "./page/MARKETING/page2/MEPage2";
 import MEPage3 from "./page/MARKETING/page3/MEPage3";
+import MEPage4 from "./page/MARKETING/page4/MEpage4";
+import MEPage5 from "./page/MARKETING/page5/MEPage5";
+import MEPage6 from "./page/MARKETING/page6/MEPage6";
 
 function App() {
   return (
@@ -86,6 +89,9 @@ function App() {
               <MEPage1 />
               <MEPage2 />
               <MEPage3 />
+              <MEPage4 />
+              <MEPage5 />
+              <MEPage6 />
             </div>
           }
         />

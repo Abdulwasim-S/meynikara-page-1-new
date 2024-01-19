@@ -24,3 +24,16 @@
 .bg-meynikara{
     background-color: #1b1a1a;
 }
+
+/* For slider 3D */
+
+.slide {
+    transform: scale(0.8);
+    transition: transform 300ms;
+    opacity: 0.5;
+}
+
+.activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+}
