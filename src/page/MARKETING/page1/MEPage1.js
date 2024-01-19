@@ -15,7 +15,7 @@ const MEPage1 = () => {
         fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         fontWeight={{ base: "500", lg: "700" }}
       >
-        MARKETING & EVENTS
+        Marketing & Events
       </Heading>
       <Text
         color={"white"}
