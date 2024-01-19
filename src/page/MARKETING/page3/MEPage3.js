@@ -23,12 +23,13 @@ const MEPage3 = () => {
         Virtual Meeting Platform
       </GridItem>
       <GridItem
-        p={{ base: "10px" }}
-        display={"flex"}
+        textAlign={{ base: "justify" }}
+        p={{ base: "10px 20px", lg: "10px" }}
+        display={{ lg: "flex" }}
         alignItems={"center"}
         justifyContent={"start"}
         w={{ base: "100%", lg: "200%" }}
-        fontSize={{ base: "20px", lg: "25px" }}
+        fontSize={{ base: "md", lg: "25px" }}
         fontWeight={{ base: "400", lg: 500 }}
       >
         Virtual meeting platform have become essentail tools for communication

@@ -11,7 +11,6 @@ const MEPage4 = () => {
         w={"30vw"}
         h={"100%"}
         opacity={0}
-        bg={"blue"}
         className="arrow next"
         onClick={onClick}
       >
@@ -26,7 +25,6 @@ const MEPage4 = () => {
         w={"30vw"}
         h={"100%"}
         opacity={0}
-        bg={"blue"}
         className="arrow prev"
         onClick={onClick}
       >
@@ -52,7 +50,6 @@ const MEPage4 = () => {
   return (
     <Box
       marginTop={{ base: "25px" }}
-      bg={"black"}
       position={"relative"}
       p={{ base: "40px 20px" }}
     >

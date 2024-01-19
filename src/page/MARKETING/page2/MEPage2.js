@@ -3,27 +3,21 @@ import React from "react";
 
 const MEPage2 = () => {
   return (
-    <Box textAlign={"center"} padding={{ base: "20px", lg: "1vw" }}>
-      <Heading fontSize={{ base: "35px", md: "45px", lg: "50px" }}>
-        Our service offerings
+    <Box textAlign={"center"} padding={{ base: "20px", lg: "5vh 5vw" }}>
+      <Heading fontSize={{ base: "30px", md: "45px", lg: "50px" }}>
+        Our Service Offerings
       </Heading>
       <Flex
+        marginBottom={{ lg: "4vh" }}
         alignItems={"center"}
         flexDirection={"column"}
         w={"100%"}
-        h={{ base: "10vh" }}
       >
         <Box
-          marginY={"0.5vh"}
+          marginY={"1vh"}
           height={{ base: "0.5vh" }}
           w={{ base: "40vw", md: "30vw", lg: "20vw" }}
           bg={"#ffba00"}
-        ></Box>
-        <Box
-          marginY={"0.5vh"}
-          height={{ base: "0.5vh" }}
-          w={{ base: "20vw", md: "15vw", lg: "10vw" }}
-          bg={"#20c997"}
         ></Box>
       </Flex>
       <Grid
@@ -46,12 +40,12 @@ const MEPage2 = () => {
           <Heading
             fontWeight={"600"}
             color={"#20c997"}
-            fontSize={{ base: "30px", lg: "35px" }}
+            fontSize={{ base: "25px", md: "30px", lg: "35px" }}
           >
             Virtual Events and Conferences
           </Heading>
           <br />
-          <Text fontSize={{ base: "20px", lg: "20px" }} textAlign={"justify"}>
+          <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
             Create virtual meetings and confrences, allowing participants to
             upload meeting assets and attend from anywhere in the world using
             our XR platform
@@ -68,12 +62,12 @@ const MEPage2 = () => {
           <Heading
             fontWeight={"600"}
             color={"#ffba00"}
-            fontSize={{ base: "30px", lg: "35px" }}
+            fontSize={{ base: "25px", md: "30px", lg: "35px" }}
           >
             Immersive Brand Experiences
           </Heading>
           <br />
-          <Text fontSize={{ base: "20px", lg: "20px" }} textAlign={"justify"}>
+          <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
             Create bespoke immersive barnd experiences through VR and build
             stronger connections with the audience and fostering brand loyalty
           </Text>
@@ -89,15 +83,14 @@ const MEPage2 = () => {
           <Heading
             fontWeight={"600"}
             color={"#20c997"}
-            fontSize={{ base: "30px", lg: "35px" }}
+            fontSize={{ base: "25px", md: "30px", lg: "35px" }}
           >
-            Virtual Events and Conferences
+            Virtual Product Demonstrations
           </Heading>
           <br />
-          <Text fontSize={{ base: "20px", lg: "20px" }} textAlign={"justify"}>
-            Create virtual meetings and confrences, allowing participants to
-            upload meeting assets and attend from anywhere in the world using
-            our XR platform
+          <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
+            Create virtual showrooms or products demonstrations, allowing
+            potential customers to experience products
           </Text>
         </GridItem>
         <GridItem p={{ base: "15px" }} colSpan={3} textAlign={"start"}>
@@ -111,14 +104,18 @@ const MEPage2 = () => {
           <Heading
             fontWeight={"600"}
             color={"#ffba00"}
-            fontSize={{ base: "30px", lg: "35px" }}
+            fontSize={{ base: "25px", md: "30px", lg: "35px" }}
           >
-            Immersive Brand Experiences
+            Virtual Tours
           </Heading>
           <br />
-          <Text fontSize={{ base: "20px", lg: "20px" }} textAlign={"justify"}>
-            Create bespoke immersive barnd experiences through VR and build
-            stronger connections with the audience and fostering brand loyalty
+          <Box display={{ base: "none", lg: "block" }}>
+            <br />
+            <br />
+          </Box>
+          <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
+            Create virtual tours were multiple participants can explore
+            properties or locations remotely
           </Text>
         </GridItem>
       </Grid>

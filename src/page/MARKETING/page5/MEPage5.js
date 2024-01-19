@@ -3,10 +3,15 @@ import React from "react";
 
 const MEPage5 = () => {
   return (
-    <Box textAlign={"center"} padding={{ base: "20px", lg: "1vw" }}>
+    <Box
+      bg={"#1b1a1a"}
+      textAlign={"center"}
+      padding={{ base: "20px", lg: "1vw" }}
+    >
       <Heading
-        fontWeight={"700"}
-        fontSize={{ base: "35px", md: "45px", lg: "50px" }}
+        color={"white"}
+        fontWeight={{ base: "500", lg: "700" }}
+        fontSize={{ base: "30px", md: "45px", lg: "50px" }}
       >
         Gallery
       </Heading>
@@ -14,22 +19,22 @@ const MEPage5 = () => {
         alignItems={"center"}
         flexDirection={"column"}
         w={"100%"}
-        h={{ base: "10vh" }}
+        h={{ base: "5vh" }}
       >
         <Box
-          marginY={"0.5vh"}
+          marginY={{ base: "0.1vh", lg: "0.5vh" }}
           height={{ base: "0.5vh" }}
-          w={{ base: "40vw", md: "30vw", lg: "20vw" }}
+          w={{ base: "15vw", md: "15vw", lg: "6vw" }}
           bg={"#ffba00"}
         ></Box>
-        <Box
-          marginY={"0.5vh"}
-          height={{ base: "0.5vh" }}
-          w={{ base: "20vw", md: "15vw", lg: "10vw" }}
-          bg={"#20c997"}
-        ></Box>
       </Flex>
-      <Box color={"white"} height={"25vh"} width={"100%"} bg={"red"}>
+      <Box
+        marginX={"15vw"}
+        color={"white"}
+        height={"25vh"}
+        width={"70%"}
+        bg={"red"}
+      >
         gallery image container
       </Box>
     </Box>

@@ -50,7 +50,7 @@
 @media only screen and (max-width: 479.99px) {
     .email-heading {
         font-size: 7vw;
-        font-weight: 800;
+        font-weight: 700;
     }
         .email-butn-text {
             font-size: 5vw;
@@ -79,7 +79,7 @@
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
     .email-heading {
         font-size: 5vw;
-        font-weight: 800;
+        font-weight: 700;
     }
 .email-butn-text {
     font-size: 4vw;
@@ -101,7 +101,7 @@
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .email-heading {
             font-size: 6vw;
-            font-weight: 800;
+            font-weight: 700;
         }
         .email-butn-text{
             font-size: 4vw;

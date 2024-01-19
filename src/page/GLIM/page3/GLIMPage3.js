@@ -4,7 +4,7 @@ import "./GLIMPage3.css";
 
 const GLIMPage3 = () => {
   return (
-    <Box className="GLIMPage-3 bg-white" paddingTop={{ lg: "25px" }}>
+    <Box className="GLIMPage-3 bg-white" p={{ base: "10px", lg: "25px 0" }}>
       <div className="video-frame ">
         <div className="gp5-video bg-meynikara"></div>
       </div>
