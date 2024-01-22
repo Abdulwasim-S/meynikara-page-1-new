@@ -15,7 +15,7 @@ const ARRAPage4 = () => {
   return (
     <Box
       p={{ base: "5vh 5vw" }}
-      minH={{ base: "150vh", md: "125vh", lg: "100vh" }}
+      minH={{ base: "100vh", md: "90vh", lg: "70vh" }}
     >
       <Grid
         templateRows="repeat(1 1fr)"
@@ -43,7 +43,7 @@ const ARRAPage4 = () => {
         >
           <Heading
             color={" #20c997"}
-            textAlign={"center"}
+            textAlign={{ base: "start", lg: "center" }}
             fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
           >
             Benefits
