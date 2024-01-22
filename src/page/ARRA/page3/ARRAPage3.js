@@ -3,9 +3,8 @@ import React from "react";
 
 const ARRAPage3 = () => {
   return (
-    <>
+    <Box padding={{ base: "5vh 5vw" }}>
       <Grid
-        h="200px"
         templateRows="repeat(1 1fr)"
         templateColumns="repeat(7, 1fr)"
         gap={4}
@@ -18,6 +17,7 @@ const ARRAPage3 = () => {
           alignItems={"center"}
           colSpan={{ base: "7", lg: 3 }}
           bg="red.300"
+          minH={"45vh"}
         >
           Image
         </GridItem>
@@ -71,7 +71,7 @@ const ARRAPage3 = () => {
           <p className="m-i"></p>
         </div>
       </div>
-    </>
+    </Box>
   );
 };
 

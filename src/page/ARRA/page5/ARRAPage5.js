@@ -4,6 +4,8 @@ import React from "react";
 const ARRAPage5 = () => {
   return (
     <Box
+      bg={"#1b1a1a"}
+      color={"white"}
       mb={{ base: "3vh" }}
       p={{ base: "5vh 5vw" }}
       minH={{ base: "170vh", md: "80vh", lg: "" }}
@@ -23,7 +25,6 @@ const ARRAPage5 = () => {
         companies improve their support and service delivery:
       </Text>
       <Grid
-        h="200px"
         templateColumns="repeat(4, 1fr)"
         gap={{ base: "2.5", md: 0, lg: 5 }}
       >
@@ -34,15 +35,17 @@ const ARRAPage5 = () => {
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
           <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
             fontWeight={{ base: "500" }}
           >
             Real-time collaboration
           </Heading>
+          <Box h={"1vh"} />
           <Text
             fontSize={{ base: "md", md: "lg" }}
-            fontWeight={{ base: "500" }}
+            fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
             AR technology allows visual cues and overlays in real-time, which
@@ -56,15 +59,17 @@ const ARRAPage5 = () => {
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
           <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
             fontWeight={{ base: "500" }}
           >
             Virtual annotations
           </Heading>
+          <Box h={"1vh"} />
           <Text
             fontSize={{ base: "md", md: "lg" }}
-            fontWeight={{ base: "500" }}
+            fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
             AR technology enables support personnel to add virtual annotations
@@ -78,15 +83,17 @@ const ARRAPage5 = () => {
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
           <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
             fontWeight={{ base: "500" }}
           >
             Remote access
           </Heading>
+          <Box h={"1vh"} />
           <Text
             fontSize={{ base: "md", md: "lg" }}
-            fontWeight={{ base: "500" }}
+            fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
             Reduce the need for in person support visits and save time and money
@@ -100,15 +107,17 @@ const ARRAPage5 = () => {
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
           <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
             fontWeight={{ base: "500" }}
           >
             Customizable interfaces
           </Heading>
+          <Box h={"1vh"} />
           <Text
             fontSize={{ base: "md", md: "lg" }}
-            fontWeight={{ base: "500" }}
+            fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
             AR technology can be customized to match the branding and style of a

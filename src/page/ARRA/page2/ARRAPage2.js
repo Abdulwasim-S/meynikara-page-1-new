@@ -6,11 +6,10 @@ const ARRAPage2 = () => {
     <Grid
       className="bg-meynikara"
       color={"white"}
-      h="200px"
       templateRows="repeat(1 1fr)"
       templateColumns="repeat(7, 1fr)"
       gap={4}
-      p={{ base: "2vh 2vw" }}
+      p={{ base: "5vh 5vw" }}
       minH={"45vh"}
     >
       <GridItem
@@ -19,6 +18,7 @@ const ARRAPage2 = () => {
         alignItems={"center"}
         colSpan={{ base: "7", lg: 3 }}
         bg="red.300"
+        minH={"45vh"}
       >
         Image
       </GridItem>

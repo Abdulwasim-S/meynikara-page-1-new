@@ -55,6 +55,7 @@
     transition: all ease-in-out 0.15s;
 }
 .shadow-card:hover {
+    background-color: #232323;
     scale: 1.05;
     transition: all ease-in-out 0.15s;
     border-bottom: 1vh solid #ffba00;

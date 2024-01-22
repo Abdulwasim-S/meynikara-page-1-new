@@ -14,19 +14,22 @@ import React from "react";
 const ARRAPage4 = () => {
   return (
     <Box
-      p={{ base: "2vh 2vw" }}
+      p={{ base: "5vh 5vw" }}
       minH={{ base: "150vh", md: "125vh", lg: "100vh" }}
     >
       <Box
         border={"10px solid white"}
         marginBottom={{ base: "2vh" }}
-        bg={"red.300"}
+        bg={"#1b1a1a"}
         minH={"40vh"}
+        color={"white"}
+        display={{ base: "flex" }}
+        justifyContent={{ base: "center" }}
+        alignItems={{ base: "center" }}
       >
         video
       </Box>
       <Grid
-        h="200px"
         templateRows="repeat(1 1fr)"
         templateColumns="repeat(7, 1fr)"
         gap={4}
@@ -40,6 +43,7 @@ const ARRAPage4 = () => {
           colSpan={{ base: "7", lg: 3 }}
           bg="red.300"
           minH={"40vh"}
+          color={"white"}
         >
           Image
         </GridItem>
