@@ -58,7 +58,7 @@ const ARRAPage4 = () => {
             textAlign={"center"}
             fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
           >
-            Benifits
+            Benefits
           </Heading>
 
           <Accordion defaultIndex={[0]} allowToggle>
