@@ -60,6 +60,18 @@ const ARRAPage3 = () => {
       <Box display={{ md: "none", lg: "block" }}>
         <br />
       </Box>
+      <Box
+        border={"10px solid white"}
+        marginBottom={{ base: "2vh" }}
+        bg={"#1b1a1a"}
+        minH={"40vh"}
+        color={"white"}
+        display={{ base: "flex" }}
+        justifyContent={{ base: "center" }}
+        alignItems={{ base: "center" }}
+      >
+        video
+      </Box>
       <div className="round-box">
         <div className="m-r bg-namikaze">
           <p className="m-i"></p>

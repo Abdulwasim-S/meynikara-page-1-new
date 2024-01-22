@@ -17,18 +17,6 @@ const ARRAPage4 = () => {
       p={{ base: "5vh 5vw" }}
       minH={{ base: "150vh", md: "125vh", lg: "100vh" }}
     >
-      <Box
-        border={"10px solid white"}
-        marginBottom={{ base: "2vh" }}
-        bg={"#1b1a1a"}
-        minH={"40vh"}
-        color={"white"}
-        display={{ base: "flex" }}
-        justifyContent={{ base: "center" }}
-        alignItems={{ base: "center" }}
-      >
-        video
-      </Box>
       <Grid
         templateRows="repeat(1 1fr)"
         templateColumns="repeat(7, 1fr)"
