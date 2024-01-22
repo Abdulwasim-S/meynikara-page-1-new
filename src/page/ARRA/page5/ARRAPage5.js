@@ -25,7 +25,7 @@ const ARRAPage5 = () => {
       <Grid
         h="200px"
         templateColumns="repeat(4, 1fr)"
-        gap={{ base: "2.5", md: 0, lg: 10 }}
+        gap={{ base: "2.5", md: 0, lg: 5 }}
       >
         <GridItem
           className="shadow-card"
