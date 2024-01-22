@@ -60,6 +60,12 @@ const NavPage = () => {
                   >
                     Marketing & Event
                   </NavLink>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/arra"}
+                  >
+                    ARRA
+                  </NavLink>
                 </div>
               </div>
             </Dropdown>

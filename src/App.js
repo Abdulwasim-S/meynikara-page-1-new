@@ -34,6 +34,11 @@ import MEPage4 from "./page/MARKETING/page4/MEpage4";
 import MEPage5 from "./page/MARKETING/page5/MEPage5";
 import MEPage6 from "./page/MARKETING/page6/MEPage6";
 import MEPage7 from "./page/MARKETING/page7/MEPage7";
+import ARRAPage1 from "./page/ARRA/page1/ARRAPage1";
+import ARRAPage2 from "./page/ARRA/page2/ARRAPage2";
+import ARRAPage3 from "./page/ARRA/page3/ARRAPage3";
+import ARRAPage4 from "./page/ARRA/page4/ARRAPage4";
+import ARRAPage5 from "./page/ARRA/page5/ARRAPage5";
 
 function App() {
   return (
@@ -73,7 +78,7 @@ function App() {
         <Route
           path="/shield"
           element={
-            <div>
+            <>
               <NavPage />
               <SHIELDPage1 />
               <SHIELDPage2 />
@@ -82,13 +87,13 @@ function App() {
               <SHIELDPage5 />
               <SHIELDPage6 />
               <SHIELDPage7 />
-            </div>
+            </>
           }
         />
         <Route
           path="/marketing&event"
           element={
-            <div>
+            <>
               <NavPage />
               <MEPage1 />
               <MEPage2 />
@@ -97,7 +102,20 @@ function App() {
               <MEPage5 />
               <MEPage6 />
               <MEPage7 />
-            </div>
+            </>
+          }
+        />
+        <Route
+          path="/arra"
+          element={
+            <>
+              <NavPage />
+              <ARRAPage1 />
+              <ARRAPage2 />
+              <ARRAPage3 />
+              <ARRAPage4 />
+              <ARRAPage5 />
+            </>
           }
         />
         <Route path="/:id" element={<DummyPage />} />

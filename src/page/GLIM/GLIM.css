@@ -49,3 +49,14 @@
     top: 0%;
     z-index: 1;
 }
+
+/* For card */
+.shadow-card{
+    transition: all ease-in-out 0.15s;
+}
+.shadow-card:hover {
+    scale: 1.05;
+    transition: all ease-in-out 0.15s;
+    border-bottom: 1vh solid #ffba00;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
