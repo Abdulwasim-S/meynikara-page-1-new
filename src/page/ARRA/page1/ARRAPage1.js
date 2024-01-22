@@ -37,9 +37,15 @@ const ARRAPage1 = () => {
           fontWeight={{ base: "400" }}
           fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
         >
-          Save upto <span className="text-senju">25%</span> on travel costs and
-          upto <span className="text-senju">40%</span> on service delivery costs
-          using our AR based Remote Assistance.
+          Save upto{" "}
+          <Box display={"inline-block"} fontWeight={500}>
+            <span className="text-senju ">25%</span>
+          </Box>{" "}
+          on travel costs and upto{" "}
+          <Box display={"inline-block"} fontWeight={500}>
+            <span className="text-senju">40%</span>
+          </Box>{" "}
+          on service delivery costs using our AR based Remote Assistance.
         </Text>
       </GridItem>
       <GridItem

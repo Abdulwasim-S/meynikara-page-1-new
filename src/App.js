@@ -118,7 +118,15 @@ function App() {
             </>
           }
         />
-        <Route path="/:id" element={<DummyPage />} />
+        <Route
+          path="/:id"
+          element={
+            <>
+              <NavPage />
+              <DummyPage />
+            </>
+          }
+        />
       </Routes>
 
       <div id="contact-us">
