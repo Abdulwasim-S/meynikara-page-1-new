@@ -50,6 +50,7 @@ const ARRAPage4 = () => {
           justifyContent={"center"}
         >
           <Heading
+            color={" #20c997"}
             textAlign={"center"}
             fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
           >

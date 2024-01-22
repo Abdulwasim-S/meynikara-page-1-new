@@ -9,6 +9,7 @@ const ARRAPage5 = () => {
       minH={{ base: "170vh", md: "80vh", lg: "" }}
     >
       <Heading
+        color={" #20c997"}
         fontWeight={{ base: "700" }}
         fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
       >
