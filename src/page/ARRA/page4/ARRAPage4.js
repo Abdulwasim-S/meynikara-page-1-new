@@ -126,8 +126,10 @@ const ARRAPage4 = () => {
                 pb={4}
                 pl={"10%"}
               >
-                Improve customer satisfaction by providing more personalized and
-                effective support.
+                AR-based remote assistance can increase efficiency and reduce
+                costs. AR based remote assistance can save field service
+                organizations up to 25% on travel costs and up to 40% on service
+                delivery costs.
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem border={0}>
@@ -160,8 +162,11 @@ const ARRAPage4 = () => {
                 pb={4}
                 pl={"10%"}
               >
-                Improve customer satisfaction by providing more personalized and
-                effective support.
+                AR-based remote assistance can enhance communication between
+                support personnel and customers. The visual cues and overlays
+                provided by AR technology can improve understanding and reduce
+                the risk of misunderstandings. AR technology can improve
+                communication by up to 50% and reduce errors by up to 80%.
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

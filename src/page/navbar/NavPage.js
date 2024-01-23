@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const NavPage = () => {
   return (
-    <Navbar expand="lg" className="Navbar" inverse collapseOnSelect>
+    <Navbar expand="lg" className="Navbar" collapseOnSelect>
       <div className="container-fluid">
         <Navbar.Brand className="heading" href="/">
           <LazyLoadImage
@@ -21,7 +21,7 @@ const NavPage = () => {
           className="nav-toggle border-0"
           aria-controls="basic-navbar-nav"
         />
-        <Navbar.Collapse id="basic-navbar-nav" inverse collapseOnSelect>
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navlist list-container">
             <NavLink className="navlink" to="/">
               About Us
