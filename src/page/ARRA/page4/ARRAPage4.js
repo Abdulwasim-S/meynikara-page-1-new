@@ -8,12 +8,15 @@ import {
   Grid,
   GridItem,
   Heading,
+  Image,
 } from "@chakra-ui/react";
 import React from "react";
+import b_img from "../images/4.png";
 
 const ARRAPage4 = () => {
   return (
     <Box
+      bg={"#f1f1f1"}
       p={{ base: "5vh 5vw" }}
       minH={{ base: "100vh", md: "90vh", lg: "70vh" }}
     >
@@ -25,15 +28,14 @@ const ARRAPage4 = () => {
         minH={"45vh"}
       >
         <GridItem
-          display={{ base: "flex" }}
+          display={{ base: "none", lg: "flex" }}
           justifyContent={"center"}
           alignItems={"center"}
           colSpan={{ base: "7", lg: 3 }}
-          bg="red.300"
           minH={"40vh"}
           color={"white"}
         >
-          Image
+          <Image src={b_img} h={{ base: "45vh", lg: "60vh" }} alt="b_img" />
         </GridItem>
         <GridItem
           display={"flex"}
@@ -42,13 +44,21 @@ const ARRAPage4 = () => {
           justifyContent={"center"}
         >
           <Heading
+            padding={{ base: "0 1vw 0 1vw" }}
             color={" #20c997"}
-            textAlign={{ base: "start", lg: "center" }}
+            textAlign={{ base: "start", lg: "start" }}
             fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
           >
             Benefits
           </Heading>
-
+          <Box
+            display={{ base: "flex", lg: "none" }}
+            justifyContent={"center"}
+            alignItems={"center"}
+            minH={"40vh"}
+          >
+            <Image src={b_img} h={{ base: "45vh", lg: "60vh" }} alt="b_img" />
+          </Box>
           <Accordion defaultIndex={[0]} allowToggle>
             <AccordionItem border={0}>
               <h2>
@@ -61,7 +71,7 @@ const ARRAPage4 = () => {
                     as="span"
                     h={"50px"}
                     w={"50px"}
-                    bgGradient={"linear( green.500, green.300)"}
+                    bgGradient={"linear( #1ab7a1, #33e5d9)"}
                     textAlign="left"
                     borderRadius={50}
                   >
@@ -96,7 +106,7 @@ const ARRAPage4 = () => {
                     as="span"
                     h={"50px"}
                     w={"50px"}
-                    bgGradient={"linear( green.500, green.300)"}
+                    bgGradient={"linear( #1ab7a1, #33e5d9)"}
                     textAlign="left"
                     borderRadius={50}
                   >
@@ -130,7 +140,7 @@ const ARRAPage4 = () => {
                     as="span"
                     h={"50px"}
                     w={"50px"}
-                    bgGradient={"linear( green.500, green.300)"}
+                    bgGradient={"linear( #1ab7a1, #33e5d9)"}
                     textAlign="left"
                     borderRadius={50}
                   >

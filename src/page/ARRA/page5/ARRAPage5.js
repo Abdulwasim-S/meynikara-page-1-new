@@ -1,5 +1,9 @@
-import { Box, Grid, GridItem, Heading, Text } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import a from "../images/icons/1.png";
+import b from "../images/icons/2.png";
+import c from "../images/icons/3.png";
+import d from "../images/icons/4.png";
 
 const ARRAPage5 = () => {
   return (
@@ -34,7 +38,9 @@ const ARRAPage5 = () => {
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
-          <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"50px"} w={"50px"}>
+            <Image src={a} alt="a" />
+          </Box>
           <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
@@ -58,7 +64,9 @@ const ARRAPage5 = () => {
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
-          <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"50px"} w={"50px"}>
+            <Image src={b} blt="b" />
+          </Box>
           <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
@@ -82,7 +90,9 @@ const ARRAPage5 = () => {
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
-          <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"50px"} w={"50px"}>
+            <Image src={c} alt="c" />
+          </Box>
           <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}
@@ -106,7 +116,9 @@ const ARRAPage5 = () => {
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 1 }}
         >
-          <Box h={"50px"} w={"50px"} bg={"blue"}></Box>
+          <Box h={"50px"} w={"50px"}>
+            <Image src={d} alt="d" />
+          </Box>
           <Box h={"2vh"} />
           <Heading
             fontSize={{ base: "xl", md: "2xl" }}

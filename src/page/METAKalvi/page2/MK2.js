@@ -1,9 +1,9 @@
-import { Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import tm_img from "../images/2.png";
 import tm_bg_img from "../images/bg.jpg";
 
-const ARRAPage2 = () => {
+const MK2 = () => {
   return (
     <Grid
       className="bg-meynikara"
@@ -16,7 +16,7 @@ const ARRAPage2 = () => {
       bgRepeat={"no-repeat"}
       bgSize={"cover"}
       bgPosition={"center"}
-      minH={"45vh"}
+      minH={{ lg: "45vh" }}
     >
       <GridItem
         display={{ base: "flex" }}
@@ -43,17 +43,16 @@ const ARRAPage2 = () => {
           color={" #20c997"}
           fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         >
-          Traditional Method
+          Our Offerings
         </Heading>
         <Text fontSize={{ base: "md", md: "2xl", lg: "2xl" }}>
-          Traditional methods of providing remote assistance, such as phone
-          support and video conferencing, can be inefficient and ineffective.
-          According to a study by aberdeen group, remote workers take 25% longer
-          to complete a task than their on-site counterparts.
+          Curriculum based Science and Maths concepts of{" "}
+          <Box display={{ base: "none", md: "block", lg: "none" }}></Box> grades{" "}
+          <b className="text-senju">6th, 7th & 8th.</b>
         </Text>
       </GridItem>
     </Grid>
   );
 };
 
-export default ARRAPage2;
+export default MK2;

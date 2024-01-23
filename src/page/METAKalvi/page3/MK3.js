@@ -1,8 +1,16 @@
-import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Grid,
+  GridItem,
+  Heading,
+  Image,
+  ListItem,
+  UnorderedList,
+} from "@chakra-ui/react";
 import React from "react";
 import ar_img from "../images/3.png";
 
-const ARRAPage3 = () => {
+const Mk3 = () => {
   return (
     <Box padding={{ base: "5vh 5vw" }}>
       <Grid
@@ -22,9 +30,7 @@ const ARRAPage3 = () => {
             fontWeight={{ base: "700" }}
             fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
           >
-            AR-Based{" "}
-            <Box display={{ base: "none", md: "block", lg: "none" }}></Box>{" "}
-            Remote Assistance
+            Benefits for Teachers
           </Heading>
           <Box
             display={{ base: "flex", lg: "none" }}
@@ -34,16 +40,34 @@ const ARRAPage3 = () => {
           >
             <Image src={ar_img} h={{ base: "25vh" }} alt="ar_img" />
           </Box>
-          <Text
-            fontWeight={{ base: "400" }}
-            fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
-          >
-            SAR-based remote assistance addresses these challenges by providing
-            a more immersive and interactive experience for both support
-            personnel and customers. It also allows support personnel to guide
-            customers through complex or risky tasks with visual cues and
-            overlays, which can improve safety and reduce the risk of errors.
-          </Text>
+          <UnorderedList>
+            <ListItem
+              fontWeight={{ base: "400" }}
+              fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+            >
+              Significantly reduces distractions in the classroom.
+            </ListItem>
+            <ListItem
+              fontWeight={{ base: "400" }}
+              fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+            >
+              Helps in gaining the attention of the students at once.
+            </ListItem>
+            <ListItem
+              fontWeight={{ base: "400" }}
+              fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+            >
+              A reliable medium to effectively evaluate and track the individual
+              progress of the students.
+            </ListItem>
+            <ListItem
+              fontWeight={{ base: "400" }}
+              fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+            >
+              Reduces the burden of creating supporting illustrations in real
+              time.
+            </ListItem>
+          </UnorderedList>
         </GridItem>
         <GridItem
           display={{ base: "none", lg: "flex" }}
@@ -84,4 +108,4 @@ const ARRAPage3 = () => {
   );
 };
 
-export default ARRAPage3;
+export default Mk3;

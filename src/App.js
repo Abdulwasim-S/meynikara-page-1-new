@@ -39,6 +39,11 @@ import ARRAPage2 from "./page/ARRA/page2/ARRAPage2";
 import ARRAPage3 from "./page/ARRA/page3/ARRAPage3";
 import ARRAPage4 from "./page/ARRA/page4/ARRAPage4";
 import ARRAPage5 from "./page/ARRA/page5/ARRAPage5";
+import MK1 from "./page/METAKalvi/page1/MK1";
+import MK2 from "./page/METAKalvi/page2/MK2";
+import Mk3 from "./page/METAKalvi/page3/MK3";
+import MK4 from "./page/METAKalvi/page4/MK4";
+import Mk5 from "./page/METAKalvi/page5/MK5";
 
 function App() {
   return (
@@ -115,6 +120,19 @@ function App() {
               <ARRAPage3 />
               <ARRAPage4 />
               <ARRAPage5 />
+            </>
+          }
+        />
+        <Route
+          path="/metakalvi"
+          element={
+            <>
+              <NavPage />
+              <MK1 />
+              <MK2 />
+              <Mk3 />
+              <MK4 />
+              <Mk5 />
             </>
           }
         />

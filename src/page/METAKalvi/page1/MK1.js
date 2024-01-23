@@ -2,7 +2,7 @@ import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import arra_img from "../images/1.png";
 
-const ARRAPage1 = () => {
+const MK1 = () => {
   return (
     <Grid
       templateRows="repeat(1 1fr)"
@@ -30,21 +30,14 @@ const ARRAPage1 = () => {
           fontWeight={{ base: "700" }}
           fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         >
-          ARRA
+          Metakalvi
         </Heading>
         <Text
           fontWeight={{ base: "400" }}
           fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
         >
-          Save upto{" "}
-          <Box display={"inline-block"} fontWeight={500}>
-            <span className="text-senju ">25%</span>
-          </Box>{" "}
-          on travel costs and upto{" "}
-          <Box display={"inline-block"} fontWeight={500}>
-            <span className="text-senju">40%</span>
-          </Box>{" "}
-          on service delivery costs using our AR based Remote Assistance.
+          Metakalvi is a VR-based education that provides an immersive learning
+          experience for students
         </Text>
       </GridItem>
       <GridItem
@@ -59,4 +52,4 @@ const ARRAPage1 = () => {
   );
 };
 
-export default ARRAPage1;
+export default MK1;

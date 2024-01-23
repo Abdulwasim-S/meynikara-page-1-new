@@ -66,6 +66,12 @@ const NavPage = () => {
                   >
                     ARRA
                   </NavLink>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/metakalvi"}
+                  >
+                    META Kalvi
+                  </NavLink>
                 </div>
               </div>
             </Dropdown>
