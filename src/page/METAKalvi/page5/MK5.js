@@ -20,7 +20,7 @@ const Mk5 = () => {
         fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         pb={"2vh"}
       >
-        Productive teaching method
+        Productive Teaching Method
       </Heading>
       <Grid
         templateColumns="repeat(4, 1fr)"
