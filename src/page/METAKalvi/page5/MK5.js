@@ -12,7 +12,7 @@ const Mk5 = () => {
       color={"white"}
       mb={{ base: "3vh" }}
       p={{ base: "5vh 5vw" }}
-      minH={{ base: "50vh", md: "41vh", lg: "45vh" }}
+      minH={{ base: "50vh", md: "41vh", lg: "50vh" }}
     >
       <Heading
         color={" #20c997"}
