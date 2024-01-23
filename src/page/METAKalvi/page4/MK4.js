@@ -16,7 +16,7 @@ const MK4 = () => {
     <Box
       bg={"#f1f1f1"}
       p={{ base: "5vh 5vw" }}
-      minH={{ base: "100vh", md: "90vh", lg: "80vh" }}
+      // minH={{ base: "100vh", md: "90vh", lg: "80vh" }}
     >
       <Grid
         templateRows="repeat(1 1fr)"
@@ -30,10 +30,9 @@ const MK4 = () => {
           justifyContent={"center"}
           alignItems={"center"}
           colSpan={{ base: "7", lg: 3 }}
-          minH={"40vh"}
           color={"white"}
         >
-          <Image src={b_img} h={{ base: "45vh", lg: "70vh" }} alt="b_img" />
+          <Image src={b_img} h={{ lg: "60vh" }} alt="b_img" />
         </GridItem>
         <GridItem
           display={"flex"}
