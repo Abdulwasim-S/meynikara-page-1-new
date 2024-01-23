@@ -44,6 +44,8 @@ import MK2 from "./page/METAKalvi/page2/MK2";
 import Mk3 from "./page/METAKalvi/page3/MK3";
 import MK4 from "./page/METAKalvi/page4/MK4";
 import Mk5 from "./page/METAKalvi/page5/MK5";
+import ButtonComp from "./component/ButtonComp";
+import { Box } from "@chakra-ui/react";
 
 function App() {
   return (

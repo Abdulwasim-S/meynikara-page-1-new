@@ -1,4 +1,4 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 
 const MEPage1 = () => {
@@ -25,9 +25,9 @@ const MEPage1 = () => {
         We develop and deliver data-driven immersive experiences to increase
         your organisation's marketing and event objectives.
       </Text>
-      <Box fontStyle={"italic"} margin={{ lg: "0 0 2vh 0" }} fontSize={"sm"}>
-        Request Access
-      </Box>
+      <Button colorScheme="dark" variant={"outline"} mb={"2vh"}>
+        <a href="#contact-us">Request Access</a>
+      </Button>
     </Box>
   );
 };
