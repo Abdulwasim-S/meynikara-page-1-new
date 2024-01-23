@@ -26,7 +26,7 @@ const MEPage1 = () => {
         your organisation's marketing and event objectives.
       </Text>
       <Button colorScheme="dark" variant={"outline"} mb={"2vh"}>
-        <a href="#contact-us">Request Access</a>
+        <a href="#contact-us">Reach Us</a>
       </Button>
     </Box>
   );

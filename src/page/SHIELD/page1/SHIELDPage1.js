@@ -33,7 +33,7 @@ const SHIELDPage1 = () => {
         measures, and create a secure workplace together.
       </p>
       <Button colorScheme="dark" variant={"outline"} mb={"2vh"}>
-        <a href="#contact-us">Request Access</a>
+        <a href="#contact-us">Reach Us</a>
       </Button>
     </div>
   );
