@@ -1,13 +1,20 @@
 import React from "react";
 import "./ContactPage.css";
+import { Heading } from "@chakra-ui/react";
 
 const ContactPageComp = () => {
   return (
     <div className="contact-page bg-meynikara">
-      <h1 className="contact-page-main">
+      <Heading
+        className="contact-page-main"
+        textAlign={"center"}
+        fontWeight={{ base: "700" }}
+        fontSize={{ base: "2xl", md: "4xl", lg: "5xl" }}
+        pb={"2vh"}
+      >
         We build Data-Driven, Customer Centric XR applications to achieve your
         business objectives
-      </h1>
+      </Heading>
       <div className="contact-us-address text-white row">
         <div className="contact-us-address-mainbox col-lg-4">
           <h3 className="contact-us-address-heading">Contact Us</h3>

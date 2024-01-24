@@ -3,39 +3,55 @@ import "../GLIM.css";
 import "./GlimPage1.css";
 import stop from "./stop.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Box, Button } from "@chakra-ui/react";
+import { Box, Button, Heading, Text } from "@chakra-ui/react";
+import bg_img from "./SHIELD_BG.jpg";
 
 const SHIELDPage1 = () => {
   return (
-    <div className="GlimPage1">
-      <h1 className="gp1-heading">
-        {/* <span>
-          LET'S <span className=" text-danger stop-text">ST🚫P</span> INDUSTRY
-          ACCIDENTS...
-        </span>
-        <span className="h1">
-          <img className="vr-logo" src={vr_logo} alt="vr_logo" />
-        </span> */}
+    <Box
+      className="GlimPage1"
+      bgRepeat={"no-repeat"}
+      bgSize={"cover"}
+      bgPos={"center"}
+      bgImage={bg_img}
+      minH={{ base: "40vh", lg: "50vh" }}
+    >
+      <Heading p={{ base: "3vh 0 0 0", md: "3vh 0 0 0", lg: "3vh 0 0 0" }}>
         <LazyLoadImage
           effect="blur"
           className="stop-img"
           src={stop}
           alt="stop"
         />
-      </h1>
-      <p className="gp1-para">
+      </Heading>
+      <Text
+        // className="gp1-para"
+        px={{ base: "", md: "", lg: "20vw" }}
+        fontSize={{ base: "sm", md: "2xl", lg: "2xl" }}
+      >
         Join us in eliminating industrial accidents with{" "}
         <br className="hide-for-lg" />
         <span className="text-senju">GLIM</span> and our AI-based monitoring
-        system, <span className="text-namikaze">SHIELD</span>.
+        system, <span className="text-namikaze">SHIELD</span>.{" "}
         <br className="hide-for-lg" />
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
-      </p>
-      <Button colorScheme="dark" variant={"outline"} mb={"2vh"}>
-        <a href="#contact-us">Reach Us</a>
+      </Text>
+      <Button
+        h={{ base: "40px" }}
+        borderRadius={{ base: "20px" }}
+        fontSize={{ base: "16px", md: "sm" }}
+        colorScheme="dark"
+        bg={"transparent"}
+        border={"2px solid white"}
+        mt={{ lg: "3vh" }}
+        mb={"2vh"}
+        color={"#20c997"}
+        _hover={{ border: "2px solid #ffba00", color: "white" }}
+      >
+        <a href="#contact-us">Request Access</a>
       </Button>
-    </div>
+    </Box>
   );
 };
 
