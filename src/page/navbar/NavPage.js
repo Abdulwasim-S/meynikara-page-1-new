@@ -72,6 +72,12 @@ const NavPage = () => {
                   >
                     META Kalvi
                   </NavLink>
+                  <NavLink
+                    className="bg-transparent nav-options dropdown-item"
+                    to={"/qualisence"}
+                  >
+                    Qualisence
+                  </NavLink>
                 </div>
               </div>
             </Dropdown>

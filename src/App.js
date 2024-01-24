@@ -46,6 +46,11 @@ import MK4 from "./page/METAKalvi/page4/MK4";
 import Mk5 from "./page/METAKalvi/page5/MK5";
 import ButtonComp from "./component/ButtonComp";
 import { Box } from "@chakra-ui/react";
+import Q1 from "./page/Qualisence/page1/Q1";
+import Q2 from "./page/Qualisence/page2/Q2";
+import Q4 from "./page/Qualisence/page4/Q4";
+import Q3 from "./page/Qualisence/page3/Q3";
+import Q5 from "./page/Qualisence/page5/Q5";
 
 function App() {
   return (
@@ -135,6 +140,19 @@ function App() {
               <MK4 />
               <Mk3 />
               <Mk5 />
+            </>
+          }
+        />
+        <Route
+          path="/qualisence"
+          element={
+            <>
+              <NavPage />
+              <Q1 />
+              <Q2 />
+              <Q3 />
+              <Q4 />
+              <Q5 />
             </>
           }
         />
