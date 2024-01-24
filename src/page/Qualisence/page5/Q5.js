@@ -39,7 +39,8 @@ const Q5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            Potential to increase efficiency of the Quality Inspection by20%-30%
+            Potential to increase efficiency of the Quality Inspection by{" "}
+            <b className="text-senju">20%-30%</b>
           </Text>
         </GridItem>
         <GridItem
@@ -57,7 +58,8 @@ const Q5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            Improve accuracy rates, with error reductions of up to 90%
+            Improve accuracy rates, with error reductions of{" "}
+            <b className="text-senju">Up to 90%</b>
           </Text>
         </GridItem>
       </Grid>
