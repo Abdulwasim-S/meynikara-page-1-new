@@ -1,18 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
 import "./EmailPage.css";
-import lm from "./image/lm.png";
-import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
+import { useFormik } from "formik";
+import * as yup from "yup";
+import { Box, Button, Heading } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { toast } from "react-toastify";
 
 const EmailPage = () => {
-  const [values, setValues] = useState({ email: "", name: "", mobile: "" });
-  const handle_submit = () => {
-    toast.success("hello");
-  };
+  const fieldvalidationscheme = yup.object({
+    name: yup.string().required(""),
+    email: yup.string().required(""),
+    mobile: yup.number().min(5555555555).required(""),
+  });
+
+  const { handleSubmit, values, handleChange, handleBlur, touched, errors } =
+    useFormik({
+      initialValues: {
+        name: "",
+        email: "",
+        mobile: "",
+      },
+      validationSchema: fieldvalidationscheme,
+      onSubmit: async (requestInfo) => {
+        console.log(requestInfo);
+      },
+    });
+
   return (
     <Box p={{ base: "5vh 5vw" }}>
-      <form className="inp-form row" onSubmit={handle_submit}>
+      <form className="inp-form row" onSubmit={handleSubmit}>
         <Heading
           textAlign={"center"}
           fontWeight={{ base: "700" }}
@@ -25,10 +41,11 @@ const EmailPage = () => {
           <input
             type="email"
             className="page-inputs"
-            id="exampleInputEmail1"
+            id="email"
             aria-describedby="emailHelp"
             placeholder="Email"
             value={values.email}
+            onChange={handleChange}
             required
           />
         </div>
@@ -37,18 +54,20 @@ const EmailPage = () => {
             type="name"
             className="page-inputs"
             placeholder="Name"
-            id="exampleInputName1"
+            id="name"
             value={values.name}
+            onChange={handleChange}
             required
           />
         </div>
         <div className="inp-group col-md-4">
           <input
-            type="text"
+            type="number"
             className="page-inputs"
             placeholder="Mobile Number"
-            id="exampleInputNumber1"
+            id="mobile"
             value={values.mobile}
+            onChange={handleChange}
             required
           />
         </div>

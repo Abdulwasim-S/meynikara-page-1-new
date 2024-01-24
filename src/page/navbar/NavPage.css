@@ -8,6 +8,7 @@
 }
 .dropdown-item{
     color: white;
+    text-align: start;
 }
 .dropend:hover {
     background-color: gray;
