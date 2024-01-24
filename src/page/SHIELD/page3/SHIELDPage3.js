@@ -11,16 +11,17 @@ const SHIELDPage3 = () => {
           justifyContent={"center"}
           alignItems={"center"}
           bgImage={bg_img}
-          h={{ base: "30vh", md: "30vh", lg: "50vh" }}
-          w={{ base: "80vw", md: "70vw", lg: "40vw" }}
+          h={{ base: "25vh", md: "30vh", lg: "400" }}
+          w={{ base: "80vw", md: "70vw", lg: "900" }}
           bgSize={"cover"}
           bgPosition={"center"}
-          borderRadius={{ base: "30px", lg: "50px" }}
+          borderRadius={{ base: "25px", lg: "" }}
         >
           <Button
             _hover={{ transform: "scale(1.3)", color: "#ffba00" }}
             px={"20px"}
             color={"#22c997"}
+            fontSize={"xl"}
           >
             <i class="fa-solid fa-play"></i>
           </Button>

@@ -44,8 +44,8 @@ const SHIELDPage1 = () => {
         colorScheme="dark"
         bg={"transparent"}
         border={"2px solid white"}
-        mt={{ lg: "3vh" }}
-        mb={"2vh"}
+        mt={{ lg: "20px" }}
+        mb={"20px"}
         color={"#20c997"}
         _hover={{ border: "2px solid #ffba00", color: "white" }}
       >
