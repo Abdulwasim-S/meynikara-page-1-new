@@ -19,13 +19,13 @@ import GLIMPage5 from "./page/GLIM/page5/GLIMPage5";
 import GLIMPage6 from "./page/GLIM/page6/GLIMPage6";
 import GLIMPage7 from "./page/GLIM/page7/GLIMPage7";
 // import DummyPage from "./page/DummyPage";
-import SHIELDPage1 from "./page/SHIELD/page1/SHIELDPage1";
-import SHIELDPage2 from "./page/SHIELD/page2/SHIELDPage2";
-import SHIELDPage3 from "./page/SHIELD/page3/SHIELDPage3";
-import SHIELDPage4 from "./page/SHIELD/page4/SHIELDPage4";
-import SHIELDPage5 from "./page/SHIELD/page5/SHIELDPage5";
-import SHIELDPage6 from "./page/SHIELD/page6/SHIELDPage6";
-import SHIELDPage7 from "./page/SHIELD/page7/SHIELDPage7";
+// import SHIELDPage1 from "./page/SHIELD/page1/SHIELDPage1";
+// import SHIELDPage2 from "./page/SHIELD/page2/SHIELDPage2";
+// import SHIELDPage3 from "./page/SHIELD/page3/SHIELDPage3";
+// import SHIELDPage4 from "./page/SHIELD/page4/SHIELDPage4";
+// import SHIELDPage5 from "./page/SHIELD/page5/SHIELDPage5";
+// import SHIELDPage6 from "./page/SHIELD/page6/SHIELDPage6";
+// import SHIELDPage7 from "./page/SHIELD/page7/SHIELDPage7";
 // import AgilePage from "./page/agilepage/AgilePage";
 // import MEPage1 from "./page/MARKETING/page1/MEPage1";
 // import MEPage2 from "./page/MARKETING/page2/MEPage2";
@@ -84,13 +84,6 @@ function App() {
       <GLIMPage6 />
       <GLIMPage7 />
 
-      <SHIELDPage1 />
-      <SHIELDPage2 />
-      <SHIELDPage3 />
-      <SHIELDPage4 />
-      <SHIELDPage5 />
-      <SHIELDPage6 />
-      <SHIELDPage7 />
       {/* </>
           }
         />
