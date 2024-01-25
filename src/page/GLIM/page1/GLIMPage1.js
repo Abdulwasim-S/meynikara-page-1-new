@@ -57,6 +57,9 @@ const GLIMPage1 = () => {
         _hover={{ border: "2px solid #ffba00", color: "white" }}
         p={{ base: "5px 35px", md: "10px 50px" }}
         href="#contact-us"
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
       >
         Request for Free Trail
       </Link>
