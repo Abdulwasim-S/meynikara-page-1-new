@@ -12,11 +12,13 @@ const EmailPage = () => {
     name: yup.string().required(""),
     email: yup.string().required(""),
     mobile: yup.number().required(""),
+    organiztion: yup.string(),
   });
   const resetForm = () => {
     values.name = "";
     values.email = "";
     values.mobile = "";
+    values.organiztion = "";
   };
   const { handleSubmit, values, handleChange, errors } = useFormik({
     initialValues: {
@@ -39,7 +41,8 @@ const EmailPage = () => {
       const templateParams = {
         user_name: requestInfo.name,
         user_email: requestInfo.email,
-        message: "Mobile Number : " + requestInfo.mobile,
+        message: `Mobile Number : ${requestInfo.mobile} ,
+        Organiztion ${requestInfo.organiztion}`,
       };
 
       // Send the email Ising EmailJS
@@ -69,36 +72,47 @@ const EmailPage = () => {
         >
           Let's Work <span className="text-cyan">Together</span>
         </Heading>
-        <div className="inp-group col-md-4">
+        <div className="inp-group col-md-3">
           <input
             type="email"
             className="page-inputs"
             id="email"
             aria-describedby="emailHelp"
-            placeholder="Email"
+            placeholder="Email *"
             value={values.email}
             onChange={handleChange}
             required
           />
         </div>
-        <div className="inp-group col-md-4">
+        <div className="inp-group col-md-3">
           <input
             type="name"
             className="page-inputs"
-            placeholder="Name"
+            placeholder="Name *"
             id="name"
             value={values.name}
             onChange={handleChange}
             required
           />
         </div>
-        <div className="inp-group col-md-4">
+        <div className="inp-group col-md-3">
           <input
             type="number"
             className={"page-inputs "}
-            placeholder="Mobile Number"
+            placeholder="Mobile Number *"
             id="mobile"
             value={values.mobile}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="inp-group col-md-3">
+          <input
+            type="text"
+            className={"page-inputs "}
+            placeholder="Organization"
+            id="organiztion"
+            value={values.organiztion}
             onChange={handleChange}
             required
           />

@@ -52,7 +52,6 @@ const GLIMPage1 = () => {
         bg={"#ffba00"}
         mt={{ lg: "20px" }}
         mb={"20px"}
-        // color={"#20c997"}
         color={"black"}
         fontWeight={{ base: "700" }}
         _hover={{ bg: "#20c997", color: "white" }}
@@ -63,7 +62,7 @@ const GLIMPage1 = () => {
         alignItems={"center"}
         transform={{ base: "scale(0.75)", md: "scale(1)" }}
       >
-        Request for Free Trail
+        Request for Free Trial
       </Link>
       <Box bg={"red"} h={"1vh"}></Box>
     </Box>

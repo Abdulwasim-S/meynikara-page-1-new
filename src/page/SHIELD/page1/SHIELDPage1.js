@@ -62,7 +62,7 @@ const SHIELDPage1 = () => {
         alignItems={"center"}
         transform={{ base: "scale(0.75)", md: "scale(1)" }}
       >
-        Request for Free Trail
+        Request for Free Trial
       </Link>
       <Box bg={"red"} h={"1vh"}></Box>
     </Box>

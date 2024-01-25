@@ -46,9 +46,9 @@ const SHIELDPage3 = () => {
             borderRadius={{ base: "25px", lg: "30px" }}
           >
             <iframe
-              height={"100%"}
-              width={"100%"}
-              src="https://www.youtube.com/embed/FPgFrdQEN_M?si=j_Tuxk_iX6PMtaP0"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/vh8_LQ7y24Q?si=avDBgL_rKJgh8SWY"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
