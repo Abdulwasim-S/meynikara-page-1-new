@@ -18,46 +18,45 @@ const EmailPage = () => {
     values.email = "";
     values.mobile = "";
   };
-  const { handleSubmit, values, handleChange, handleBlur, touched, errors } =
-    useFormik({
-      initialValues: {
-        name: "",
-        email: "",
-        mobile: "",
-      },
-      validationSchema: fieldvalidationscheme,
-      onSubmit: async (requestInfo) => {
-        // EmailJS service ID, template ID, and Public Key
+  const { handleSubmit, values, handleChange, errors } = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      mobile: "",
+    },
+    validationSchema: fieldvalidationscheme,
+    onSubmit: async (requestInfo) => {
+      // EmailJS service ID, template ID, and Public Key
 
-        const serviceId = "service_jd0qzwb";
+      const serviceId = "service_jd0qzwb";
 
-        const templateId = "template_4135jaw";
+      const templateId = "template_4135jaw";
 
-        const publickey = "lneoFDiOsEdEasyy3";
+      const publickey = "lneoFDiOsEdEasyy3";
 
-        // Object that contains dynamic template params A
+      // Object that contains dynamic template params A
 
-        const templateParams = {
-          from_name: requestInfo.name,
-          from_email: requestInfo.email,
-          message: requestInfo.mobile,
-        };
+      const templateParams = {
+        from_name: requestInfo.name,
+        from_email: requestInfo.email,
+        message: requestInfo.mobile,
+      };
 
-        // Send the email Ising EmailJS
+      // Send the email Ising EmailJS
 
-        await emailjs
-          .send(serviceId, templateId, templateParams, publickey)
-          .then(async (response) => {
-            resetForm();
-            toast.success("Request sent successfully!");
-          })
-          .catch((err) => {
-            const fail_res = err.text;
-            toast.warning("Request not sent! ");
-            toast.warning(fail_res);
-          });
-      },
-    });
+      await emailjs
+        .send(serviceId, templateId, templateParams, publickey)
+        .then(async (response) => {
+          resetForm();
+          toast.success("Request sent successfully!");
+        })
+        .catch((err) => {
+          const fail_res = err.text;
+          toast.warning("Request not sent! ");
+          toast.warning(fail_res);
+        });
+    },
+  });
 
   return (
     <Box p={{ base: "5vh 5vw" }}>
