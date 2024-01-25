@@ -11,7 +11,7 @@ const EmailPage = () => {
   const fieldvalidationscheme = yup.object({
     name: yup.string().required(""),
     email: yup.string().required(""),
-    mobile: yup.number().min(1000000000).required(""),
+    mobile: yup.number().required(""),
   });
   const resetForm = () => {
     values.name = "";
@@ -37,9 +37,9 @@ const EmailPage = () => {
       // Object that contains dynamic template params A
 
       const templateParams = {
-        from_name: requestInfo.name,
-        from_email: requestInfo.email,
-        message: requestInfo.mobile,
+        user_name: requestInfo.name,
+        user_email: requestInfo.email,
+        message: "Mobile Number : " + requestInfo.mobile,
       };
 
       // Send the email Ising EmailJS
