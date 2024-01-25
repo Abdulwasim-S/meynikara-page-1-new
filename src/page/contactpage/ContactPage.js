@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactPage.css";
-import { Heading } from "@chakra-ui/react";
+import { Heading, Link } from "@chakra-ui/react";
 
 const ContactPageComp = () => {
   return (
@@ -21,7 +21,10 @@ const ContactPageComp = () => {
           <p className="contact-us-address-para">
             WOCO SPACES, 4/222, East Coast Rd, Palavakkam, Chennai, Tamil Nadu
             600041, <br />
-            Phone:+91 73055 00448
+            Phone :{" "}
+            <Link href="tel:+917305500448" target="_blank">
+              +91 73055 00448
+            </Link>
           </p>
         </div>
         <div className="contact-page-hiddden-border-box col-lg-1 ">
@@ -34,7 +37,10 @@ const ContactPageComp = () => {
           </h3>
           <p className="contact-us-address-para">
             110-104 Crockford Blvd, Toronto, ON,M1R 3C3. <br />
-            Phone: +1 (647) 573-6558
+            Phone :{" "}
+            <Link href="tel:+16475736558" target="_blank">
+              +1 (647) 573-6558
+            </Link>
           </p>
         </div>
         <div className="contact-page-hiddden-border-box col-lg-1 ">
@@ -42,7 +48,11 @@ const ContactPageComp = () => {
         </div>
         <div className="contact-us-address-mainbox col-lg-3">
           <h3 className="contact-us-address-heading">Email</h3>
-          <p className="contact-us-address-para">support@meynikara.com</p>
+          <p className="contact-us-address-para">
+            <Link href="mailto:support@meynikara.com" target="_blank">
+              support@meynikara.com
+            </Link>
+          </p>
         </div>
       </div>
     </div>

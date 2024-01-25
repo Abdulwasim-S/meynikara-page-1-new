@@ -54,6 +54,7 @@ const GLIMPage1 = () => {
       >
         Request for Free Trail
       </Link>
+      <Box></Box>
     </Box>
   );
 };
