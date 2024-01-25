@@ -23,7 +23,7 @@ const GLIMPage3 = () => {
             color={"#22c997"}
             fontSize={"xl"}
           >
-            <i class="fa-solid fa-play"></i>
+            <i className="fa-solid fa-play"></i>
           </Button>
         </Box>
       </Flex>

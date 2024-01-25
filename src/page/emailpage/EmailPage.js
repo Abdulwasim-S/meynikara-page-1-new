@@ -5,14 +5,19 @@ import * as yup from "yup";
 import { Box, Button, Heading } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
 const EmailPage = () => {
   const fieldvalidationscheme = yup.object({
     name: yup.string().required(""),
     email: yup.string().required(""),
-    mobile: yup.number().min(5555555555).required(""),
+    mobile: yup.number().min(1000000000).required(""),
   });
-
+  const resetForm = () => {
+    values.name = "";
+    values.email = "";
+    values.mobile = "";
+  };
   const { handleSubmit, values, handleChange, handleBlur, touched, errors } =
     useFormik({
       initialValues: {
@@ -22,7 +27,35 @@ const EmailPage = () => {
       },
       validationSchema: fieldvalidationscheme,
       onSubmit: async (requestInfo) => {
-        console.log(requestInfo);
+        // EmailJS service ID, template ID, and Public Key
+
+        const serviceId = "service_jd0qzwb";
+
+        const templateId = "template_4135jaw";
+
+        const publickey = "lneoFDiOsEdEasyy3";
+
+        // Object that contains dynamic template params A
+
+        const templateParams = {
+          from_name: requestInfo.name,
+          from_email: requestInfo.email,
+          message: requestInfo.mobile,
+        };
+
+        // Send the email Ising EmailJS
+
+        await emailjs
+          .send(serviceId, templateId, templateParams, publickey)
+          .then(async (response) => {
+            resetForm();
+            toast.success("Request sent successfully!");
+          })
+          .catch((err) => {
+            const fail_res = err.text;
+            toast.warning("Request not sent! ");
+            toast.warning(fail_res);
+          });
       },
     });
 
@@ -63,7 +96,7 @@ const EmailPage = () => {
         <div className="inp-group col-md-4">
           <input
             type="number"
-            className="page-inputs"
+            className={"page-inputs "}
             placeholder="Mobile Number"
             id="mobile"
             value={values.mobile}
@@ -74,6 +107,15 @@ const EmailPage = () => {
         <Box display={{ base: "black", md: "none" }}>
           <br />
         </Box>
+        {errors.mobile && (
+          <>
+            <Box textAlign={"center"} color={"red.500"}>
+              *Enter valid Mobile number
+            </Box>
+            <br />
+            <br />
+          </>
+        )}
         <Box display={"flex"} justifyContent={"center"}>
           <Button
             type="submit"
