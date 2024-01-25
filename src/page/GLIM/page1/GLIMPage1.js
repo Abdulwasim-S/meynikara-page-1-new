@@ -3,7 +3,7 @@ import "../GLIM.css";
 import "./GlimPage1.css";
 import stop from "./stop.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import bg_img from "./GLIM_BG.jpg";
 
 const GLIMPage1 = () => {
@@ -37,20 +37,22 @@ const GLIMPage1 = () => {
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
       </Text>
-      <Button
+      <Link
         h={{ base: "40px" }}
         borderRadius={{ base: "20px" }}
         fontSize={{ base: "16px", md: "sm" }}
         colorScheme="dark"
         bg={"transparent"}
         border={"2px solid white"}
-        mt={{ lg: "3vh" }}
-        mb={"2vh"}
+        mt={{ lg: "20px" }}
+        mb={"20px"}
         color={"#20c997"}
         _hover={{ border: "2px solid #ffba00", color: "white" }}
+        p={{ base: "5px 35px", md: "10px 50px" }}
+        href="#contact-us"
       >
-        <a href="#contact-us">Request for Free Trail</a>
-      </Button>
+        Request for Free Trail
+      </Link>
     </Box>
   );
 };

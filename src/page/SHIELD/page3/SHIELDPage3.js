@@ -15,7 +15,7 @@ const SHIELDPage3 = () => {
           w={{ base: "80vw", md: "70vw", lg: "900" }}
           bgSize={"cover"}
           bgPosition={"center"}
-          borderRadius={{ base: "25px", lg: "" }}
+          borderRadius={{ base: "25px", lg: "30px" }}
         >
           <Button
             _hover={{ transform: "scale(1.3)", color: "#ffba00" }}
