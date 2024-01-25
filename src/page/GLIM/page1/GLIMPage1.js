@@ -60,6 +60,7 @@ const GLIMPage1 = () => {
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
+        transform={{ base: "scale(0.75)", md: "scale(1)" }}
       >
         Request for Free Trail
       </Link>
