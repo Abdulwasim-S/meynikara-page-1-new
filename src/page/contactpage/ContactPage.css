@@ -13,7 +13,7 @@
     background: linear-gradient(white, #333);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 5vh 0 5vh 0;
+    margin: 0vh 0 5vh 0;
 }
 
 .con-1 {
@@ -107,7 +107,6 @@
     .contact-page-main {
         font-size: 5vw;
         font-weight: 700;
-
     }
 
     .helpful-links {

@@ -1,5 +1,6 @@
 import React from "react";
 import "./GLIMPage2.css";
+import { Box } from "@chakra-ui/react";
 
 const GLIMPage2 = () => {
   return (
@@ -22,7 +23,7 @@ const GLIMPage2 = () => {
               </span>{" "}
               enhances Safety & Operational training by using realistic
               simulations.
-              <br />
+              <Box display={{ base: "block", lg: "none" }} h={"2vh"}></Box>{" "}
               Workers can practice tasks in a safe, controlled environment
               through digital twins of their industry. The simulations are
               accessible on various device like web browsers, mobile and VR.
