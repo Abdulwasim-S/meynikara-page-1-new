@@ -47,14 +47,15 @@ const GLIMPage1 = () => {
       <Link
         h={{ base: "40px" }}
         borderRadius={{ base: "20px" }}
-        fontSize={{ base: "16px", md: "sm" }}
+        fontSize={{ base: "16px", md: "sm", lg: "md" }}
         colorScheme="dark"
-        bg={"transparent"}
-        border={"2px solid white"}
+        bg={"#ffba00"}
         mt={{ lg: "20px" }}
         mb={"20px"}
-        color={"#20c997"}
-        _hover={{ border: "2px solid #ffba00", color: "white" }}
+        // color={"#20c997"}
+        color={"black"}
+        fontWeight={{ base: "700" }}
+        _hover={{ bg: "#20c997", color: "white" }}
         p={{ base: "5px 35px", md: "10px 50px" }}
         href="#contact-us"
         display={"flex"}
