@@ -49,7 +49,7 @@ const SHIELDPage1 = () => {
         color={"#20c997"}
         _hover={{ border: "2px solid #ffba00", color: "white" }}
       >
-        <a href="#contact-us">Request Access</a>
+        <a href="#contact-us">Request for Free Trail</a>
       </Button>
     </Box>
   );
