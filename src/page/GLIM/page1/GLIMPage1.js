@@ -9,35 +9,41 @@ import bg_img from "./GLIM_BG.jpg";
 const GLIMPage1 = () => {
   return (
     <Box
-      className="GlimPage1"
+      display={"flex"}
+      flexDirection={"column"}
+      justifyContent={"center"}
+      alignItems={"center"}
       bgRepeat={"no-repeat"}
       bgSize={"cover"}
       bgPos={"center"}
       bgImage={bg_img}
-      minH={{ base: "40vh", lg: "50vh" }}
+      color={"white"}
     >
-      <Heading p={{ base: "3vh 0 0 0", md: "3vh 0 0 0", lg: "3vh 0 0 0" }}>
-        <LazyLoadImage
-          effect="blur"
-          className="stop-img"
-          src={stop}
-          alt="stop"
-        />
+      <Heading
+        p={{ base: "3vh 5vw 0 5vw", md: "3vh 5vw 0 5vw", lg: "3vh 0 0 0" }}
+      >
+        <Box>
+          <LazyLoadImage
+            effect="blur"
+            className="stop-img"
+            src={stop}
+            alt="stop"
+          />
+        </Box>
       </Heading>
       <Text
-        // className="gp1-para"
-        px={{ base: "", md: "", lg: "20vw" }}
+        px={{ base: "", md: "", lg: "25vw" }}
         fontSize={{ base: "sm", md: "2xl", lg: "2xl" }}
+        textAlign={"center"}
       >
         Join us in eliminating industrial accidents with{" "}
-        <br className="hide-for-lg" />
+        <Box display={{ base: "block", lg: "none" }}></Box>
         <span className="text-senju">GLIM</span> and our AI-based monitoring
         system, <span className="text-namikaze">SHIELD</span>.{" "}
         <br className="hide-for-lg" />
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
       </Text>
-      <br />
       <Link
         h={{ base: "40px" }}
         borderRadius={{ base: "20px" }}
@@ -54,7 +60,7 @@ const GLIMPage1 = () => {
       >
         Request for Free Trail
       </Link>
-      <Box></Box>
+      <Box bg={"red"} h={"1vh"}></Box>
     </Box>
   );
 };
