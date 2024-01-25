@@ -3,7 +3,6 @@ import "./GLIMPage6.css";
 import a from "./image1.png";
 import b from "./image2.png";
 import c from "./image3.png";
-import d from "./image4.png";
 import c1 from "./c1.png";
 import c2 from "./c2.png";
 import c3 from "./c3.png";
