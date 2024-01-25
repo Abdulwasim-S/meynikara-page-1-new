@@ -37,6 +37,7 @@ const GLIMPage1 = () => {
         Empower your workforce, strengthen safty <br className="hide-for-lg" />
         measures, and create a secure workplace together.
       </Text>
+      <br />
       <Link
         h={{ base: "40px" }}
         borderRadius={{ base: "20px" }}
