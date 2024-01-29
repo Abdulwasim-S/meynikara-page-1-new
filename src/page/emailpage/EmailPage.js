@@ -42,7 +42,8 @@ const EmailPage = () => {
         user_name: requestInfo.name,
         user_email: requestInfo.email,
         message: `Mobile Number : ${requestInfo.mobile} ,
-        Organiztion ${requestInfo.organiztion}`,
+        Organiztion : ${requestInfo.organiztion},
+        From : SHIELD`,
       };
 
       // Send the email Ising EmailJS
@@ -114,7 +115,6 @@ const EmailPage = () => {
             id="organiztion"
             value={values.organiztion}
             onChange={handleChange}
-            required
           />
         </div>
         <Box display={{ base: "black", md: "none" }}>

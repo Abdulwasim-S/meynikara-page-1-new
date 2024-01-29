@@ -50,10 +50,11 @@ import GLIMPage7 from "./page/GLIM/page7/GLIMPage7";
 // import Q3 from "./page/Qualisence/page3/Q3";
 // import Q5 from "./page/Qualisence/page5/Q5";
 import TempNavBar from "./component/TempNavBar";
+import { Box } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
+    <Box maxW={"1600px"} className="App">
       {/* <Routes>
         <Route
           exact
@@ -172,7 +173,7 @@ function App() {
       </div>
       <ContactPageComp />
       <FooterPage />
-    </div>
+    </Box>
   );
 }
 
