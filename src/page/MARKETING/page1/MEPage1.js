@@ -1,14 +1,26 @@
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
-import React from "react";
+import { Box, Button, Heading, Link, Text } from "@chakra-ui/react";
+import React, { useEffect } from "react";
+import bg_img from "./GLIM_BG.jpg";
 
 const MEPage1 = () => {
+  const setFromPage = () => {
+    localStorage["meynikara-from-page"] = "MARKETING & EVENTS";
+  };
+  useEffect(() => {
+    setFromPage();
+  }, []);
   return (
     <Box
-      p={["20px", "30px", "40px"]}
-      paddingTop={{ lg: "10vh" }}
+      display={"flex"}
+      flexDirection={"column"}
+      justifyContent={"center"}
+      alignItems={"center"}
+      bgRepeat={"no-repeat"}
+      bgSize={"cover"}
+      bgPos={"center"}
+      bgImage={bg_img}
+      color={"white"}
       textAlign={"center"}
-      w={"100%"}
-      bg={"#1b1a1a"}
     >
       <Heading
         color={"#20c997"}
@@ -25,9 +37,27 @@ const MEPage1 = () => {
         We develop and deliver data-driven immersive experiences to increase
         your organisation's marketing and event objectives.
       </Text>
-      <Button colorScheme="dark" variant={"outline"} mb={"2vh"}>
-        <a href="#contact-us">Reach Us</a>
-      </Button>
+      <Link
+        h={{ base: "40px" }}
+        borderRadius={{ base: "20px" }}
+        fontSize={{ base: "16px", md: "sm", lg: "md" }}
+        colorScheme="dark"
+        bg={"#ffba00"}
+        mt={{ lg: "20px" }}
+        mb={"20px"}
+        color={"black"}
+        fontWeight={{ base: "700" }}
+        _hover={{ bg: "#20c997", color: "white" }}
+        p={{ base: "5px 35px", md: "10px 50px" }}
+        href="#contact-us"
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
+        transform={{ base: "scale(0.75)", md: "scale(1)" }}
+      >
+        Request for Free Trial
+      </Link>
+      <Box h={"1vh"}></Box>
     </Box>
   );
 };

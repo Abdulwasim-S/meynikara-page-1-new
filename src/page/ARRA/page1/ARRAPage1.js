@@ -1,8 +1,14 @@
 import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import arra_img from "../images/1.png";
 
 const ARRAPage1 = () => {
+  const setFromPage = () => {
+    localStorage["meynikara-from-page"] = "ARRA";
+  };
+  useEffect(() => {
+    setFromPage();
+  }, []);
   return (
     <Grid
       templateRows="repeat(1 1fr)"

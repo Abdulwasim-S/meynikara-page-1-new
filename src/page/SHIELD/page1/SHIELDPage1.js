@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../GLIM.css";
 import "./GlimPage1.css";
 import stop from "./stop.png";
@@ -7,6 +7,12 @@ import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import bg_img from "./SHIELD_BG.jpg";
 
 const SHIELDPage1 = () => {
+  const setFromPage = () => {
+    localStorage["meynikara-from-page"] = "SHIELD";
+  };
+  useEffect(() => {
+    setFromPage();
+  }, []);
   return (
     <Box
       display={"flex"}

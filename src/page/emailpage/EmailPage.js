@@ -43,7 +43,7 @@ const EmailPage = () => {
         user_email: requestInfo.email,
         message: `Mobile Number : ${requestInfo.mobile} ,
         Organiztion : ${requestInfo.organiztion},
-        From : SHIELD`,
+        From : ${localStorage["meynikara-from-page"]}`,
       };
 
       // Send the email Ising EmailJS

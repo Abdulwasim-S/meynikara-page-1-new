@@ -2,6 +2,7 @@
 import React from "react";
 import "./NavPage.css";
 import { Box } from "@chakra-ui/react";
+import { NavLink } from "react-router-dom";
 
 const NavPage = () => {
   return (
@@ -25,15 +26,15 @@ const NavPage = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <NavLink className="nav-link active" to={"/"}>
                   Home
-                </a>
+                </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  Helpfull-Links
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
@@ -42,7 +43,7 @@ const NavPage = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Helpfull-Links
                 </a>
                 <ul className="dropdown-menu">
                   <li className="nav-item dropend">
@@ -53,22 +54,63 @@ const NavPage = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      Service
+                      Our Services
                     </a>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="#">
-                          Action
-                        </a>
+                        <NavLink className="dropdown-item" to={"/glim"}>
+                          GLIM
+                        </NavLink>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
-                          Another action
-                        </a>
+                        <NavLink className="dropdown-item" to={"/shield"}>
+                          SHIELD
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className="dropdown-item"
+                          to={"/marketing&event"}
+                        >
+                          Marketing & Event
+                        </NavLink>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item dropend">
+                    <a
+                      className="nav-link "
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Our Products
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <NavLink className="dropdown-item" to={"/arra"}>
+                          ARRA
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink className="dropdown-item" to={"/metakalvi"}>
+                          Metakalvi
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink className="dropdown-item" to={"/qualisence"}>
+                          Qualisence
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink className="dropdown-item" to={"/virtaas"}>
+                          VIRTaaS
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                  {/* <li className="nav-item dropend">
                     <a
                       className="nav-link "
                       href="#"
@@ -90,34 +132,13 @@ const NavPage = () => {
                         </a>
                       </li>
                     </ul>
-                  </li>
-                  <li className="nav-item dropend">
-                    <a
-                      className="nav-link "
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Service
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Action
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Another action
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Link</a>
+                <a className="nav-link" href="#contact-us">
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>

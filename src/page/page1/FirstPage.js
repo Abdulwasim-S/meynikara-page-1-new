@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./FirstPage.css";
 import lm from "./image/lm.png";
 import Img from "./image/Img2.png";
 import play_btn from "./image/play.png";
 
 const FirstPage = () => {
+  const setFromPage = () => {
+    localStorage["meynikara-from-page"] = "Home Page";
+  };
+  useEffect(() => {
+    setFromPage();
+  }, []);
   return (
     <div className="first-page row">
       <div className="col-lg-7">
