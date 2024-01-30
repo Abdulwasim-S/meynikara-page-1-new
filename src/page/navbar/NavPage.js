@@ -38,7 +38,7 @@ const NavPage = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="/"
+                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"

@@ -21,6 +21,7 @@ const SHIELDPage3 = () => {
             borderRadius={{ base: "25px", lg: "30px" }}
           >
             <Button
+              transform={{ base: "", md: "scale(1.5)" }}
               _hover={{ transform: "scale(1.3)", color: "#ffba00" }}
               px={"20px"}
               color={"#22c997"}
