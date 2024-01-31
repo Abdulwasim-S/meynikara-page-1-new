@@ -71,18 +71,20 @@ const NavPage = () => {
                     >
                       Manufacturing
                     </a>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <NavLink className="dropdown-item" to={"/glim"}>
+                    <div className="dropdown-menu">
+                      <Flex
+                        h={"fit-content"}
+                        justifyContent={"space-between"}
+                        flexDirection={"column"}
+                      >
+                        <NavLink className="sublink " to={"/glim"}>
                           GLIM
                         </NavLink>
-                      </li>
-                      <li>
-                        <NavLink className="dropdown-item" to={"/shield"}>
+                        <NavLink className="sublink" to={"/shield"}>
                           SHIELD
                         </NavLink>
-                      </li>
-                    </ul>
+                      </Flex>
+                    </div>
                   </li>
                   <li className="nav-item dropend">
                     <NavLink

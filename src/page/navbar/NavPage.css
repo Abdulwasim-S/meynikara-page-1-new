@@ -1,5 +1,9 @@
 .navbar-nav .nav-link {
     color: #fff;
+    border-bottom: 2px solid #ffbb0000;
+}
+ .nav-link:hover {
+    border-bottom: 2px solid #20c997;
 }
 
 .dropend .dropdown-toggle {
@@ -31,11 +35,13 @@
 .dropend:hover>.dropdown-menu {
     display: block;
     color: "white";
+    animation-name: fadeInDown;
+    animation-duration: 0.4s;
 }
 @keyframes fadeInDown {
     from {
         opacity: 0;
-        margin-top: -500px;
+        margin-top: 10px;
     }
 
     to {
@@ -52,5 +58,13 @@
 
     .dropend .dropdown-toggle {
         margin-left: 0.5em;
+    }
+}
+.sublink {
+    padding: 5px;
+    border-bottom: 2px solid #ffbb0000;
+    &:hover{
+        background-color: gray;
+        border-bottom: 2px solid #20c997;
     }
 }
