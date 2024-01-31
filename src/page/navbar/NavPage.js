@@ -88,7 +88,7 @@ const NavPage = () => {
                   <li className="nav-item dropend">
                     <NavLink
                       className="nav-link "
-                      to={"edtech"}
+                      to={"/edtech"}
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
