@@ -38,6 +38,7 @@
     animation-name: fadeInDown;
     animation-duration: 0.4s;
 }
+
 @keyframes fadeInDown {
     from {
         opacity: 0;

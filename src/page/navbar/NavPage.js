@@ -1,13 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState } from "react";
 import "./NavPage.css";
-import { Flex, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Drawer,
+  DrawerBody,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerHeader,
+  DrawerOverlay,
+  Flex,
+  Image,
+  Input,
+  useDisclosure,
+} from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import logo_img from "./image/logo.png";
 
 const NavPage = () => {
+  const [show, setShow] = useState(false);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const btnRef = React.useRef();
   return (
     <Flex
+      position={"relative"}
       w={"100%"}
       flexDirection={"column"}
       justifyContent={"center"}
@@ -36,9 +54,17 @@ const NavPage = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => setShow(!show)}
+          ></button>
+          <Button
+            display={{ base: "block", lg: "none" }}
+            ref={btnRef}
+            colorScheme="transparent"
+            onClick={onOpen}
           >
+            {" "}
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </Button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <Flex
               // bg={"blue"}
@@ -53,11 +79,6 @@ const NavPage = () => {
                   Home
                 </NavLink>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Helpfull-Links
-                </a>
-              </li> */}
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
@@ -187,6 +208,17 @@ const NavPage = () => {
           </div>
         </div>
       </nav>
+      <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
+        <DrawerOverlay />
+        <DrawerContent>
+          <DrawerCloseButton />
+          <DrawerHeader></DrawerHeader>
+
+          <DrawerBody>
+            <Input placeholder="Type here..." />
+          </DrawerBody>
+        </DrawerContent>
+      </Drawer>
     </Flex>
   );
 };
