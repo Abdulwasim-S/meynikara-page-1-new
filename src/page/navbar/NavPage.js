@@ -19,13 +19,15 @@ const NavPage = () => {
     >
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <Image
-            transform={{ base: "scale(1.3)" }}
-            ml={"5vw"}
-            h={"10vh"}
-            src={logo_img}
-            alt="logo-img"
-          />
+          <NavLink to={"/"}>
+            <Image
+              transform={{ base: "scale(1.3)" }}
+              ml={"5vw"}
+              h={"10vh"}
+              src={logo_img}
+              alt="logo-img"
+            />
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
