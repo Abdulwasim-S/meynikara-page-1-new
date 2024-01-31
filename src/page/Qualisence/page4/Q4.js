@@ -5,7 +5,6 @@ import {
   Heading,
   Image,
   ListItem,
-  Text,
   UnorderedList,
 } from "@chakra-ui/react";
 import React from "react";

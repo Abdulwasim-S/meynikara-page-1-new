@@ -39,8 +39,8 @@ const Q5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            Potential to increase efficiency of the Quality Inspection by{" "}
-            <b className="text-senju">20%-30%</b>
+            AR technology boosts inspector efficiency with real-time digital
+            information and interactive guidance.
           </Text>
         </GridItem>
         <GridItem
@@ -58,8 +58,27 @@ const Q5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            Improve accuracy rates, with error reductions of{" "}
-            <b className="text-senju">Up to 90%</b>
+            Inspectors can perform tasks more accurately, leading to a reduction
+            in errors and defects.
+          </Text>
+        </GridItem>
+        <GridItem
+          className="shadow-card"
+          borderRadius={{ base: "5px" }}
+          p={{ base: "2vh 5vw", md: "2vh 2vw" }}
+          colSpan={{ base: 4, md: 2, lg: 2 }}
+        >
+          <Box h={"50px"} w={"50px"}>
+            <Image src={b} blt="b" />
+          </Box>
+          <Box h={"2vh"} />
+          <Text
+            fontSize={{ base: "md", md: "lg" }}
+            fontWeight={{ base: "500", md: "400" }}
+            textAlign={"justify"}
+          >
+            This improved accuracy results in higher-quality products,
+            contributing to improved customer satisfaction.
           </Text>
         </GridItem>
       </Grid>

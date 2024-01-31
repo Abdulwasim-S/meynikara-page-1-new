@@ -37,27 +37,24 @@ const Q2 = () => {
         flexDirection={"column"}
         colSpan={{ base: "7", lg: 4 }}
         justifyContent={"center"}
-        textAlign={{ lg: "end" }}
+        textAlign={{ lg: "justify" }}
+        // textAlign={{ lg: "end" }}
       >
         <Heading
+          textAlign={"end"}
           color={" #20c997"}
           fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         >
-          AR Technology
+          Our Offerings
         </Heading>
         <Text fontSize={{ base: "md", md: "2xl", lg: "2xl" }}>
-          Augmented Reality (AR) technology empowers inspectors with real-time
-          digital information, interactive visuals, and step-by-step guidance,
-          thereby significantly increasing overall efficiency and productivity.
-          With AR, inspectors can perform their tasks more accurately, leading
-          to a reduction in errors and defects, resulting in higher-quality
-          products and improved customer satisfaction. The ability to overlay
-          digital data onto physical objects enables inspectors to identify and
-          address potential issues swiftly, streamlining the inspection workflow
-          and reducing operational downtime. Moreover, AR-based quality
-          inspection ensures consistency in inspection standards across the
-          organization, fostering a culture of continuous improvement. Want to
-          understand more? Reach out to us now
+          Augmented Reality (AR) technology boosts inspector efficiency by
+          providing real-time digital guidance and interactive visuals, reducing
+          errors and defects. AR overlays digital data onto physical objects,
+          enabling swift issue identification and streamlined workflows,
+          ultimately improving product quality and customer satisfaction.
+          Consistent inspection standards across the organization drive
+          continuous improvement. Contact us to learn more
         </Text>
       </GridItem>
     </Grid>
