@@ -65,7 +65,6 @@ const NavPage = () => {
                   <li className="nav-item dropend">
                     <a
                       className="nav-link"
-                      href="#"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
