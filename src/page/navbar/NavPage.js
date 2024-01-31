@@ -46,16 +46,6 @@ const NavPage = () => {
               alt="logo-img"
             />
           </NavLink>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            onClick={() => setShow(!show)}
-          ></button>
           <Button
             display={{ base: "block", lg: "none" }}
             ref={btnRef}
