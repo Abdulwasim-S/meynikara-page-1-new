@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./NavPage.css";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
+import logo_img from "./image/logo.png";
 
 const NavPage = () => {
   return (
@@ -18,9 +19,13 @@ const NavPage = () => {
     >
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold" href="#">
-            Meynikara
-          </a>
+          <Image
+            transform={{ base: "scale(1.3)" }}
+            ml={"5vw"}
+            h={"10vh"}
+            src={logo_img}
+            alt="logo-img"
+          />
           <button
             className="navbar-toggler"
             type="button"
