@@ -101,7 +101,7 @@ function App() {
           }
         />
         <Route
-          path="/marketing&event"
+          path="/marketing&events"
           element={
             <>
               <NavPage />
