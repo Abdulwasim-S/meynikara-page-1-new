@@ -206,7 +206,7 @@ const NavPage = () => {
       >
         <DrawerOverlay />
         <DrawerContent bg={"#1b1a1a"} color={"white"}>
-          <DrawerCloseButton />
+          <DrawerCloseButton size={"lg"} top={"5"} left={"5"} />
           <DrawerHeader></DrawerHeader>
           <DrawerBody>
             <br />
