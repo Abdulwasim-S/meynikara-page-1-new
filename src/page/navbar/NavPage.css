@@ -69,3 +69,38 @@
         border-bottom: 2px solid #20c997;
     }
 }
+
+.expand-box1,.expand-box2{
+    animation: ease-in-out;
+    animation-name: expandtoh;
+    animation-duration: 0.5s;
+    height: fit-content;
+}
+.expand-down{
+    animation: ease-in-out;
+    animation-name: expandtoh;
+    animation-duration:0.3s ;
+}
+
+@keyframes expandtoh {
+    from {
+        height: 0px;
+    }
+
+    to {
+    }
+}
+.sublink{
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation: ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
