@@ -41,20 +41,23 @@ const Q2 = () => {
         // textAlign={{ lg: "end" }}
       >
         <Heading
-          textAlign={"end"}
+          textAlign={{ base: "start", lg: "end" }}
           color={" #20c997"}
           fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         >
           Our Offerings
         </Heading>
-        <Text fontSize={{ base: "md", md: "2xl", lg: "2xl" }}>
+        <Text
+          textAlign={"justify"}
+          fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+        >
           Augmented Reality (AR) technology boosts inspector efficiency by
           providing real-time digital guidance and interactive visuals, reducing
           errors and defects. AR overlays digital data onto physical objects,
           enabling swift issue identification and streamlined workflows,
           ultimately improving product quality and customer satisfaction.
           Consistent inspection standards across the organization drive
-          continuous improvement. Contact us to learn more
+          continuous improvement. Contact us to learn more.
         </Text>
       </GridItem>
     </Grid>
