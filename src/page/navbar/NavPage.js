@@ -199,7 +199,7 @@ const NavPage = () => {
         </div>
       </nav>
       <Drawer
-        size={{ base: "xs", md: "md" }}
+        size={{ base: "xs", md: "sm" }}
         isOpen={isOpen}
         placement="right"
         onClose={onClose}
