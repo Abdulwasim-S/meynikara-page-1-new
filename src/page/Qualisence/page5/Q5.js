@@ -26,9 +26,12 @@ const Q5 = () => {
       >
         <GridItem
           className="shadow-card"
+          bg={"white"}
+          color={"black"}
           borderRadius={{ base: "5px" }}
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 2 }}
+          _hover={{ color: "black", bg: "white" }}
         >
           <Box h={"50px"} w={"50px"}>
             <Image src={a} alt="a" />
@@ -45,9 +48,12 @@ const Q5 = () => {
         </GridItem>
         <GridItem
           className="shadow-card"
+          bg={"white"}
+          color={"black"}
           borderRadius={{ base: "5px" }}
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 2 }}
+          _hover={{ color: "black", bg: "white" }}
         >
           <Box h={"50px"} w={"50px"}>
             <Image src={b} blt="b" />
@@ -64,9 +70,12 @@ const Q5 = () => {
         </GridItem>
         <GridItem
           className="shadow-card"
+          bg={"white"}
+          color={"black"}
           borderRadius={{ base: "5px" }}
           p={{ base: "2vh 5vw", md: "2vh 2vw" }}
           colSpan={{ base: 4, md: 2, lg: 2 }}
+          _hover={{ color: "black", bg: "white" }}
         >
           <Box h={"50px"} w={"50px"}>
             <Image src={b} blt="b" />
