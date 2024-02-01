@@ -6,7 +6,7 @@ import b from "../images/icons/2.png";
 const Q5 = () => {
   return (
     <Box
-      bg={"#1b1a1a"}
+      // bg={"#f1f1f1"}
       color={"white"}
       mb={{ base: "3vh" }}
       p={{ base: "5vh 5vw" }}

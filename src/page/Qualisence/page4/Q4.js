@@ -13,7 +13,9 @@ import b_img from "../images/4.png";
 const Q4 = () => {
   return (
     <Box
-      bg={"#f1f1f1"}
+      // bg={"#f1f1f1"}
+      className="bg-meynikara"
+      color={"white"}
       p={{ base: "5vh 5vw" }}
       // minH={{ base: "100vh", md: "90vh", lg: "80vh" }}
     >
