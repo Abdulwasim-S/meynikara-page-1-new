@@ -279,6 +279,7 @@ const NavPage = () => {
                 VIRTaaS
               </NavLink>
             </Flex>
+            <Flex borderBottom={"0.1px solid gray"} />
             <br />
             <Flex p={{ base: "10px" }}>
               <Heading
