@@ -55,12 +55,14 @@
     transition: all ease-in-out 0.15s;
 }
 .shadow-card:hover {
+    background-color: #232323;
     scale: 1;
-    
+    transition: all ease-in-out 0.15s;
+    border-bottom: 1vh solid #ffba00;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .shadow-card{
-    /* background-color: #232323; */
-    color: black;
+    background-color: #232323;
     scale: 0.95;
     transition: all ease-in-out 0.15s;
     border-bottom: 1vh solid #ffba00;
