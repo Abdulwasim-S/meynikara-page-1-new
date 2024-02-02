@@ -11,7 +11,7 @@ const FirstPage = () => {
   };
   useEffect(() => {
     setFromPage();
-    ReactGA.pageview("window.location.pathname");
+    ReactGA.pageview(window.location.pathname);
   }, []);
   return (
     <div className="first-page row">
