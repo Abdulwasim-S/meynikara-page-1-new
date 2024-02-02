@@ -61,7 +61,7 @@ const EmailPage = () => {
           // });
           // eslint-disable-next-line no-undef
           gtag("event", `${localStorage["meynikara-from-page"]} Request`, {
-            event_category: `${localStorage["meynikara-from-page "]} Request`,
+            event_category: `${localStorage["meynikara-from-page"]} Request`,
             event_label: " GLIM",
           });
         })
