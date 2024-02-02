@@ -63,6 +63,17 @@ const GLIMPage3 = () => {
                 width: "100%",
                 height: "100%",
               }}
+              onPlay={() => {
+                // eslint-disable-next-line no-undef
+                gtag(
+                  "event",
+                  `${localStorage["meynikara-from-page"]} Video Started`,
+                  {
+                    event_category: `${localStorage["meynikara-from-page"]} Video`,
+                    event_label: "GLIM",
+                  }
+                );
+              }}
               onEnd={() => {
                 // eslint-disable-next-line no-undef
                 gtag(
