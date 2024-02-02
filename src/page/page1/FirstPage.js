@@ -8,11 +8,11 @@ import ReactGA from "react-ga";
 const FirstPage = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "Home Page";
-  };
-  useEffect(() => {
-    setFromPage();
+    document.title = "Meynikara | Home";
     ReactGA.pageview(window.location.pathname);
-  }, []);
+  };
+  setFromPage();
+  useEffect(() => {}, []);
   return (
     <div className="first-page row">
       <div className="col-lg-7">

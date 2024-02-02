@@ -6,7 +6,7 @@ import ReactGA from "react-ga";
 const ARRAPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "ARRA";
-
+    document.title = "Meynikara | ARRA";
     ReactGA.pageview(window.location.pathname);
   };
   useEffect(() => {

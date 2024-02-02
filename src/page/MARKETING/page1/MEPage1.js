@@ -1,10 +1,13 @@
 import { Box, Button, Heading, Link, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import bg_img from "./GLIM_BG.jpg";
+import ReactGA from "react-ga";
 
 const MEPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "MARKETING & EVENTS";
+    document.title = "Meynikara | Marketing & Events";
+    ReactGA.pageview(window.location.pathname);
   };
   useEffect(() => {
     setFromPage();

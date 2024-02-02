@@ -1,10 +1,13 @@
-import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+import { Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import arra_img from "../images/1.png";
+import ReactGA from "react-ga";
 
 const MK1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "Metakalvi";
+    document.title = "Meynikara | Metakalvi";
+    ReactGA.pageview(window.location.pathname);
   };
   useEffect(() => {
     setFromPage();

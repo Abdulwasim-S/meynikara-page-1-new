@@ -5,11 +5,13 @@ import stop from "./stop.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import bg_img from "./GLIM_BG.jpg";
+import ReactGA from "react-ga";
 
 const GLIMPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "GLIM";
     document.title = "Meynikara | GLIM";
+    ReactGA.pageview(window.location.pathname);
   };
   useEffect(() => {
     setFromPage();
