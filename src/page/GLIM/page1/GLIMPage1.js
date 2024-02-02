@@ -9,6 +9,7 @@ import bg_img from "./GLIM_BG.jpg";
 const GLIMPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "GLIM";
+    document.title = "Meynikara | GLIM";
   };
   useEffect(() => {
     setFromPage();
