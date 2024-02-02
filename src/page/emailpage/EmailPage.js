@@ -54,10 +54,15 @@ const EmailPage = () => {
         .then(async (response) => {
           resetForm();
           toast.success("Request sent successfully!");
-          ReactGA.event({
-            category: "Free trial",
-            action: "Request",
-            label: localStorage["meynikara-from-page"],
+          // ReactGA.event({
+          //   category: "Free trial",
+          //   action: "Request",
+          //   label: localStorage["meynikara-from-page"],
+          // });
+          // eslint-disable-next-line no-undef
+          gtag("event", "Test Event", {
+            event_category: "Test Request",
+            event_label: " GLIM",
           });
         })
         .catch((err) => {
