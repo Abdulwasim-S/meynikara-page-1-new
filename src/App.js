@@ -51,7 +51,8 @@ import Q3 from "./page/Qualisence/page3/Q3";
 import Q5 from "./page/Qualisence/page5/Q5";
 import ReactGA from "react-ga";
 
-const track_id = "G-CCWM02EK4E";
+// const track_id = "G-CCWM02EK4E";
+const track_id = "G-RSJPCVF8Y1";
 
 ReactGA.initialize(track_id);
 
