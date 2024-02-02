@@ -2,6 +2,7 @@ import { Box, Button, Flex } from "@chakra-ui/react";
 import "./GLIMPage3.css";
 import bg_img from "../page5/video.png";
 import { useState } from "react";
+import YouTube from "react-youtube";
 
 const GLIMPage3 = () => {
   const [show, setShow] = useState(true);
@@ -46,7 +47,7 @@ const GLIMPage3 = () => {
             bgPosition={"center"}
             borderRadius={{ base: "25px", lg: "30px" }}
           >
-            <iframe
+            {/* <iframe
               height={"100%"}
               width={"100%"}
               src="https://www.youtube.com/embed/FPgFrdQEN_M?si=j_Tuxk_iX6PMtaP0"
@@ -54,7 +55,26 @@ const GLIMPage3 = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
+            <YouTube
+              className="h-100 w-100"
+              videoId={"FPgFrdQEN_M"}
+              opts={{
+                width: "100%",
+                height: "100%",
+              }}
+              onEnd={() => {
+                // eslint-disable-next-line no-undef
+                gtag(
+                  "event",
+                  `${localStorage["meynikara-from-page"]} Video Completed`,
+                  {
+                    event_category: `${localStorage["meynikara-from-page"]} Video`,
+                    event_label: "GLIM",
+                  }
+                );
+              }}
+            />
           </Box>
         )}
       </Flex>

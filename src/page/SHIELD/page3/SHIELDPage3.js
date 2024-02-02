@@ -2,6 +2,7 @@ import { Box, Button, Flex } from "@chakra-ui/react";
 import "./GLIMPage3.css";
 import bg_img from "../page5/video.png";
 import { useState } from "react";
+import YouTube from "react-youtube";
 
 const SHIELDPage3 = () => {
   const [show, setShow] = useState(true);
@@ -46,7 +47,7 @@ const SHIELDPage3 = () => {
             bgPosition={"center"}
             borderRadius={{ base: "25px", lg: "30px" }}
           >
-            <iframe
+            {/* <iframe
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/tf_BlmqlCTA?si=rK2C5a2bQAE3DUOx"
@@ -54,7 +55,27 @@ const SHIELDPage3 = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
+
+            <YouTube
+              className="h-100 w-100"
+              videoId={"tf_BlmqlCTA"}
+              opts={{
+                width: "100%",
+                height: "100%",
+              }}
+              onEnd={() => {
+                // eslint-disable-next-line no-undef
+                gtag(
+                  "event",
+                  `${localStorage["meynikara-from-page"]} Video Completed`,
+                  {
+                    event_category: `${localStorage["meynikara-from-page"]} Video`,
+                    event_label: "shield",
+                  }
+                );
+              }}
+            />
           </Box>
         )}
       </Flex>

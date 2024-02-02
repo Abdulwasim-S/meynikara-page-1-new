@@ -12,7 +12,6 @@ import {
   Flex,
   Heading,
   Image,
-  Link,
   useDisclosure,
 } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
@@ -22,7 +21,6 @@ const NavPage = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const btnRef = React.useRef();
-  const [show, setShow] = useState(false);
   return (
     <Flex
       position={"relative"}
