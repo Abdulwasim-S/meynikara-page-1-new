@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React from "react";
 import "./NavPage.css";
 import {
   Button,
@@ -44,7 +44,7 @@ const NavPage = () => {
               alt="logo-img"
             />
           </NavLink>
-          {/* <Button
+          <Button
             display={{ base: "block", lg: "none" }}
             ref={btnRef}
             colorScheme="transparent"
@@ -310,9 +310,7 @@ const NavPage = () => {
             <Flex borderBottom={"0.1px solid gray"} />
           </DrawerBody>
         </DrawerContent>
-      </Drawer> */}
-        </div>
-      </nav>
+      </Drawer>
     </Flex>
   );
 };
