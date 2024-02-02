@@ -44,7 +44,7 @@ const NavPage = () => {
               alt="logo-img"
             />
           </NavLink>
-          <Button
+          {/* <Button
             display={{ base: "block", lg: "none" }}
             ref={btnRef}
             colorScheme="transparent"
@@ -310,7 +310,9 @@ const NavPage = () => {
             <Flex borderBottom={"0.1px solid gray"} />
           </DrawerBody>
         </DrawerContent>
-      </Drawer>
+      </Drawer> */}
+        </div>
+      </nav>
     </Flex>
   );
 };
