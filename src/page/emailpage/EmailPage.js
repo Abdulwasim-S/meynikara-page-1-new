@@ -60,8 +60,8 @@ const EmailPage = () => {
           //   label: localStorage["meynikara-from-page"],
           // });
           // eslint-disable-next-line no-undef
-          gtag("event", "Test Event", {
-            event_category: "Test Request",
+          gtag("event", `${localStorage["meynikara-from-page "]} Request`, {
+            event_category: `${localStorage["meynikara-from-page "]} Request`,
             event_label: " GLIM",
           });
         })
