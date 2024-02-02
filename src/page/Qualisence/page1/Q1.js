@@ -1,7 +1,7 @@
 import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import arra_img from "../images/1.png";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const Q1 = () => {
   const setFromPage = () => {

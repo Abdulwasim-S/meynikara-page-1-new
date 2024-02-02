@@ -1,7 +1,7 @@
 import { Box, Button, Heading, Link, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import bg_img from "./GLIM_BG.jpg";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const MEPage1 = () => {
   const setFromPage = () => {

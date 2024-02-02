@@ -5,7 +5,7 @@ import stop from "./stop.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import bg_img from "./SHIELD_BG.jpg";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const SHIELDPage1 = () => {
   const setFromPage = () => {
