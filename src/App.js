@@ -49,6 +49,11 @@ import Q2 from "./page/Qualisence/page2/Q2";
 import Q4 from "./page/Qualisence/page4/Q4";
 import Q3 from "./page/Qualisence/page3/Q3";
 import Q5 from "./page/Qualisence/page5/Q5";
+import ReactGA from "react-ga";
+
+const track_id = "G-CCWM02EK4E";
+
+ReactGA.initialize(track_id);
 
 function App() {
   return (

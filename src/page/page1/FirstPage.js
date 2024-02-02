@@ -3,6 +3,7 @@ import "./FirstPage.css";
 import lm from "./image/lm.png";
 import Img from "./image/Img2.png";
 import play_btn from "./image/play.png";
+import ReactGA from "react-ga";
 
 const FirstPage = () => {
   const setFromPage = () => {
@@ -10,6 +11,7 @@ const FirstPage = () => {
   };
   useEffect(() => {
     setFromPage();
+    ReactGA.pageview(window.location.pathname);
   }, []);
   return (
     <div className="first-page row">

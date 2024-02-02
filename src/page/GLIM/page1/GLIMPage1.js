@@ -67,6 +67,13 @@ const GLIMPage1 = () => {
         justifyContent={"center"}
         alignItems={"center"}
         transform={{ base: "scale(0.75)", md: "scale(1)" }}
+        onClick={() =>
+          // eslint-disable-next-line no-undef
+          gtag("event", "learnmore", {
+            event_category: "Learnmore",
+            event_label: " Learnmore Button",
+          })
+        }
       >
         Request for Free Trial
       </Link>
