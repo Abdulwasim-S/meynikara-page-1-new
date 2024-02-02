@@ -3,17 +3,17 @@ import "./FirstPage.css";
 import lm from "./image/lm.png";
 import Img from "./image/Img2.png";
 import play_btn from "./image/play.png";
-import ReactGA from "react-ga4";
+// import ReactGA from "react-ga4";
 
 const FirstPage = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "Home Page";
     document.title = "Meynikara | Home";
-    ReactGA.send({
-      hitType: "pageview",
-      page: window.location.pathname,
-      title: document.title,
-    });
+    // ReactGA.send({
+    //   hitType: "pageview",
+    //   page: window.location.pathname,
+    //   title: document.title,
+    // });
   };
   setFromPage();
   useEffect(() => {}, []);

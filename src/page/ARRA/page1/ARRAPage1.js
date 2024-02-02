@@ -1,17 +1,17 @@
 import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import arra_img from "../images/1.png";
-import ReactGA from "react-ga4";
+// import ReactGA from "react-ga4";
 
 const ARRAPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "ARRA";
     document.title = "Meynikara | ARRA";
-    ReactGA.send({
-      hitType: "pageview",
-      page: window.location.pathname,
-      title: document.title,
-    });
+    // ReactGA.send({
+    //   hitType: "pageview",
+    //   page: window.location.pathname,
+    //   title: document.title,
+    // });
   };
   useEffect(() => {
     setFromPage();

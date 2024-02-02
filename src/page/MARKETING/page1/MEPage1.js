@@ -1,17 +1,17 @@
-import { Box, Button, Heading, Link, Text } from "@chakra-ui/react";
+import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import bg_img from "./GLIM_BG.jpg";
-import ReactGA from "react-ga4";
+// import ReactGA from "react-ga4";
 
 const MEPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "MARKETING & EVENTS";
     document.title = "Meynikara | Marketing & Events";
-    ReactGA.send({
-      hitType: "pageview",
-      page: window.location.pathname,
-      title: document.title,
-    });
+    // ReactGA.send({
+    //   hitType: "pageview",
+    //   page: window.location.pathname,
+    //   title: document.title,
+    // });
   };
   useEffect(() => {
     setFromPage();

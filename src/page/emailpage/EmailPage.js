@@ -6,7 +6,7 @@ import { Box, Button, Heading } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
-import ReactGA from "react-ga4";
+// import ReactGA from "react-ga4";
 
 const EmailPage = () => {
   const fieldvalidationscheme = yup.object({
