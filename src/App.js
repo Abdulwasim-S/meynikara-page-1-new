@@ -49,6 +49,8 @@ import Q2 from "./page/Qualisence/page2/Q2";
 import Q4 from "./page/Qualisence/page4/Q4";
 import Q3 from "./page/Qualisence/page3/Q3";
 import Q5 from "./page/Qualisence/page5/Q5";
+import YouTube from "react-youtube";
+import { useRef, useState } from "react";
 // import ReactGA from "react-ga4";
 
 // const track_id = "G-CCWM02EK4E";
@@ -57,6 +59,18 @@ import Q5 from "./page/Qualisence/page5/Q5";
 // ReactGA.initialize(track_id);
 
 function App() {
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlayPause = () => {
+    const video = videoRef.current;
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+    setIsPlaying(!video.paused);
+  };
   return (
     <div className="App">
       <Routes>
@@ -65,6 +79,15 @@ function App() {
           path="/"
           element={
             <div className="bg-meynikara">
+              <YouTube
+                className="you-2"
+                videoId={"kp1j12u9-ls"}
+                opts={{
+                  width: "370",
+                  height: "225",
+                  playerVars: { autoplay: isPlaying ? 1 : 0 },
+                }}
+              />
               <NavPage />
               <FirstPage />
               <SecondPage />
