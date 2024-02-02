@@ -11,7 +11,11 @@ const GLIMPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "GLIM";
     document.title = "Meynikara | GLIM";
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: document.title,
+    });
   };
   useEffect(() => {
     setFromPage();

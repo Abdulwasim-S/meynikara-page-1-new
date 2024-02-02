@@ -7,7 +7,11 @@ const Q1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "Qualisence";
     document.title = "Meynikara | Qualisence";
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: document.title,
+    });
   };
   useEffect(() => {
     setFromPage();

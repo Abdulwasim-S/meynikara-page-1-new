@@ -7,7 +7,11 @@ const ARRAPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "ARRA";
     document.title = "Meynikara | ARRA";
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: document.title,
+    });
   };
   useEffect(() => {
     setFromPage();

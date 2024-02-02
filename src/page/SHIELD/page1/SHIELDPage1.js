@@ -11,7 +11,11 @@ const SHIELDPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "SHIELD";
     document.title = "Meynikara | SHIELD";
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: document.title,
+    });
   };
   useEffect(() => {
     setFromPage();

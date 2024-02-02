@@ -7,7 +7,11 @@ const MEPage1 = () => {
   const setFromPage = () => {
     localStorage["meynikara-from-page"] = "MARKETING & EVENTS";
     document.title = "Meynikara | Marketing & Events";
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: document.title,
+    });
   };
   useEffect(() => {
     setFromPage();
