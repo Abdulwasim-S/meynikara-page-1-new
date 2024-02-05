@@ -6,7 +6,6 @@ import c from "./image3.png";
 import c1 from "./c1.png";
 import c2 from "./c2.png";
 import c3 from "./c3.png";
-import c4 from "./c4.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const SHIELDPage6 = () => {

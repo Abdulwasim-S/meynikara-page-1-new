@@ -1,6 +1,5 @@
-import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import React from "react";
-import ar_img from "../images/3.png";
 
 const Q3 = () => {
   return (

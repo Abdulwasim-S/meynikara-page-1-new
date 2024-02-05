@@ -6,8 +6,6 @@ import c3 from "./image/c3.png";
 import c4 from "./image/c4.png";
 import c5 from "./image/c5.png";
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
-
 const ClientPage = () => {
   return (
     <div className="client-page">

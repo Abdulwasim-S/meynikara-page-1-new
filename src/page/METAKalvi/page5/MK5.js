@@ -2,8 +2,6 @@ import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import a from "../images/icons/1.png";
 import b from "../images/icons/2.png";
-import c from "../images/icons/3.png";
-import d from "../images/icons/4.png";
 
 const Mk5 = () => {
   return (
