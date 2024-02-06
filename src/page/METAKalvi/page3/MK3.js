@@ -81,29 +81,6 @@ const Mk3 = () => {
       <Box display={{ md: "none", lg: "block" }}>
         <br />
       </Box>
-      <Box
-        border={"10px solid white"}
-        marginBottom={{ base: "2vh" }}
-        bg={"#1b1a1a"}
-        minH={"40vh"}
-        color={"white"}
-        display={{ base: "flex" }}
-        justifyContent={{ base: "center" }}
-        alignItems={{ base: "center" }}
-      >
-        video
-      </Box>
-      <div className="round-box">
-        <div className="m-r bg-namikaze">
-          <p className="m-i"></p>
-        </div>
-        <div className="m-r bg-senju hidden">
-          <p className="m-i hidden-p"></p>
-        </div>
-        <div className="m-r bg-senju">
-          <p className="m-i"></p>
-        </div>
-      </div>
     </Box>
   );
 };
