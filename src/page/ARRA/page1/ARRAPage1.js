@@ -26,7 +26,7 @@ const ARRAPage1 = () => {
     >
       <GridItem
         display={{ base: "flex", lg: "none" }}
-        justifyContent={"center"}
+        justifyContent={"end"}
         alignItems={"center"}
         colSpan={{ base: "7", lg: 3 }}
       >
