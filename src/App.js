@@ -49,6 +49,7 @@ import Q2 from "./page/Qualisence/page2/Q2";
 import Q4 from "./page/Qualisence/page4/Q4";
 import Q3 from "./page/Qualisence/page3/Q3";
 import Q5 from "./page/Qualisence/page5/Q5";
+import VideoPage from "./page/METAKalvi/videoPage/VideoPage";
 
 function App() {
   return (
@@ -134,6 +135,7 @@ function App() {
             <>
               <NavPage />
               <MK1 />
+              <VideoPage />
               <MK2 />
               <MK4 />
               <Mk3 />
