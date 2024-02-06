@@ -26,7 +26,7 @@ const ARRAPage3 = () => {
         <GridItem
           display={"flex"}
           flexDirection={"column"}
-          colSpan={{ base: "7", lg: 4 }}
+          colSpan={{ base: "7", lg: 7 }}
           justifyContent={"center"}
         >
           <Heading
@@ -38,14 +38,6 @@ const ARRAPage3 = () => {
             <Box display={{ base: "none", md: "block", lg: "none" }}></Box>{" "}
             Remote Assistance
           </Heading>
-          <Box
-            display={{ base: "flex", lg: "none" }}
-            justifyContent={"center"}
-            alignItems={"center"}
-            my={"3vh"}
-          >
-            <Image src={ar_img} h={{ base: "25vh" }} alt="ar_img" />
-          </Box>
           <Text
             fontWeight={{ base: "400" }}
             fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
@@ -56,14 +48,6 @@ const ARRAPage3 = () => {
             customers through complex or risky tasks with visual cues and
             overlays, which can improve safety and reduce the risk of errors.
           </Text>
-        </GridItem>
-        <GridItem
-          display={{ base: "none", lg: "flex" }}
-          justifyContent={"center"}
-          alignItems={"center"}
-          colSpan={{ base: "7", lg: 3 }}
-        >
-          <Image src={ar_img} h={{ base: "40vh" }} alt="ar_img" />
         </GridItem>
       </Grid>
       <Box display={{ md: "none", lg: "block" }}>

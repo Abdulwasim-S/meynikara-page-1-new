@@ -121,8 +121,8 @@ function App() {
             <>
               <NavPage />
               <ARRAPage1 />
-              <ARRAPage2 />
               <ARRAPage3 />
+              <ARRAPage2 />
               <ARRAPage4 />
               <ARRAPage5 />
             </>
