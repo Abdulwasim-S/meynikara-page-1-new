@@ -21,7 +21,7 @@ const ARRAPage1 = () => {
       templateRows="repeat(1 1fr)"
       templateColumns="repeat(7, 1fr)"
       gap={4}
-      p={{ base: "5vh 5vw" }}
+      p={{ base: "5vh 0vw 5vh 5vw" }}
       minH={"40vh"}
     >
       <GridItem
@@ -62,11 +62,11 @@ const ARRAPage1 = () => {
       </GridItem>
       <GridItem
         display={{ base: "none", lg: "flex" }}
-        justifyContent={"center"}
+        justifyContent={"end"}
         alignItems={"center"}
         colSpan={{ base: "7", lg: 3 }}
       >
-        <Image src={arra_img} h={{ base: "45vh" }} alt="arra_img" />
+        <Image src={arra_img} h={"50vh"} alt="arra_img" />
       </GridItem>
     </Grid>
   );
