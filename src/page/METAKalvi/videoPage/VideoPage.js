@@ -89,7 +89,7 @@ const VideoPage = () => {
         <Box
           display={{ base: "block", lg: "none" }}
           border={"3px solid #ffba00"}
-          w={"40%"}
+          w={"60%"}
         ></Box>
         <Box
           p={5}
