@@ -585,6 +585,7 @@ const NavPage = () => {
           borderLeftRadius={"10px"}
           _hover={{ right: "0" }}
           _active={{ right: "0" }}
+          zIndex={1}
         />
         {/* </Button> */}
       </Box>
