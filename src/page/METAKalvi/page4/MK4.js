@@ -63,7 +63,11 @@ const MK4 = () => {
             alignItems={"center"}
             minH={"40vh"}
           >
-            <Image src={b_img} h={{ base: "45vh", lg: "80vh" }} alt="b_img" />
+            <Image
+              src={b_img}
+              h={{ base: "100%", md: "45vh", lg: "60vh" }}
+              alt="b_img"
+            />
           </Box>
           <UnorderedList>
             <ListItem
