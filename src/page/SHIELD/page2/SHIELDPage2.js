@@ -14,7 +14,7 @@ const SHIELDPage2 = () => {
         </div>
         <div className="col-lg-8">
           <p className="gp2-ans shield-p2-ans">
-            <span className="change-namikaze  bold-500">
+            <span className="change-namikaze text-black  bold-500">
               S.H.I.E.L.D.-Safety and Health Integrated Ecosystem for
               Enterprises using Learning and Detection tools
             </span>

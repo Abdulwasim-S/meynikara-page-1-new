@@ -580,7 +580,7 @@ const NavPage = () => {
           top={"45vh"}
           color={"white"}
           fontSize={"3xl"}
-          bg={"#1b1a1a"}
+          bg={"red.500"}
           h={"10vh"}
           borderLeftRadius={"10px"}
           _hover={{ right: "0" }}
