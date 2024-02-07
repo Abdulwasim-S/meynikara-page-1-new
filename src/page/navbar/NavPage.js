@@ -565,6 +565,15 @@ const NavPage = () => {
           onClick={() => {
             onOpen();
             setShow(true);
+            // eslint-disable-next-line no-undef
+            gtag(
+              "event",
+              `${localStorage["meynikara-from-page"]} Request form opened`,
+              {
+                event_category: `${localStorage["meynikara-from-page"]} Request form opened`,
+                event_label: localStorage["meynikara-from-page"],
+              }
+            );
           }}
           position={"fixed"}
           right={-1}
