@@ -9,8 +9,6 @@ const VideoPage = () => {
   const [show2, setShow2] = useState(true);
   return (
     <>
-      <br />
-
       <Flex
         w={"100%"}
         flexDirection={{ base: "column", lg: "row" }}
@@ -156,7 +154,6 @@ const VideoPage = () => {
           )}
         </Box>
       </Flex>
-      <br />
     </>
   );
 };

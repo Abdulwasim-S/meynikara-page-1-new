@@ -13,11 +13,7 @@ import b_img from "../images/4.png";
 
 const MK4 = () => {
   return (
-    <Box
-      bg={"#f1f1f1"}
-      p={{ base: "5vh 5vw" }}
-      // minH={{ base: "100vh", md: "90vh", lg: "80vh" }}
-    >
+    <Box bg={"#f1f1f1"} p={{ base: "2vh 5vw" }}>
       <Grid
         templateRows="repeat(1 1fr)"
         templateColumns="repeat(7, 1fr)"
@@ -32,7 +28,12 @@ const MK4 = () => {
           colSpan={{ base: "7", lg: 3 }}
           color={"white"}
         >
-          <Image src={b_img} h={{ lg: "60vh" }} alt="b_img" />
+          <Image
+            src={b_img}
+            h={{ lg: "60vh" }}
+            transform={"scale(1.2)"}
+            alt="b_img"
+          />
         </GridItem>
         <GridItem
           display={"flex"}
@@ -61,12 +62,13 @@ const MK4 = () => {
             display={{ base: "flex", lg: "none" }}
             justifyContent={"center"}
             alignItems={"center"}
-            minH={"40vh"}
+            minH={{ lg: "40vh" }}
           >
             <Image
               src={b_img}
-              h={{ base: "100%", md: "45vh", lg: "60vh" }}
+              h={{ md: "45vh", lg: "60vh" }}
               alt="b_img"
+              transform={"scale(1.2)"}
             />
           </Box>
           <UnorderedList>

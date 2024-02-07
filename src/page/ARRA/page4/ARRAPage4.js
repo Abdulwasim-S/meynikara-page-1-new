@@ -17,8 +17,8 @@ const ARRAPage4 = () => {
   return (
     <Box
       bg={"#f1f1f1"}
-      p={{ base: "5vh 5vw" }}
-      minH={{ base: "100vh", md: "90vh", lg: "70vh" }}
+      p={{ base: "2vh 5vw" }}
+      // minH={{ base: "100vh", md: "90vh", lg: "50vh" }}
     >
       <Grid
         templateRows="repeat(1 1fr)"
