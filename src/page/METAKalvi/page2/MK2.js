@@ -45,10 +45,17 @@ const MK2 = () => {
         >
           Our Offerings
         </Heading>
-        <Text fontSize={{ base: "md", md: "2xl", lg: "2xl" }}>
-          Curriculum based Science and Maths concepts of{" "}
-          <Box display={{ base: "none", md: "block", lg: "none" }}></Box> grades{" "}
-          <b className="text-namikaze">6th, 7th & 8th.</b>
+        <Text
+          textAlign={"justify"}
+          fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+        >
+          Metakalvi’s VR education solutions are designed to provide students
+          with an immersive and interactive learning experience. By visualizing
+          complex concepts in a way that is easy to understand, Metakalvi's
+          solutions enhance the learning experience and enable students to
+          better retain information. Curriculum based Science and Maths concepts
+          of <Box display={{ base: "none", md: "block", lg: "none" }}></Box>{" "}
+          grades <b className="text-namikaze">6th, 7th & 8th.</b>
         </Text>
       </GridItem>
     </Grid>

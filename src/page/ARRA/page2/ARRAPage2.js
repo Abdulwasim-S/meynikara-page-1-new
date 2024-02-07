@@ -1,22 +1,9 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Grid,
-  GridItem,
-  Heading,
-  Image,
-  Text,
-} from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+import React from "react";
 import tm_img from "../images/2.png";
 import tm_bg_img from "../images/bg.jpg";
 
-import bg_img from "../images/bg2.png";
-import YouTube from "react-youtube";
-
 const ARRAPage2 = () => {
-  const [show, setShow] = useState(true);
   return (
     <>
       <Grid
@@ -59,7 +46,10 @@ const ARRAPage2 = () => {
           >
             Traditional Method
           </Heading>
-          <Text fontSize={{ base: "md", md: "2xl", lg: "2xl" }}>
+          <Text
+            textAlign={"justify"}
+            fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
+          >
             Traditional methods of providing remote assistance, such as phone
             support and video conferencing, can be inefficient and ineffective.
             According to a study by aberdeen group, remote workers take 25%

@@ -1,17 +1,6 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Grid,
-  GridItem,
-  Heading,
-  Image,
-  Text,
-} from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+import React from "react";
 import ar_img from "../images/3.png";
-import bg_img from "../images/bg2.png";
-import YouTube from "react-youtube";
 
 const ARRAPage3 = () => {
   return (

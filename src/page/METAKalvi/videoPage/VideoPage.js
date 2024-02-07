@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Button, Flex } from "@chakra-ui/react";
 import React, { useState } from "react";
 import YouTube from "react-youtube";
 import vgb1 from "./vgb1.png";
