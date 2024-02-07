@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState } from "react";
 import "./NavPage.css";
 import {
+  Box,
   Button,
   Drawer,
   DrawerBody,
@@ -12,15 +13,92 @@ import {
   Flex,
   Heading,
   Image,
+  Input,
   useDisclosure,
 } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import logo_img from "./image/logo.png";
+import { ArrowForwardIcon, ChevronLeftIcon } from "@chakra-ui/icons";
+import { useFormik } from "formik";
+import * as yup from "yup";
+import { toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
 const NavPage = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [show, setShow] = useState(false);
+  const [load, setLoad] = useState(false);
 
   const btnRef = React.useRef();
+
+  const fieldvalidationscheme = yup.object({
+    name: yup.string().required(""),
+    email: yup.string().required(""),
+    mobile: yup.number().required(""),
+    organiztion: yup.string(),
+  });
+  const resetForm = () => {
+    values.name = "";
+    values.email = "";
+    values.mobile = "";
+    values.organiztion = "";
+  };
+  const { handleSubmit, values, handleChange, errors } = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      mobile: "",
+    },
+    validationSchema: fieldvalidationscheme,
+    onSubmit: async (requestInfo) => {
+      setLoad(true);
+      // EmailJS service ID, template ID, and Public Key
+
+      const serviceId = "service_jd0qzwb";
+
+      const templateId = "template_4135jaw";
+
+      const publickey = "lneoFDiOsEdEasyy3";
+
+      // Object that contains dynamic template params A
+
+      const templateParams = {
+        user_name: requestInfo.name,
+        user_email: requestInfo.email,
+        message: `Mobile Number : ${requestInfo.mobile} ,
+        Organiztion : ${requestInfo.organiztion},
+        From : ${localStorage["meynikara-from-page"]}`,
+      };
+
+      // Send the email Ising EmailJS
+
+      await emailjs
+        .send(serviceId, templateId, templateParams, publickey)
+        .then(async (response) => {
+          resetForm();
+          toast.success("Request sent successfully!");
+          setLoad(false);
+          setShow(false);
+          onClose();
+          // ReactGA.event({
+          //   category: "Free trial",
+          //   action: "Request",
+          //   label: localStorage["meynikara-from-page"],
+          // });
+          // eslint-disable-next-line no-undef
+          gtag("event", `${localStorage["meynikara-from-page"]} Request`, {
+            event_category: `${localStorage["meynikara-from-page"]} Request`,
+            event_label: localStorage["meynikara-from-page"],
+          });
+        })
+        .catch((err) => {
+          const fail_res = err.text;
+          toast.warning("Request not sent! ");
+          toast.warning(fail_res);
+          setLoad(false);
+        });
+    },
+  });
   return (
     <Flex
       position={"relative"}
@@ -48,7 +126,10 @@ const NavPage = () => {
             display={{ base: "block", lg: "none" }}
             ref={btnRef}
             colorScheme="transparent"
-            onClick={onOpen}
+            onClick={() => {
+              onOpen();
+              setShow(false);
+            }}
           >
             {" "}
             <span className="navbar-toggler-icon"></span>
@@ -206,111 +287,295 @@ const NavPage = () => {
         <DrawerContent bg={"#1b1a1a"} color={"white"}>
           <DrawerCloseButton size={"lg"} top={"5"} left={"5"} />
           <DrawerHeader></DrawerHeader>
-          <DrawerBody>
-            <br />
-            <Flex p={{ base: "10px" }}>
-              <Heading
-                className="text-senju"
-                opacity={0.7}
-                fontSize={{ base: "lg" }}
-              >
-                Our Services
-              </Heading>
-            </Flex>
+          {!show && (
+            <DrawerBody>
+              <br />
+              <Flex p={{ base: "10px" }}>
+                <Heading
+                  className="text-senju"
+                  opacity={0.7}
+                  fontSize={{ base: "lg" }}
+                >
+                  Our Services
+                </Heading>
+              </Flex>
 
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/glim"} onClick={onClose}>
-                GLIM <span className="text-secondary"> (Manufacturing)</span>
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/shield"} onClick={onClose}>
-                SHIELD <span className="text-secondary">(Manufacturing)</span>
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/edtech"} onClick={onClose}>
-                EdTech
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/marketing&events"} onClick={onClose}>
-                Marketing & Events
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <br />
-            <Flex p={{ base: "10px" }}>
-              <Heading
-                className="text-senju"
-                opacity={0.7}
-                fontSize={{ base: "lg" }}
-              >
-                Our Products
-              </Heading>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/arra"} onClick={onClose}>
-                ARRA
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/metakalvi"} onClick={onClose}>
-                Metakalvi
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/qualisence"} onClick={onClose}>
-                Qualisence
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/virtaas"} onClick={onClose}>
-                VIRTaaS
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <br />
-            <Flex p={{ base: "10px" }}>
-              <Heading
-                className="text-senju"
-                opacity={0.7}
-                fontSize={{ base: "lg" }}
-              >
-                Others
-              </Heading>
-            </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/glim"} onClick={onClose}>
+                  GLIM <span className="text-secondary"> (Manufacturing)</span>
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/shield"} onClick={onClose}>
+                  SHIELD <span className="text-secondary">(Manufacturing)</span>
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/edtech"} onClick={onClose}>
+                  EdTech
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/marketing&events"} onClick={onClose}>
+                  Marketing & Events
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <br />
+              <Flex p={{ base: "10px" }}>
+                <Heading
+                  className="text-senju"
+                  opacity={0.7}
+                  fontSize={{ base: "lg" }}
+                >
+                  Our Products
+                </Heading>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/arra"} onClick={onClose}>
+                  ARRA
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/metakalvi"} onClick={onClose}>
+                  Metakalvi
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/qualisence"} onClick={onClose}>
+                  Qualisence
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/virtaas"} onClick={onClose}>
+                  VIRTaaS
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <br />
+              <Flex p={{ base: "10px" }}>
+                <Heading
+                  className="text-senju"
+                  opacity={0.7}
+                  fontSize={{ base: "lg" }}
+                >
+                  Others
+                </Heading>
+              </Flex>
 
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/"} onClick={onClose}>
-                Home
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/casestudies"} onClick={onClose}>
-                Case Studies
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-            <Flex p={{ base: "10px" }}>
-              <NavLink to={"/blogs"} onClick={onClose}>
-                Blogs
-              </NavLink>
-            </Flex>
-            <Flex borderBottom={"0.1px solid gray"} />
-          </DrawerBody>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/"} onClick={onClose}>
+                  Home
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/casestudies"} onClick={onClose}>
+                  Case Studies
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+              <Flex p={{ base: "10px" }}>
+                <NavLink to={"/blogs"} onClick={onClose}>
+                  Blogs
+                </NavLink>
+              </Flex>
+              <Flex borderBottom={"0.1px solid gray"} />
+            </DrawerBody>
+          )}
+          {show && (
+            <DrawerBody>
+              <br />
+              <form className="inp-form row" onSubmit={handleSubmit}>
+                <Heading
+                  textAlign={"center"}
+                  fontWeight={{ base: "500" }}
+                  fontSize={{ base: "xl", md: "xl", lg: "3xl" }}
+                  mt={"1vh"}
+                  mb={"5vh"}
+                >
+                  Request for <span className="text-senju">Free Trial</span>
+                </Heading>
+                <div className="mb-4 ">
+                  <Input
+                    borderRadius={0}
+                    border={0}
+                    borderBottom={"2px solid gray"}
+                    color={"white"}
+                    _placeholder={{ color: "white" }}
+                    type="email"
+                    className="page-inputs"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    placeholder="Email *"
+                    value={values.email}
+                    onChange={handleChange}
+                    required
+                    p={3}
+                    variant={"unstyled"}
+                    _focus={{ borderColor: "#20c997" }}
+                  />
+                </div>
+                <div className="mb-4 ">
+                  <Input
+                    borderRadius={0}
+                    border={0}
+                    borderBottom={"2px solid gray"}
+                    color={"white"}
+                    _placeholder={{ color: "white" }}
+                    type="name"
+                    className="page-inputs"
+                    placeholder="Name *"
+                    id="name"
+                    value={values.name}
+                    onChange={handleChange}
+                    required
+                    p={3}
+                    variant={"unstyled"}
+                    _focus={{ borderColor: "#20c997" }}
+                  />
+                </div>
+                <div className="mb-4 ">
+                  <Input
+                    borderRadius={0}
+                    border={0}
+                    borderBottom={"2px solid gray"}
+                    color={"white"}
+                    _placeholder={{ color: "white" }}
+                    type="number"
+                    className={"page-inputs"}
+                    placeholder="Mobile Number *"
+                    id="mobile"
+                    value={values.mobile}
+                    onChange={handleChange}
+                    required
+                    p={3}
+                    variant={"unstyled"}
+                    _focus={{ borderColor: "#20c997" }}
+                  />
+                </div>
+                <div className="mb-4 ">
+                  <Input
+                    borderRadius={0}
+                    border={0}
+                    borderBottom={"2px solid gray"}
+                    color={"white"}
+                    _placeholder={{ color: "white" }}
+                    type="text"
+                    className={"page-inputs "}
+                    placeholder="Organization"
+                    id="organiztion"
+                    value={values.organiztion}
+                    onChange={handleChange}
+                    p={3}
+                    variant={"unstyled"}
+                    _focus={{ borderColor: "#20c997" }}
+                  />
+                </div>
+                <Box display={{ base: "black", md: "none" }}>
+                  <br />
+                </Box>
+                {errors.mobile && (
+                  <>
+                    <Box textAlign={"center"} color={"red.500"}>
+                      *Enter valid Mobile number
+                    </Box>
+                    <br />
+                    <br />
+                  </>
+                )}
+                <Box display={"flex"} justifyContent={"center"}>
+                  {!load && (
+                    <Button
+                      type="submit"
+                      border={{ base: "2px solid #20c997" }}
+                      bg={"transparent"}
+                      color={"white"}
+                      h={{ base: "40px", md: "", lg: "50px" }}
+                      // borderRadius={{ base: "20px", md: "", lg: "25px" }}
+                      display={"flex"}
+                      flexDirection={"row"}
+                      justifyContent={"space-between"}
+                      alignItems={"center"}
+                      // fontSize={{ base: "lg", md: "xl", lg: "xl" }}
+                      _hover={{
+                        bg: "#20c997",
+                        color: "white",
+                      }}
+                      isLoading={load}
+                      w={"100%"}
+                    >
+                      <Box visibility={"hidden"} rotate={"45"}>
+                        <ArrowForwardIcon
+                          fontWeight={{ base: "500" }}
+                          fontSize={"xl"}
+                        />
+                      </Box>
+                      Request Access
+                      <Box rotate={"45"}>
+                        <ArrowForwardIcon
+                          transform="rotate(-45deg)"
+                          fontSize={"2xl"}
+                        />
+                      </Box>
+                    </Button>
+                  )}
+                  {load && (
+                    <Button
+                      type="submit"
+                      border={{ base: "2px solid #20c997" }}
+                      bg={"transparent"}
+                      color={"white"}
+                      h={{ base: "40px", md: "", lg: "50px" }}
+                      isLoading={load}
+                      w={"100%"}
+                    ></Button>
+                  )}
+                </Box>
+              </form>
+            </DrawerBody>
+          )}
         </DrawerContent>
       </Drawer>
+      <Box>
+        {/* <Button
+          colorScheme="transparent"
+          onClick={() => {
+            onOpen();
+            setShow(true);
+          }}
+          bg={"red"}
+          position={"absolute"}
+          right={0}
+          top={"45vh"}
+          w={"1vw"}
+        >
+          {" "} */}
+        <ChevronLeftIcon
+          onClick={() => {
+            onOpen();
+            setShow(true);
+          }}
+          position={"fixed"}
+          right={-1}
+          top={"45vh"}
+          color={"white"}
+          fontSize={"3xl"}
+          bg={"#1b1a1a"}
+          h={"10vh"}
+          borderLeftRadius={"10px"}
+        />
+        {/* </Button> */}
+      </Box>
     </Flex>
   );
 };

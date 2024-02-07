@@ -33,6 +33,7 @@ const MEPage1 = () => {
         color={"#20c997"}
         fontSize={{ base: "2xl", md: "5xl", lg: "5xl" }}
         fontWeight={{ base: "700", lg: "700" }}
+        mt={"5vh"}
       >
         MARKETING & EVENTS
       </Heading>
@@ -41,8 +42,11 @@ const MEPage1 = () => {
         fontSize={{ base: "md", md: "2xl", lg: "3xl" }}
         paddingX={{ base: "0", lg: "10vw" }}
       >
-        We develop and deliver data-driven immersive experiences to increase
-        your organisation's marketing and event objectives.
+        We develop and deliver data-driven immersive experiences
+        <Box display={{ base: "none", md: "block", lg: "none" }} /> to increase
+        your organisation's marketing{" "}
+        <Box display={{ base: "none", md: "block", lg: "none" }} />
+        and event objectives.
       </Text>
       <Link
         h={{ base: "40px" }}

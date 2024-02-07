@@ -1,5 +1,6 @@
 import { Box, Flex, Grid, GridItem, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import VideoPageME from "../videoPage/VideoPageME";
 
 const MEPage2 = () => {
   return (
@@ -127,7 +128,7 @@ const MEPage2 = () => {
           </Text>
         </GridItem>
       </Grid>
-      <Box height={{ base: "30vh" }} width={"100%"} bg={"black"}></Box>
+      <VideoPageME />
       <Box paddingY={{ base: "2.5vh" }}>
         <div className="round-box">
           <div className="m-r bg-namikaze">

@@ -8,7 +8,9 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-
+import a_img from "./1.png";
+import b_img from "./2.png";
+import c_img from "./3.png";
 const MEPage7 = () => {
   return (
     <Flex
@@ -40,12 +42,14 @@ const MEPage7 = () => {
       >
         <GridItem>
           <Flex p={"10px"} flexDirection={"column"} alignItems={"center"}>
-            <Image
-              bg={"black"}
-              borderRadius={"50%"}
+            <Box
               h={{ base: "50px", lg: "100px" }}
               w={{ base: "50px", lg: "100px" }}
-            />
+              borderRadius={"50%"}
+              bg={"#ffba00"}
+            >
+              <Image src={a_img} transform={"scale(0.6)"} />
+            </Box>
             <Text
               color={"white"}
               fontWeight={{ base: "600", lg: "700" }}
@@ -60,12 +64,14 @@ const MEPage7 = () => {
         </GridItem>
         <GridItem>
           <Flex p={"10px"} flexDirection={"column"} alignItems={"center"}>
-            <Image
-              bg={"black"}
-              borderRadius={"50%"}
+            <Box
               h={{ base: "50px", lg: "100px" }}
               w={{ base: "50px", lg: "100px" }}
-            />
+              borderRadius={"50%"}
+              bg={"#ffba00"}
+            >
+              <Image src={b_img} transform={"scale(0.6)"} />
+            </Box>
             <Text
               color={"white"}
               fontWeight={{ base: "600", lg: "700" }}
@@ -80,12 +86,14 @@ const MEPage7 = () => {
         </GridItem>
         <GridItem>
           <Flex p={"10px"} flexDirection={"column"} alignItems={"center"}>
-            <Image
-              bg={"black"}
-              borderRadius={"50%"}
+            <Box
               h={{ base: "50px", lg: "100px" }}
               w={{ base: "50px", lg: "100px" }}
-            />
+              borderRadius={"50%"}
+              bg={"#ffba00"}
+            >
+              <Image src={c_img} transform={"scale(0.6)"} />
+            </Box>
             <Text
               color={"white"}
               fontWeight={{ base: "600", lg: "700" }}
