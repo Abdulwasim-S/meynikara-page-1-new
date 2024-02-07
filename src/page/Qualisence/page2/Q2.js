@@ -41,7 +41,7 @@ const Q2 = () => {
         // textAlign={{ lg: "end" }}
       >
         <Heading
-          textAlign={{ base: "start", lg: "end" }}
+          // textAlign={{ base: "start", lg: "end" }}
           color={" #20c997"}
           fontSize={{ base: "3xl", md: "5xl", lg: "5xl" }}
         >

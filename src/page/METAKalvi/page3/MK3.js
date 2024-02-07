@@ -81,6 +81,18 @@ const Mk3 = () => {
       <Box display={{ md: "none", lg: "block" }}>
         <br />
       </Box>
+      <div className="round-box">
+        <div className="m-r bg-namikaze">
+          <p className="m-i"></p>
+        </div>
+        <div className="m-r bg-senju hidden">
+          <p className="m-i hidden-p"></p>
+        </div>
+        <div className="m-r bg-senju">
+          <p className="m-i"></p>
+        </div>
+      </div>
+      <br />
     </Box>
   );
 };

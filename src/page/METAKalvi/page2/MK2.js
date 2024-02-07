@@ -37,7 +37,7 @@ const MK2 = () => {
         flexDirection={"column"}
         colSpan={{ base: "7", lg: 4 }}
         justifyContent={"center"}
-        textAlign={{ lg: "end" }}
+        // textAlign={{ lg: "end" }}
       >
         <Heading
           color={" #20c997"}

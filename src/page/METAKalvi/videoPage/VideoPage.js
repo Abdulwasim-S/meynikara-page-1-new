@@ -10,18 +10,7 @@ const VideoPage = () => {
   return (
     <>
       <br />
-      <div className="round-box">
-        <div className="m-r bg-namikaze">
-          <p className="m-i"></p>
-        </div>
-        <div className="m-r bg-senju hidden">
-          <p className="m-i hidden-p"></p>
-        </div>
-        <div className="m-r bg-senju">
-          <p className="m-i"></p>
-        </div>
-      </div>
-      <br />
+
       <Flex
         w={"100%"}
         flexDirection={{ base: "column", lg: "row" }}
@@ -100,7 +89,7 @@ const VideoPage = () => {
         <Box
           display={{ base: "block", lg: "none" }}
           border={"3px solid #ffba00"}
-          w={"90%"}
+          w={"40%"}
         ></Box>
         <Box
           p={5}
