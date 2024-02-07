@@ -395,13 +395,14 @@ const NavPage = () => {
           {show && (
             <DrawerBody>
               <br />
+              <br />
               <form className="inp-form row" onSubmit={handleSubmit}>
                 <Heading
-                  textAlign={"center"}
-                  fontWeight={{ base: "500" }}
-                  fontSize={{ base: "xl", md: "xl", lg: "3xl" }}
-                  mt={"1vh"}
-                  mb={"5vh"}
+                  fontWeight={{ base: "700" }}
+                  pl={3}
+                  fontSize={{ base: "2xl", md: "2xl", lg: "3xl" }}
+                  mt={{ base: "1vh", lg: "5" }}
+                  mb={{ base: "1vh", lg: "5" }}
                 >
                   Request for <span className="text-senju">Free Trial</span>
                 </Heading>
