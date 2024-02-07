@@ -9,6 +9,7 @@ const VideoPage = () => {
   const [show2, setShow2] = useState(true);
   return (
     <>
+      <br />
       <div className="round-box">
         <div className="m-r bg-namikaze">
           <p className="m-i"></p>

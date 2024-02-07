@@ -13,6 +13,7 @@ import arra_img from "../images/1.png";
 import YouTube from "react-youtube";
 
 import bg_img from "../images/bg2.png";
+import ARRAPage2 from "../page2/ARRAPage2";
 // import ReactGA from "react-ga4";
 
 const ARRAPage1 = () => {
@@ -83,11 +84,16 @@ const ARRAPage1 = () => {
           <Image src={arra_img} h={"50vh"} alt="arra_img" />
         </GridItem>
       </Grid>
+      <ARRAPage2 />
       <Box display={{ md: "none", lg: "block" }}>
         <br />
       </Box>
       <Box className="GLIMPage-3 bg-white" p={{ base: "10px", lg: "25px 0" }}>
-        <Flex justifyContent={"center"} bg={"#f1f1f1"} py={10}>
+        <Flex
+          justifyContent={"center"}
+          // bg={"#f1f1f1"}
+          py={10}
+        >
           {show && (
             <Box
               display={"flex"}
@@ -169,7 +175,6 @@ const ARRAPage1 = () => {
             </Box>
           )}
         </Flex>
-        <br />
       </Box>
       <div className="round-box">
         <div className="m-r bg-namikaze">

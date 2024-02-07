@@ -122,8 +122,8 @@ function App() {
             <>
               <NavPage />
               <ARRAPage1 />
+              {/* <ARRAPage2 /> */}
               <ARRAPage3 />
-              <ARRAPage2 />
               <ARRAPage4 />
               <ARRAPage5 />
             </>
@@ -135,8 +135,8 @@ function App() {
             <>
               <NavPage />
               <MK1 />
-              <VideoPage />
               <MK2 />
+              <VideoPage />
               <MK4 />
               <Mk3 />
               <Mk5 />
