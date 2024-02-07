@@ -55,13 +55,9 @@ const ARRAPage4 = () => {
             display={{ base: "flex", lg: "none" }}
             justifyContent={"center"}
             alignItems={"center"}
-            minH={"40vh"}
+            // minH={"40vh"}
           >
-            <Image
-              src={b_img}
-              h={{ base: "100%", md: "45vh", lg: "60vh" }}
-              alt="b_img"
-            />
+            <Image src={b_img} h={{ md: "45vh", lg: "60vh" }} alt="b_img" />
           </Box>
           <Accordion defaultIndex={[0]} allowToggle>
             <AccordionItem border={0}>
