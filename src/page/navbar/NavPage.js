@@ -183,7 +183,7 @@ const NavPage = () => {
                       </Flex>
                     </div>
                   </li>
-                  <li className="nav-item dropend">
+                  {/* <li className="nav-item dropend">
                     <NavLink
                       className="nav-link "
                       to={"/edtech"}
@@ -192,7 +192,7 @@ const NavPage = () => {
                     >
                       EdTech
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li className="nav-item dropend">
                     <NavLink
                       className="nav-link "
@@ -246,7 +246,7 @@ const NavPage = () => {
                       Metakalvi
                     </NavLink>
                   </li>
-                  <li className="nav-item dropend">
+                  {/* <li className="nav-item dropend">
                     <NavLink
                       className="nav-link "
                       to={"/edtech"}
@@ -255,7 +255,7 @@ const NavPage = () => {
                     >
                       VIRTaaS
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className="nav-item">
@@ -263,11 +263,11 @@ const NavPage = () => {
                   Case Studies
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact-us">
+              {/* <li className="nav-item">
+                <a className="nav-link " href="#contact-us">
                   Blogs
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#contact-us">
                   Contact Us
@@ -312,12 +312,12 @@ const NavPage = () => {
                   SHIELD <span className="text-secondary">(Manufacturing)</span>
                 </NavLink>
               </Flex>
-              <Flex borderBottom={"0.1px solid gray"} />
+              {/* <Flex borderBottom={"0.1px solid gray"} />
               <Flex p={{ base: "10px" }}>
                 <NavLink to={"/edtech"} onClick={onClose}>
                   EdTech
                 </NavLink>
-              </Flex>
+              </Flex> */}
               <Flex borderBottom={"0.1px solid gray"} />
               <Flex p={{ base: "10px" }}>
                 <NavLink to={"/marketing&events"} onClick={onClose}>
@@ -353,12 +353,12 @@ const NavPage = () => {
                   Qualisence
                 </NavLink>
               </Flex>
-              <Flex borderBottom={"0.1px solid gray"} />
+              {/* <Flex borderBottom={"0.1px solid gray"} />
               <Flex p={{ base: "10px" }}>
                 <NavLink to={"/virtaas"} onClick={onClose}>
                   VIRTaaS
                 </NavLink>
-              </Flex>
+              </Flex> */}
               <Flex borderBottom={"0.1px solid gray"} />
               <br />
               <Flex p={{ base: "10px" }}>
@@ -385,11 +385,14 @@ const NavPage = () => {
               </Flex>
               <Flex borderBottom={"0.1px solid gray"} />
               <Flex p={{ base: "10px" }}>
-                <NavLink to={"/blogs"} onClick={onClose}>
+                {/* <NavLink to={"#"} onClick={onClose} disabled>
                   Blogs
-                </NavLink>
+                </NavLink> */}
+                {/* <NavLink to={"/blogs"} onClick={onClose} disabled>
+                  Blogs
+                </NavLink> */}
               </Flex>
-              <Flex borderBottom={"0.1px solid gray"} />
+              {/* <Flex borderBottom={"0.1px solid gray"} /> */}
             </DrawerBody>
           )}
           {show && (
@@ -562,6 +565,7 @@ const NavPage = () => {
         >
           {" "} */}
         <ChevronLeftIcon
+          display={"none"}
           onClick={() => {
             onOpen();
             setShow(true);

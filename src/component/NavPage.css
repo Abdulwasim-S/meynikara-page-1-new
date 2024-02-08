@@ -1,0 +1,106 @@
+.navbar-nav .nav-link {
+    color: #fff;
+    border-bottom: 2px solid #ffbb0000;
+}
+ .nav-link:hover {
+    border-bottom: 2px solid #20c997;
+}
+
+.dropend .dropdown-toggle {
+    margin-left: 1em;
+    text-align: center;
+}
+.dropdown-item{
+    color: white;
+    text-align: start;
+}
+.dropend:hover {
+    background-color: gray;
+    color: #fff;
+}
+.dropdown-item:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+    background:#232323;
+    border-radius: 0;
+    color: white;
+    text-align: center;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    color: "white";
+    animation-name: fadeInDown;
+    animation-duration: 0.4s;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        margin-top: 10px;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .dropend .dropdown-toggle {
+        margin-left: 0.5em;
+    }
+}
+.sublink {
+    padding: 5px;
+    border-bottom: 2px solid #ffbb0000;
+    &:hover{
+        background-color: gray;
+        border-bottom: 2px solid #20c997;
+    }
+}
+
+.expand-box1,.expand-box2{
+    animation: ease-in-out;
+    animation-name: expandtoh;
+    animation-duration: 0.5s;
+    height: fit-content;
+}
+.expand-down{
+    animation: ease-in-out;
+    animation-name: expandtoh;
+    animation-duration:0.3s ;
+}
+
+@keyframes expandtoh {
+    from {
+        height: 0px;
+    }
+
+    to {
+    }
+}
+.sublink{
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation: ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -65,6 +65,17 @@ const MEPage1 = () => {
         justifyContent={"center"}
         alignItems={"center"}
         transform={{ base: "scale(0.75)", md: "scale(1)" }}
+        onClick={() => {
+          // eslint-disable-next-line no-undef
+          gtag(
+            "event",
+            `${localStorage["meynikara-from-page"]} Request form opened`,
+            {
+              event_category: `${localStorage["meynikara-from-page"]} Request form opened`,
+              event_label: localStorage["meynikara-from-page"],
+            }
+          );
+        }}
       >
         Request for Free Trial
       </Link>

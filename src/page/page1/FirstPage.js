@@ -33,11 +33,13 @@ const FirstPage = () => {
           objectives.
         </p>
         <div className="butn-box">
-          <button className="learn-more-butn">
-            <img className="butn-arrow1" src={lm} alt="arrow" />
-            <span className="butn-text">Learn More</span>
-            <img className="butn-arrow" src={lm} alt="arrow" />
-          </button>
+          <a href="#contact-us">
+            <button className="learn-more-butn">
+              <img className="butn-arrow1" src={lm} alt="arrow" />
+              <span className="butn-text">Learn More</span>
+              <img className="butn-arrow" src={lm} alt="arrow" />
+            </button>
+          </a>
         </div>
       </div>
       <div className="col-lg-5 image-container">

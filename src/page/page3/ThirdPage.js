@@ -10,12 +10,12 @@ const ThirdPage = () => {
         Our <span className="text-cyan">Services</span>
       </Heading>
       <Text className="text-normal">
-        XR can improve worker training by simulating complex processes,
-        increasing safety, and reducing the risk of errors. XR can also assist
-        in product design and prototyping, enhancing collaboration, and reducing
-        development time. Additionally, XR can provide remote support, enabling
-        experts to assist on-site technicians in real-time, improving
-        efficiency, and reducing downtime.
+        Unlock the potential of immersive experiences with our comprehensive
+        range of AR and VR solutions tailored to meet your needs. At Meynikara,
+        we combine cutting-edge technology with creative innovation to bring
+        your ideas to life. Whether you're looking to revolutionize training
+        programs, enhance customer engagement, or create captivating virtual
+        environments, we have the expertise to make it happen.
       </Text>
       <Box className="image-container">
         <ImageContainer />

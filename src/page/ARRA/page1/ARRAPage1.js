@@ -6,6 +6,7 @@ import {
   GridItem,
   Heading,
   Image,
+  Link,
   Text,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
@@ -74,6 +75,38 @@ const ARRAPage1 = () => {
             </Box>{" "}
             on service delivery costs using our AR based Remote Assistance.
           </Text>
+          <Link
+            w={{ md: "50%" }}
+            h={{ base: "40px" }}
+            borderRadius={{ base: "20px" }}
+            fontSize={{ base: "16px", md: "sm", lg: "md" }}
+            colorScheme="dark"
+            bg={"#ffba00"}
+            mt={{ lg: "20px" }}
+            mb={"20px"}
+            color={"black"}
+            fontWeight={{ base: "700" }}
+            _hover={{ bg: "#20c997", color: "white" }}
+            p={{ base: "5px 35px", md: "10px 50px" }}
+            href="#contact-us"
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            transform={{ base: "scale(0.75)", md: "scale(1)" }}
+            onClick={() => {
+              // eslint-disable-next-line no-undef
+              gtag(
+                "event",
+                `${localStorage["meynikara-from-page"]} Request form opened`,
+                {
+                  event_category: `${localStorage["meynikara-from-page"]} Request form opened`,
+                  event_label: localStorage["meynikara-from-page"],
+                }
+              );
+            }}
+          >
+            Request for Free Trial
+          </Link>
         </GridItem>
         <GridItem
           display={{ base: "none", lg: "flex" }}

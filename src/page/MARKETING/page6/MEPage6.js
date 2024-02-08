@@ -58,6 +58,7 @@ const MEPage6 = () => {
           Gamified experience of cucling for Dopenerds: A Case Study
         </GridItem>
       </Grid>
+      <Box />
       <Grid templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}>
         <GridItem>
           <Flex p={"10px"}>
@@ -87,7 +88,7 @@ const MEPage6 = () => {
               >
                 Approach
               </Heading>
-              <Text fontSize={{ base: "md", lg: "25px" }}>
+              <Text>
                 Devised a tranformative solution - creating an immersive
                 gamified cycling experience. Zeroed in on gradual transformation
                 of the cityscape over time served {"(1800 to 2023)"} as a

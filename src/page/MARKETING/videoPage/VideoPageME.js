@@ -49,7 +49,7 @@ const VideoPageME = () => {
           {!show && (
             <YouTube
               className="h-100 w-100"
-              videoId={"-EcD--9dcy8"}
+              videoId={"uwxL8fJN6z0"}
               opts={{
                 width: "100%",
                 height: "100%",
@@ -123,7 +123,7 @@ const VideoPageME = () => {
           {!show2 && (
             <YouTube
               className="h-100 w-100"
-              videoId={"Lk-u9pUrVSI"}
+              videoId={"uwxL8fJN6z0"}
               opts={{
                 width: "100%",
                 height: "100%",

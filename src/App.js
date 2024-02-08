@@ -49,6 +49,7 @@ import Q4 from "./page/Qualisence/page4/Q4";
 import Q3 from "./page/Qualisence/page3/Q3";
 import Q5 from "./page/Qualisence/page5/Q5";
 import VideoPage from "./page/METAKalvi/videoPage/VideoPage";
+import NavPage2 from "./component/TempNavBar";
 
 function App() {
   return (
@@ -74,7 +75,7 @@ function App() {
           path="/glim"
           element={
             <>
-              <NavPage />
+              <NavPage2 />
               <GLIMPage1 />
               <GLIMPage2 />
               <GLIMPage3 />
@@ -89,7 +90,7 @@ function App() {
           path="/shield"
           element={
             <>
-              <NavPage />
+              <NavPage2 />
               <SHIELDPage1 />
               <SHIELDPage2 />
               <SHIELDPage3 />
@@ -104,7 +105,7 @@ function App() {
           path="/marketing&events"
           element={
             <>
-              <NavPage />
+              <NavPage2 />
               <MEPage1 />
               <MEPage2 />
               <MEPage3 />
