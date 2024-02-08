@@ -110,7 +110,7 @@ function App() {
               <MEPage2 />
               <MEPage3 />
               <MEPage4 />
-              <MEPage5 />
+              {/* <MEPage5 /> */}
               <MEPage6 />
               <MEPage7 />
             </>

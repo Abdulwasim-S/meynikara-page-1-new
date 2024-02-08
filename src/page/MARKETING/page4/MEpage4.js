@@ -49,6 +49,7 @@ const MEPage4 = () => {
   const images = ["astronaut", "celebrating", "education", "taken"];
   return (
     <Box
+      className="bg-meynikara"
       marginTop={{ base: "25px" }}
       position={"relative"}
       p={{ base: "40px 20px" }}
