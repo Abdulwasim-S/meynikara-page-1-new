@@ -61,7 +61,7 @@ const Q1 = () => {
           step-by-step guidance, and data visualization, streamlining the
           inspection workflow and reducing human errors. It can give about{" "}
           <Box display={"inline-block"} fontWeight={500}>
-            <span className="text-senju "> 20%-30%</span>
+            <span className="text-senju "> 20% to 30%</span>
           </Box>{" "}
           increase in efficiency of the quality inspection process.
         </Text>

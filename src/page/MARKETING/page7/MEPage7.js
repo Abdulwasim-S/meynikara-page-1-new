@@ -11,10 +11,15 @@ import React from "react";
 import a_img from "./1.png";
 import b_img from "./2.png";
 import c_img from "./3.png";
+import bg_img from "./bg.jpg";
 const MEPage7 = () => {
   return (
     <Flex
-      bg={"#20c997"}
+      // bg={"#20c997"}
+      bgImage={bg_img}
+      bgRepeat={"no-repeat"}
+      bgSize={"cover"}
+      bgPos={"left"}
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
