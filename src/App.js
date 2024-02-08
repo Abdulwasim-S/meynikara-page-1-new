@@ -67,7 +67,7 @@ function App() {
               <FourthPage />
               <VerticalFlip />
               <AgilePage />
-              <ClientPage />
+              {/* <ClientPage /> */}
             </div>
           }
         />

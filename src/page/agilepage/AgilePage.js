@@ -12,7 +12,7 @@ import { Box, Heading, Image, Text } from "@chakra-ui/react";
 
 const AgilePage = () => {
   return (
-    <Box className="AgilePage">
+    <Box className="AgilePage" bg={"#f1f1f1"}>
       <Heading
         textAlign={"center"}
         fontWeight={{ base: "700" }}
