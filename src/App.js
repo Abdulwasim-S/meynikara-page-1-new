@@ -7,7 +7,6 @@ import FourthPage from "./page/page4/FourthPage";
 import FooterPage from "./page/Footer/FooterPage";
 import EmailPage from "./page/emailpage/EmailPage";
 import ContactPageComp from "./page/contactpage/ContactPage";
-import ClientPage from "./page/clientpage/ClientPage";
 import VerticalFlip from "./page/verticalflippage/VerticalFlip";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
@@ -31,7 +30,6 @@ import MEPage1 from "./page/MARKETING/page1/MEPage1";
 import MEPage2 from "./page/MARKETING/page2/MEPage2";
 import MEPage3 from "./page/MARKETING/page3/MEPage3";
 import MEPage4 from "./page/MARKETING/page4/MEpage4";
-import MEPage5 from "./page/MARKETING/page5/MEPage5";
 import MEPage6 from "./page/MARKETING/page6/MEPage6";
 import MEPage7 from "./page/MARKETING/page7/MEPage7";
 import ARRAPage1 from "./page/ARRA/page1/ARRAPage1";
@@ -67,7 +65,6 @@ function App() {
               <FourthPage />
               <VerticalFlip />
               <AgilePage />
-              {/* <ClientPage /> */}
             </div>
           }
         />
@@ -110,7 +107,6 @@ function App() {
               <MEPage2 />
               <MEPage3 />
               <MEPage4 />
-              {/* <MEPage5 /> */}
               <MEPage6 />
               <MEPage7 />
             </>
@@ -122,7 +118,6 @@ function App() {
             <>
               <NavPage />
               <ARRAPage1 />
-              {/* <ARRAPage2 /> */}
               <ARRAPage3 />
               <ARRAPage4 />
               <ARRAPage5 />
