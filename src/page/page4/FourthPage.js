@@ -20,7 +20,7 @@ const FourthPage = () => {
           <p className="arrow-text  fw-bold">
             ARRA
             <span className="px-2" />
-            <NavLink to={"/arra"}>
+            <NavLink to={"/arra/"}>
               <i className="text-arrow fa-solid fa-arrow-right"></i>
             </NavLink>
           </p>
