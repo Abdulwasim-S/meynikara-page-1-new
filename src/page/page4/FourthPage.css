@@ -74,7 +74,7 @@
     }
 
     .fourth-page-text-normal {
-        font-size: 1.75vh;
+        font-size: 4vw;
         font-weight: 300;
     }
     .arrow-box{
@@ -90,8 +90,8 @@
         }
         .arrow-box{
             align-items: start;
-            padding-left: 20vw;
         }
+        
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767.99px) {
