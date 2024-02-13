@@ -18,9 +18,10 @@ const MEPage6 = () => {
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
-      p={{ base: "20px", lg: "50px" }}
+      p={{ base: "0 20px", lg: "0 50px" }}
+      pb={{ base: "20px", lg: "50px" }}
     >
-      <Grid
+      {/* <Grid
         display={{ base: "flex" }}
         flexDirection={{ base: "column", lg: "row-reverse" }}
         paddingX={{ base: "2vw" }}
@@ -58,9 +59,33 @@ const MEPage6 = () => {
           Gamified experience of cycling for one of the leading event management
           company
         </GridItem>
-      </Grid>
+      </Grid> */}
+      <div className="GLIMPage-4 py-4 text-black">
+        <div className="case-study row gp4-white">
+          <div className="col-lg-4 ">
+            <h3 className="dp4-h">
+              Case{" "}
+              <span className="text-senju">
+                <span className="opacity-0 h6">.</span> Study
+              </span>
+            </h3>
+          </div>
+          <div className="col-lg-1">
+            <span className="gp2-empty-span"></span>
+          </div>
+          <div className="col-lg-7">
+            <p className="gpl4-p2">
+              Gamified experience of cycling for one of the leading event
+              management company
+            </p>
+          </div>
+        </div>
+      </div>
       <Box />
-      <Grid templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}>
+      <Grid
+        gap={"5"}
+        templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}
+      >
         <GridItem>
           <Flex p={"10px"}>
             <Image src={a_img} h={"50px"} w={"50px"} />
@@ -71,7 +96,7 @@ const MEPage6 = () => {
               >
                 Requirement
               </Heading>
-              <Text>
+              <Text textAlign={"justify"}>
                 Leverage XR technology to recreate a famous city's environment
                 and spotlight the invaluable contributions of black cyclists
                 throughout history
@@ -89,7 +114,7 @@ const MEPage6 = () => {
               >
                 Approach
               </Heading>
-              <Text>
+              <Text textAlign={"justify"}>
                 Devised a tranformative solution - creating an immersive
                 gamified cycling experience. Zeroed in on gradual transformation
                 of the cityscape over time served {"(1800 to 2023)"} as a
@@ -108,7 +133,7 @@ const MEPage6 = () => {
               >
                 Solution
               </Heading>
-              <Text>
+              <Text textAlign={"justify"}>
                 Using 3D modelling tools and Unity we recreated the city's
                 environment guiding users through a century of history riding
                 alongside black cyclists form the past to the present day.

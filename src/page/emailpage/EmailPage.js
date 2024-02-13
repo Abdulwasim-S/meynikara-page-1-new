@@ -161,7 +161,7 @@ const EmailPage = () => {
             <Box visibility={"hidden"} rotate={"45"}>
               <ArrowForwardIcon fontWeight={{ base: "500" }} fontSize={"xl"} />
             </Box>
-            Request Access
+            Submit
             <Box rotate={"45"}>
               <ArrowForwardIcon transform="rotate(-45deg)" fontSize={"2xl"} />
             </Box>

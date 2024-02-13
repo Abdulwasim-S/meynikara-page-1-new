@@ -54,9 +54,9 @@ const MK4 = () => {
             fontWeight={{ base: "400" }}
             fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
           >
-            Metakalvi had a positive impact on the students' learning
-            experience, as it provided an immersive and engaging way to learn
-            complex concepts.
+            Metakalvi had a positive impact on the students' learning experience
+            as it provided an immersive and engaging way to learn complex
+            concepts.
           </Text>
           <Box
             display={{ base: "flex", lg: "none" }}

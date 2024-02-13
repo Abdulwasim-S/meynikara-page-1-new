@@ -65,11 +65,11 @@ const ARRAPage1 = () => {
             fontWeight={{ base: "400" }}
             fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
           >
-            Save upto{" "}
+            Save up to{" "}
             <Box display={"inline-block"} fontWeight={500}>
               <span className="text-senju ">25%</span>
             </Box>{" "}
-            on travel costs and upto{" "}
+            on travel costs and up to{" "}
             <Box display={"inline-block"} fontWeight={500}>
               <span className="text-senju">40%</span>
             </Box>{" "}

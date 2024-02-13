@@ -4,7 +4,7 @@ import VideoPageME from "../videoPage/VideoPageME";
 
 const MEPage2 = () => {
   return (
-    <Box textAlign={"center"} padding={{ base: "20px", lg: "5vh 5vw" }}>
+    <Box textAlign={"center"} padding={{ base: "20px", lg: "5vh 5vw 0 5vw" }}>
       <Heading fontSize={{ base: "30px", md: "45px", lg: "50px" }}>
         Our Service Offerings
       </Heading>
@@ -129,7 +129,7 @@ const MEPage2 = () => {
         </GridItem>
       </Grid>
       <VideoPageME />
-      <Box paddingY={{ base: "2.5vh" }}>
+      <Box padding={{ base: "2.5vh 0 0 0" }}>
         <div className="round-box">
           <div className="m-r bg-namikaze">
             <p className="m-i"></p>

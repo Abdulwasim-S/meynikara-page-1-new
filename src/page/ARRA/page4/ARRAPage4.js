@@ -128,7 +128,8 @@ const ARRAPage4 = () => {
               >
                 AR-based remote assistance can increase efficiency and reduce
                 costs. AR based remote assistance can save field service
-                organizations up to 25% on travel costs and up to 40% on service
+                organizations <b className="text-senju">up to 25% </b> on travel
+                costs and <b className="text-senju">up to 40% </b> on service
                 delivery costs.
               </AccordionPanel>
             </AccordionItem>
@@ -166,7 +167,8 @@ const ARRAPage4 = () => {
                 support personnel and customers. The visual cues and overlays
                 provided by AR technology can improve understanding and reduce
                 the risk of misunderstandings. AR technology can improve
-                communication by up to 50% and reduce errors by up to 80%.
+                communication by <b className="text-senju">up to 50% </b> and
+                reduce errors by <b className="text-senju">up to 80%.</b>
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

@@ -38,7 +38,7 @@ const VerticalFlip = () => {
         <div className="vf-card col-lg-3 col-md-4 col-12">
           <div className="vf-content">
             <img className="vf-icon" src={d} alt="a-img" />
-            <h5 className="vf-heading">10</h5>
+            <h5 className="vf-heading">10+</h5>
             <p className="vf-para">
               {" "}
               Years in VR ,<br /> AR Metaverse &<br /> S/W Development

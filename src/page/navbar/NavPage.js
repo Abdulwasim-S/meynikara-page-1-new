@@ -258,11 +258,11 @@ const NavPage = () => {
                   </li> */}
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#contact-us">
                   Case Studies
                 </a>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <a className="nav-link " href="#contact-us">
                   Blogs
@@ -378,12 +378,12 @@ const NavPage = () => {
                 </NavLink>
               </Flex>
               <Flex borderBottom={"0.1px solid gray"} />
-              <Flex p={{ base: "10px" }}>
+              {/* <Flex p={{ base: "10px" }}>
                 <NavLink to={"/casestudies"} onClick={onClose}>
                   Case Studies
                 </NavLink>
-              </Flex>
-              <Flex borderBottom={"0.1px solid gray"} />
+              </Flex> */}
+              {/* <Flex borderBottom={"0.1px solid gray"} /> */}
               <Flex p={{ base: "10px" }}>
                 {/* <NavLink to={"#"} onClick={onClose} disabled>
                   Blogs

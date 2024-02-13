@@ -58,9 +58,8 @@ const SHIELDPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              Instances of improper PPE usage decreased by{" "}
-              <b className="text-senju">30%</b> promoting a safer work
-              environment and minimising the risk of accidents.
+              Instances of improper PPE usage decreased by <b>30%</b> promoting
+              a safer work environment and minimising the risk of accidents.
             </div>
           </div>
         </div>

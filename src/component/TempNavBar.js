@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./NavPage.css";
 import {
   Box,
@@ -99,6 +99,14 @@ const NavPage2 = () => {
         });
     },
   });
+  const openSideNav = () =>
+    setTimeout(() => {
+      onOpen();
+      setShow(true);
+    }, 3500);
+  useEffect(() => {
+    openSideNav();
+  }, []);
   return (
     <Flex
       position={"relative"}
@@ -258,11 +266,11 @@ const NavPage2 = () => {
                   </li> */}
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#contact-us">
                   Case Studies
                 </a>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <a className="nav-link " href="#contact-us">
                   Blogs
@@ -378,11 +386,11 @@ const NavPage2 = () => {
                 </NavLink>
               </Flex>
               <Flex borderBottom={"0.1px solid gray"} />
-              <Flex p={{ base: "10px" }}>
+              {/* <Flex p={{ base: "10px" }}>
                 <NavLink to={"/casestudies"} onClick={onClose}>
                   Case Studies
                 </NavLink>
-              </Flex>
+              </Flex> */}
               <Flex borderBottom={"0.1px solid gray"} />
               <Flex p={{ base: "10px" }}>
                 {/* <NavLink to={"#"} onClick={onClose} disabled>
@@ -524,7 +532,7 @@ const NavPage2 = () => {
                           fontSize={"xl"}
                         />
                       </Box>
-                      Request Access
+                      Submit
                       <Box rotate={"45"}>
                         <ArrowForwardIcon
                           transform="rotate(-45deg)"

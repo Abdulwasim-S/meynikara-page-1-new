@@ -52,7 +52,8 @@ const ARRAPage2 = () => {
           >
             Traditional methods of providing remote assistance such as phone
             support and video conferencing can be inefficient and ineffective.
-            According to a study by aberdeen group, remote workers take 25%
+            According to a study by aberdeen group, remote workers take{" "}
+            <b className="text-senju">25% </b>
             longer to complete a task than their on-site counterparts.
           </Text>
         </GridItem>

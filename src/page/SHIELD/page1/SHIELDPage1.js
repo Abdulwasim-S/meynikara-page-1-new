@@ -6,6 +6,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import bg_img from "./SHIELD_BG.jpg";
 import FloatingNavContact from "../../../component/FloatingContact/FloatingContact";
+import NavPage2 from "../../../component/TempNavBar";
 // import ReactGA from "react-ga4";
 
 const SHIELDPage1 = () => {
@@ -23,6 +24,7 @@ const SHIELDPage1 = () => {
   }, []);
   return (
     <Box>
+      <NavPage2 />
       <Box
         display={"flex"}
         flexDirection={"column"}

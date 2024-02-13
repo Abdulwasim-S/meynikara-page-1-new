@@ -19,7 +19,7 @@ const MEPage7 = () => {
       bgImage={bg_img}
       bgRepeat={"no-repeat"}
       bgSize={"cover"}
-      bgPos={"left"}
+      bgPos={"center"}
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
