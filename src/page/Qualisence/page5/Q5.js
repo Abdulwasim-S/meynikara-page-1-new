@@ -64,7 +64,7 @@ const Q5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            Inspectors can perform tasks more accurately, leading to a reduction
+            Inspectors can perform tasks more accurately leading to a reduction
             in errors and defects.
           </Text>
         </GridItem>
@@ -86,7 +86,7 @@ const Q5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            This improved accuracy results in higher-quality products,
+            This improved accuracy results in higher-quality products
             contributing to improved customer satisfaction.
           </Text>
         </GridItem>

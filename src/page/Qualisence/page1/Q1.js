@@ -58,7 +58,7 @@ const Q1 = () => {
           fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
         >
           AR technologies assist inspectors by providing real-time information,
-          step-by-step guidance, and data visualization, streamlining the
+          step-by-step guidance and data visualization streamlining the
           inspection workflow and reducing human errors. It can give about{" "}
           <Box display={"inline-block"} fontWeight={500}>
             <span className="text-senju "> 20% to 30%</span>

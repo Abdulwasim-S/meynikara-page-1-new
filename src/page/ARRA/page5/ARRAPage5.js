@@ -26,7 +26,7 @@ const ARRAPage5 = () => {
         fontSize={{ base: "lg", md: "3xl", lg: "3xl" }}
       >
         AR-based remote assistance offers several key features that can help
-        companies improve their support and service delivery:
+        companies improve their support and service delivery
       </Text>
       <Grid
         templateColumns="repeat(4, 1fr)"
@@ -54,8 +54,8 @@ const ARRAPage5 = () => {
             fontWeight={{ base: "500", md: "400" }}
             textAlign={"justify"}
           >
-            AR technology allows visual cues and overlays in real-time, which
-            can improve understanding and reduce the risk of errors.
+            AR technology allows visual cues and overlays in real-time which can
+            improve understanding and reduce the risk of errors.
           </Text>
         </GridItem>
         <GridItem
@@ -133,7 +133,7 @@ const ARRAPage5 = () => {
             textAlign={"justify"}
           >
             AR technology can be customized to match the branding and style of a
-            company, which can enhance the customer experience and improve brand
+            company which can enhance the customer experience and improve brand
             recognition.
           </Text>
         </GridItem>

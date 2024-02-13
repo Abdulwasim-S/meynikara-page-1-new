@@ -82,7 +82,7 @@ const ARRAPage4 = () => {
                     fontWeight={{ base: "500", lg: "500" }}
                     paddingLeft={{ base: "1vw" }}
                   >
-                    DropDown
+                    Improve customer satisfaction
                   </Heading>
                 </AccordionButton>
               </h2>
@@ -117,7 +117,7 @@ const ARRAPage4 = () => {
                     fontWeight={{ base: "500", lg: "500" }}
                     paddingLeft={{ base: "1vw" }}
                   >
-                    DropDown
+                    Increase efficiency
                   </Heading>
                 </AccordionButton>
               </h2>
@@ -153,7 +153,7 @@ const ARRAPage4 = () => {
                     fontWeight={{ base: "500", lg: "500" }}
                     paddingLeft={{ base: "1vw" }}
                   >
-                    DropDown
+                    Enhance communication
                   </Heading>
                 </AccordionButton>
               </h2>

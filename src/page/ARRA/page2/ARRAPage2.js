@@ -50,8 +50,8 @@ const ARRAPage2 = () => {
             textAlign={"justify"}
             fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
           >
-            Traditional methods of providing remote assistance, such as phone
-            support and video conferencing, can be inefficient and ineffective.
+            Traditional methods of providing remote assistance such as phone
+            support and video conferencing can be inefficient and ineffective.
             According to a study by aberdeen group, remote workers take 25%
             longer to complete a task than their on-site counterparts.
           </Text>

@@ -55,7 +55,8 @@ const MEPage6 = () => {
           fontWeight={{ base: "400", lg: 500 }}
           textAlign={{ base: "start", lg: "end" }}
         >
-          Gamified experience of cucling for Dopenerds: A Case Study
+          Gamified experience of cycling for one of the leading event management
+          company
         </GridItem>
       </Grid>
       <Box />
@@ -107,9 +108,9 @@ const MEPage6 = () => {
               >
                 Solution
               </Heading>
-              <Text fontWeight={{ base: "400", lg: 500 }}>
-                Using 3D modelling tools and Unity , we recreated the city's
-                environment, guiding users through a century of history, riding
+              <Text>
+                Using 3D modelling tools and Unity we recreated the city's
+                environment guiding users through a century of history riding
                 alongside black cyclists form the past to the present day.
               </Text>
             </Box>

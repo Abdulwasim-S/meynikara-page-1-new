@@ -105,8 +105,8 @@ function App() {
               <NavPage2 />
               <MEPage1 />
               <MEPage2 />
-              <MEPage3 />
-              <MEPage4 />
+              {/* <MEPage3 /> */}
+              {/* <MEPage4 /> */}
               <MEPage6 />
               <MEPage7 />
             </>

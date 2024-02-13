@@ -8,13 +8,13 @@ const SHIELDPage5 = () => {
         <div className="gmc-1">
           <p className="g5-h px-5 bg-namikaze">INTRODUCTION</p>
           <p className="g5-p">
-            In response to the pressing need for heightened workplace safety,
-            one of the leading Oil & Gas Corporation implemented a comprehensive
+            In response to the pressing need for heightened workplace safety one
+            of the leading Oil & Gas Corporation implemented a comprehensive
             safety program integrating advanced technologies such as VR and AI.
             <br />
             <br />
             This case study delves into the successful application of VR and AI
-            detection algorithms to monitor employee behaviour, focusing on
+            detection algorithms to monitor employee behaviour focusing on
             Personal Protective Equipment (PPE) compliance and restricted access
             areas within the workplace.
           </p>
@@ -50,16 +50,16 @@ const SHIELDPage5 = () => {
         <div className="gmc-2">
           <p className="g5-h px-5 bg-senju">IMPLEMENTATION</p>
           <p className="g5-p">
-            PPE Compliance Monitoring: The AI algorithms were configured to
-            detect and alert supervisors when employees failed to comply with
-            PPE standards. This included instances of incorrect PPE usage or, in
+            <b>PPE Compliance Monitoring:</b> The AI algorithms were configured
+            to detect and alert supervisors when employees failed to comply with
+            PPE standards. This included instances of incorrect PPE usage or in
             some cases, the absence of necessary protective gear.
             <br />
             <br />
-            Access Control for Hazardous Areas: Restricted zones within the job
-            floor were equipped with AI-powered cameras linked to the detection
-            algorithms. Unauthorised access triggered immediate alerts, allowing
-            supervisors to intervene promptly.
+            <b>Access Control for Hazardous Areas:</b> Restricted zones within
+            the job floor were equipped with AI-powered cameras linked to the
+            detection algorithms. Unauthorised access triggered immediate alerts
+            allowing supervisors to intervene promptly.
           </p>
         </div>
       </div>

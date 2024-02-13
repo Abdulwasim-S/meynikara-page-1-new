@@ -77,7 +77,7 @@ const MEPage1 = () => {
           );
         }}
       >
-        Request for Free Trial
+        Let's Work Together
       </Link>
       <Box h={"1vh"}></Box>
     </Box>

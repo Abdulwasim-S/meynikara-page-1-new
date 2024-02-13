@@ -49,7 +49,7 @@ const MEPage2 = () => {
             <br />
           </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
-            Create virtual meetings and confrences, allowing participants to
+            Create virtual meetings and confrences allowing participants to
             upload meeting assets and attend from anywhere in the world using
             our XR platform
           </Text>
@@ -73,7 +73,7 @@ const MEPage2 = () => {
             <br />
           </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
-            Create bespoke immersive barnd experiences through VR and build
+            Create bespoke immersive brand experiences through VR and build
             stronger connections with the audience and fostering brand loyalty
           </Text>
         </GridItem>
@@ -96,7 +96,7 @@ const MEPage2 = () => {
             <br />
           </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
-            Create virtual showrooms or products demonstrations, allowing
+            Create virtual showrooms or products demonstrations allowing
             potential customers to experience products
           </Text>
         </GridItem>
@@ -123,7 +123,7 @@ const MEPage2 = () => {
             <br />
           </Box>
           <Text fontSize={{ base: "md", lg: "20px" }} textAlign={"justify"}>
-            Create virtual tours were multiple participants can explore
+            Create virtual tours where multiple participants can explore
             properties or locations remotely
           </Text>
         </GridItem>

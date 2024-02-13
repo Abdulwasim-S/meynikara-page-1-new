@@ -41,7 +41,7 @@ const ARRAPage3 = () => {
             AR-based remote assistance addresses these challenges by providing a
             more immersive and interactive experience for both support personnel
             and customers. It also allows support personnel to guide customers
-            through complex or risky tasks with visual cues and overlays, which
+            through complex or risky tasks with visual cues and overlays which
             can improve safety and reduce the risk of errors.
           </Text>
         </GridItem>

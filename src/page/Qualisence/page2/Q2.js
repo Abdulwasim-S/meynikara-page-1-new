@@ -51,10 +51,10 @@ const Q2 = () => {
           textAlign={"justify"}
           fontSize={{ base: "md", md: "2xl", lg: "2xl" }}
         >
-          Augmented Reality (AR) technology boosts inspector efficiency by
+          Augmented Reality {"(AR)"} technology boosts inspector efficiency by
           providing real-time digital guidance and interactive visuals, reducing
-          errors and defects. AR overlays digital data onto physical objects,
-          enabling swift issue identification and streamlined workflows,
+          errors and defects. AR overlays digital data onto physical objects
+          enabling swift issue identification and streamlined workflows
           ultimately improving product quality and customer satisfaction.
           Consistent inspection standards across the organization drive
           continuous improvement. Contact us to learn more.

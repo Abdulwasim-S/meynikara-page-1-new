@@ -58,8 +58,9 @@ const SHIELDPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              Instances of improper PPE usage decreased by 30%, promoting a
-              safer work environment and minimising the risk of accidents.
+              Instances of improper PPE usage decreased by{" "}
+              <b className="text-senju">30%</b> promoting a safer work
+              environment and minimising the risk of accidents.
             </div>
           </div>
         </div>
@@ -107,7 +108,7 @@ const SHIELDPage6 = () => {
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
               Unauthorised entries into restricted zones were virtually
-              eliminated, preventing potential accidents and ensuring compliance
+              eliminated preventing potential accidents and ensuring compliance
               with safety regulations.
             </div>
           </div>
@@ -155,7 +156,7 @@ const SHIELDPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              Employees responded positively to the new safety measures,
+              Employees responded positively to the new safety measures
               acknowledging the importance of a secure and healthy working
               environment. The integration of VR and AI monitoring was seen as a
               proactive step towards prioritising their well-being.
