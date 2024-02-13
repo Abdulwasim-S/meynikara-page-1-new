@@ -26,7 +26,7 @@ const GLIMPage2 = () => {
               <Box display={{ base: "block", lg: "none" }} h={"2vh"}></Box>{" "}
               Workers can practice tasks in a safe, controlled environment
               through digital twins of their industry. The simulations are
-              accessible on various device like web browsers, mobile and VR.
+              accessible on various devices like web browsers, mobile and VR.
             </span>
           </p>
         </div>

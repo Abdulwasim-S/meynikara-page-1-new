@@ -76,7 +76,7 @@ const GLIMPage4 = () => {
             <h3 className="dp4-h">
               Case{" "}
               <span className="text-senju">
-                <span className="opacity-0 h6">.</span> Studies
+                <span className="opacity-0 h6">.</span> Study
               </span>
             </h3>
           </div>

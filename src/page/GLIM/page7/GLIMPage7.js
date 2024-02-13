@@ -10,9 +10,9 @@ const GLIMPage7 = () => {
           By adopting GLIM,{" "}
           <span className="gp7-pb">
             the company successfully transformed its safety & operational
-            training
+            training{" "}
           </span>
-          , making it more engaging, realistic, and accessible.
+          making it more engaging, realistic and accessible.
         </p>
         <p className="gp7-p">
           The gamified learning approach not only improved employee knowledge
@@ -23,8 +23,8 @@ const GLIMPage7 = () => {
           </span>
         </p>
         <p className="gp7-p">
-          This case study highlights how innovative training methodologies, such
-          as <span className="gp7-pb">GLIM</span>, can significantly impact
+          This case study highlights how innovative training methodologies such
+          as <span className="gp7-pb">GLIM</span> can significantly impact
           safety outcomes in industrial settings
         </p>
       </div>

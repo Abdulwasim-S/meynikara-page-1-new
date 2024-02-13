@@ -56,8 +56,8 @@ const GLIMPage6 = () => {
             <div className="gp6-card-box-inner-card-para col-12">
               GLIM's gamified approach made safety training more engaging and
               interactive. Employees could practise tasks in a virtual
-              environment, enhancing their understanding of SOPs and safety
-              protocols
+              environment{" "}
+              <b>enhancing their understanding of SOPs and safety protocols.</b>
             </div>
           </div>
         </div>
@@ -104,11 +104,11 @@ const GLIMPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              Digital twins of the industry allowed for realistic simulations,
+              Digital twins of the industry allowed for realistic simulations
               providing workers with hands-on experience without the associated
               risks. This contributed to better retention of information and
               improved application of safety measures on the job. This improved
-              the productivity of upto 10%
+              the <b>productivity of upto 10%.</b>
             </div>
           </div>
         </div>
@@ -155,11 +155,11 @@ const GLIMPage6 = () => {
               </div>
             </div>
             <div className="gp6-card-box-inner-card-para col-12">
-              GLIM's compatibility with various devices, including web browsers,
-              mobile, and VR, provided flexibility in accessing training
+              GLIM's compatibility with various devices including web browsers,
+              mobile, and VR provided flexibility in accessing training
               materials. This ensured that employees could undergo training at
-              their convenience, leading to increased participation.We were able
-              to achieve 100% course participation rate
+              their convenience leading to increased participation. We were able
+              to achieve <b>100% course participation rate.</b>
             </div>
           </div>
         </div>
@@ -208,7 +208,7 @@ const GLIMPage6 = () => {
             <div className="gp6-card-box-inner-card-para col-12">
               The immersive nature of GLIM resulted in better adherence to
               safety procedures. Employees were better equipped to handle
-              real-world scenarios, reducing the likelihood of accidents and
+              real-world scenarios reducing the likelihood of accidents and
               errors on the production floor.
             </div>
           </div>
