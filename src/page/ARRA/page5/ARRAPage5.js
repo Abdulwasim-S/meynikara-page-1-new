@@ -12,7 +12,7 @@ const ARRAPage5 = () => {
       color={"white"}
       mb={{ base: "3vh" }}
       p={{ base: "5vh 5vw" }}
-      minH={{ base: "170vh", md: "80vh", lg: "" }}
+      // minH={{ base: "170vh", md: "80vh", lg: "" }}
     >
       <Heading
         color={" #20c997"}
