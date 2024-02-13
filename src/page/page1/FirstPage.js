@@ -3,6 +3,7 @@ import "./FirstPage.css";
 import lm from "./image/lm.png";
 import Img from "./image/Img2.png";
 import play_btn from "./image/play.png";
+import { Link } from "@chakra-ui/react";
 // import ReactGA from "react-ga4";
 
 const FirstPage = () => {
@@ -36,16 +37,20 @@ const FirstPage = () => {
           <a href="#contact-us">
             <button className="learn-more-butn">
               <img className="butn-arrow1" src={lm} alt="arrow" />
-              <span className="butn-text">Learn More</span>
+              <span className="butn-text">Let's Work Together</span>
               <img className="butn-arrow" src={lm} alt="arrow" />
             </button>
           </a>
         </div>
       </div>
-      <div className="col-lg-5 image-container">
+      <Link
+        href="https://www.youtube.com/watch?v=h2OhbUFYL2k"
+        target="_blank"
+        className="col-lg-5 image-container"
+      >
         <img className="play-icon" src={play_btn} alt="play"></img>
         <img className="play-image" src={Img} alt="img"></img>
-      </div>
+      </Link>
     </div>
   );
 };
