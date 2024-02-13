@@ -1,6 +1,7 @@
 import React from "react";
 import "./FourthPage.css";
 import { NavLink } from "react-router-dom";
+import { Link } from "@chakra-ui/react";
 
 const FourthPage = () => {
   return (
@@ -17,21 +18,31 @@ const FourthPage = () => {
 
       <div className="arrow-container row">
         <div className="arrow-box col-lg-3 col-md-4 col-sm-6">
-          <p className="arrow-text  fw-bold">
-            ARRA
-            <span className="px-2" />
-            <NavLink to={"/arra/"}>
+          <Link
+            href={"/arra"}
+            textDecoration={"none"}
+            _hover={{ textDecoration: "none" }}
+          >
+            <p className="arrow-text  fw-bold">
+              ARRA
+              <span className="px-2" />
               <i className="text-arrow fa-solid fa-arrow-right"></i>
-            </NavLink>
-          </p>
+            </p>
+          </Link>
           {/* <p className="hidden-text">5min read</p> */}
         </div>
         <div className="arrow-box col-lg-3 col-md-4 col-sm-6">
-          <p className="arrow-text  fw-bold">
-            Qualisence
-            <span className="px-2" />
-            <i className="text-arrow fa-solid fa-arrow-right"></i>
-          </p>
+          <Link
+            href={"/qualisence"}
+            textDecoration={"none"}
+            _hover={{ textDecoration: "none" }}
+          >
+            <p className="arrow-text  fw-bold">
+              Qualisence
+              <span className="px-2" />
+              <i className="text-arrow fa-solid fa-arrow-right"></i>
+            </p>
+          </Link>
           {/* <p className="hidden-text">3min read</p> */}
         </div>
         {/* <div className="arrow-box col-lg-3 col-md-4 col-sm-6">
@@ -60,11 +71,17 @@ const FourthPage = () => {
           <p className="hidden-text">2min read</p>
         </div> */}
         <div className="arrow-box col-lg-3 col-md-4 col-sm-6">
-          <p className="arrow-text  fw-bold">
-            Metakalvi
-            <span className="px-2" />
-            <i className="text-arrow fa-solid fa-arrow-right"></i>
-          </p>
+          <Link
+            href={"/metakalvi"}
+            textDecoration={"none"}
+            _hover={{ textDecoration: "none" }}
+          >
+            <p className="arrow-text  fw-bold">
+              Metakalvi
+              <span className="px-2" />
+              <i className="text-arrow fa-solid fa-arrow-right"></i>
+            </p>
+          </Link>
           {/* <p className="hidden-text">2min read</p> */}
         </div>
         {/* <div className="arrow-box col-lg-3 col-md-4 col-sm-6">
