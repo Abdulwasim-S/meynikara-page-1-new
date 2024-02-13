@@ -23,7 +23,7 @@ const MEPage7 = () => {
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
-      p={{ base: "20px", lg: "50px" }}
+      p={{ base: "20px", lg: "40px" }}
     >
       <Heading
         color={"white"}
