@@ -30,6 +30,7 @@ const Q2 = () => {
           display={{ base: "none", lg: "block" }}
           h={{ base: "25vh", lg: "35vh" }}
           alt="tm_img"
+          transform={{ base: "scale(1.2)" }}
         />
       </GridItem>
       <GridItem
