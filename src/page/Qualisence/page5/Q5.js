@@ -2,6 +2,7 @@ import { Box, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import a from "../images/icons/1.png";
 import b from "../images/icons/2.png";
+import c from "../images/icons/3.png";
 
 const Q5 = () => {
   return (
@@ -78,7 +79,7 @@ const Q5 = () => {
           _hover={{ color: "black", bg: "white" }}
         >
           <Box h={"50px"} w={"50px"}>
-            <Image src={b} blt="b" />
+            <Image src={c} blt="c" />
           </Box>
           <Box h={"2vh"} />
           <Text
